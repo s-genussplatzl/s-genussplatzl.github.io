@@ -15,7 +15,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "tools" / "data" / "rad.json"
-SITE = "https://s-genussplatzl.at/"
+# Übergang: solange s-genussplatzl.at noch nicht auf GitHub Pages zeigt, gilt die github.io-Adresse.
+# Nach der DNS-Umstellung (CNAME-Datei + A-Records) hier wieder auf "https://s-genussplatzl.at/" stellen und neu bauen.
+SITE = "https://s-genussplatzl.github.io/"
 HOME = (15.9061, 46.7324)
 KEYS = ("west", "nord", "nordost", "ost", "sued")
 # Besucherstatistik (Umami, ohne Cookies). Website-ID aus dem Umami-Konto eintragen; leer = kein Skript.
@@ -301,7 +303,7 @@ def render(path, title, desc, content, root="", jsonld=None, bodyclass="page"):
         ld = '<script type="application/ld+json">' + json.dumps(jsonld, ensure_ascii=False) + "</script>"
     canonical = SITE + ("" if path == "index.html" else path)
     out = (LAYOUT.replace("{{title}}", escape(title, quote=True)).replace("{{description}}", escape(desc, quote=True))
-           .replace("{{canonical}}", canonical).replace("{{jsonld}}", ld).replace("{{bodyclass}}", bodyclass)
+           .replace("{{canonical}}", canonical).replace("{{site}}", SITE).replace("{{jsonld}}", ld).replace("{{bodyclass}}", bodyclass)
            .replace("{{analytics}}", f'<script defer src="{UMAMI_SRC}" data-website-id="{UMAMI_ID}" data-domains="s-genussplatzl.at,www.s-genussplatzl.at,s-genussplatzl.github.io"></script>' if UMAMI_ID else "")
            .replace("{{content}}", content).replace("{{root}}", root))
     (ROOT / path).parent.mkdir(parents=True, exist_ok=True)
