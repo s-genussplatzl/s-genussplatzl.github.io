@@ -60,7 +60,12 @@ out = [
 BORDERS = json.loads((Path(__file__).resolve().parent / 'data' / 'borders.json').read_text(encoding='utf-8'))
 def _bpath(w, cls):
     return f'<path class="{cls}" d="M' + ' L'.join('{} {}'.format(*xy(lat, lon)) for lon, lat in w) + '"/>'
-out[5:5] = [_bpath(w, 'bs-border') for w in BORDERS['national']]
+LANDS = json.loads((Path(__file__).resolve().parent / 'data' / 'countries.json').read_text(encoding='utf-8'))
+def _land(k):
+    d = ''.join('M' + ' L'.join('{} {}'.format(*xy(lat, lon)) for lon, lat in ring) + 'Z' for poly in LANDS[k] for ring in poly)
+    return f'<path class="bs-land bs-land--{k}" d="{d}" fill-rule="evenodd"/>'
+out[2:2] = [_land('si'), _land('hu')]
+out[7:7] = [_bpath(w, 'bs-border') for w in BORDERS['national']]
 out += [
 ]
 for (name, lat, lon, dx, dy, anchor), (x, y) in zip(STAGES, pts):

@@ -132,6 +132,9 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 .bikespa__map { margin: 0; justify-self: center; width: 100%; max-width: 620px; }
 .bikespa__map svg { width: 100%; height: auto; }
 .bikespa__map figcaption { margin-top: var(--space-sm); font-size: var(--text-sm); color: var(--color-muted); }
+.bs-land { stroke: none; }
+.bs-land--si { fill: var(--color-paper-3); }
+.bs-land--hu { fill: color-mix(in oklab, var(--color-accent) 12%, var(--color-paper-2)); }
 .bs-border { fill: none; stroke: var(--color-ink-2); stroke-width: 2; stroke-dasharray: 7 7; stroke-linecap: round; opacity: 0.6; }
 .bs-route { fill: none; stroke: var(--color-accent); stroke-width: 3; stroke-linejoin: round; }
 .bs-stop { fill: var(--color-paper-2); stroke: var(--color-ink-2); stroke-width: 2.5; }
