@@ -52,12 +52,16 @@ out = [
     f'<svg viewBox="0 0 {W} {H}" role="img" aria-labelledby="bs-title">',
     f'<title id="bs-title">Schematische Karte der Bike-&amp;-Spa-Runde mit den Etappenorten {names}; '
     'die Etappe von Mureck nach Bad Gleichenberg führt am Radweg R45 am Genussplatzl vorbei</title>',
-    '<text class="bs-country" x="{}" y="{}">Österreich</text>'.format(*xy(47.13, 15.60)),
+    '<text class="bs-country" x="{}" y="{}">Steiermark</text>'.format(*xy(47.13, 15.60)),
+    '<text class="bs-country" x="{}" y="{}">Burgenland</text>'.format(*xy(47.13, 16.24)),
+    '<text class="bs-country" x="{}" y="{}">Ungarn</text>'.format(*xy(46.80, 16.40)),
     '<text class="bs-country" x="{}" y="{}">Slowenien</text>'.format(*xy(46.47, 16.18)),
     f'<path class="bs-route" d="{d}"/>',
 ]
-BORDER = json.loads((Path(__file__).resolve().parent / 'data' / 'border_at_si.json').read_text(encoding='utf-8'))['ways']
-out[4:4] = [f'<path class="bs-border" d="M' + ' L'.join('{} {}'.format(*xy(lat, lon)) for lon, lat in w) + '"/>' for w in BORDER]
+BORDERS = json.loads((Path(__file__).resolve().parent / 'data' / 'borders.json').read_text(encoding='utf-8'))
+def _bpath(w, cls):
+    return f'<path class="{cls}" d="M' + ' L'.join('{} {}'.format(*xy(lat, lon)) for lon, lat in w) + '"/>'
+out[6:6] = [_bpath(w, 'bs-border bs-border--state') for w in BORDERS['state']] + [_bpath(w, 'bs-border') for w in BORDERS['national']]
 out += [
 ]
 for (name, lat, lon, dx, dy, anchor), (x, y) in zip(STAGES, pts):
