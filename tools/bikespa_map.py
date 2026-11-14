@@ -3,6 +3,7 @@
 Eigene Zeichnung aus Ortskoordinaten (OpenStreetMap/Nominatim), keine Kopie der
 offiziellen Karte. Ergebnis: bikespa.svg.part (wird von build.py eingesetzt).
 """
+import json
 import math
 from pathlib import Path
 
@@ -51,9 +52,13 @@ out = [
     f'<svg viewBox="0 0 {W} {H}" role="img" aria-labelledby="bs-title">',
     f'<title id="bs-title">Schematische Karte der Bike-&amp;-Spa-Runde mit den Etappenorten {names}; '
     'die Etappe von Mureck nach Bad Gleichenberg führt am Radweg R45 am Genussplatzl vorbei</title>',
-    f'<text class="bs-country" x="{W - 24}" y="56" text-anchor="end">Steiermark</text>',
-    f'<text class="bs-country" x="{W - 24}" y="{H - 28}" text-anchor="end">Slowenien</text>',
+    '<text class="bs-country" x="{}" y="{}">Österreich</text>'.format(*xy(47.13, 15.60)),
+    '<text class="bs-country" x="{}" y="{}">Slowenien</text>'.format(*xy(46.47, 16.18)),
     f'<path class="bs-route" d="{d}"/>',
+]
+BORDER = json.loads((Path(__file__).resolve().parent / 'data' / 'border_at_si.json').read_text(encoding='utf-8'))['ways']
+out[4:4] = [f'<path class="bs-border" d="M' + ' L'.join('{} {}'.format(*xy(lat, lon)) for lon, lat in w) + '"/>' for w in BORDER]
+out += [
 ]
 for (name, lat, lon, dx, dy, anchor), (x, y) in zip(STAGES, pts):
     out.append(f'<circle class="bs-stop" cx="{x}" cy="{y}" r="7"/>')
