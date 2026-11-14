@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{canonical}}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_AT">
+<meta property="og:site_name" content="s’Genussplatz’l">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:image" content="https://s-genussplatzl.at/images/og-abend.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="theme-color" content="#0f2a1e">
+<link rel="icon" href="{{root}}images/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{{root}}images/apple-touch-icon.png">
+<link rel="preload" href="{{root}}fonts/prata-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{root}}fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{root}}styles.css">
+{{jsonld}}
+{{analytics}}
+</head>
+<body class="{{bodyclass}}">
+
+<header class="site-nav">
+  <nav class="container" aria-label="Hauptnavigation">
+    <a class="wordmark" href="{{root}}index.html" aria-label="s’Genussplatz’l, zur Startseite">s’Genussplatz’l</a>
+    <ul class="nav-links">
+      <li><a href="{{root}}index.html#geschichte">Geschichte</a></li>
+      <li><a href="{{root}}index.html#kunst">Kunst</a></li>
+      <li><a href="{{root}}bike-and-spa.html">Bike &amp; Spa</a></li>
+      <li><a href="{{root}}index.html#umgebung">Radrouten</a></li>
+      <li><a class="btn btn--secondary btn--small" href="{{root}}index.html#anfahrt">Anfahrt</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+{{content}}
+</main>
+
+<footer class="site-footer" id="impressum">
+  <div class="container footer__grid">
+    <div class="footer__logo" role="img" aria-label="Logo s’Genussplatz’l: Regional, Radeln, Relaxen"></div>
+    <div>
+      <p class="footer__colophon">s’Genussplatz’l, Wohlfühlgarten, Unterpurkla 28, 8484 Halbenrain. Inhaber Michael Ruckenstuhl. Gastgewerbe in der Betriebsart Buffet, Mitglied der WKO Steiermark, Gewerbebehörde BH Südoststeiermark. UID ATU79026956. E-Mail <a href="mailto:info@s-genussplatzl.at">info@s-genussplatzl.at</a>, Telefon <a href="tel:+436645785026">0664 5785026</a>.</p>
+      <ul class="footer__links">
+        <li><a href="{{root}}e-bike-laden.html">E-Bike laden</a></li>
+        <li><a href="{{root}}bike-and-spa.html">Bike &amp; Spa</a></li>
+        <li><a href="https://www.instagram.com/s_genussplatz_l_/">Instagram</a></li>
+        <li><a href="https://www.komoot.com/de-de/highlight/8495359">Komoot</a></li>
+        <li><a href="https://maps.google.com/?cid=5193859400819937139">Google Maps</a></li>
+        <li><a href="{{root}}datenschutz.html">Datenschutz</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="{{root}}site.js" defer></script>
+</body>
+</html>
