@@ -15,19 +15,26 @@ document.querySelectorAll('[data-slider]').forEach((slider) => {
 });
 const ride = document.querySelector('[data-ride]');
 if (ride) {
+  let pinned = '';
   const set = (r) => { ride.dataset.active = r; ride.querySelectorAll('[data-route]').forEach((el) => el.classList.toggle('is-active', el.dataset.route === r)); };
   ride.querySelectorAll('li[data-route], .route, .start').forEach((el) => {
     el.addEventListener('mouseenter', () => set(el.dataset.route));
-    el.addEventListener('mouseleave', () => set(''));
+    el.addEventListener('mouseleave', () => set(pinned));
   });
-  ride.querySelectorAll('li[data-route]').forEach((el) => {
-    el.addEventListener('focusin', () => set(el.dataset.route));
-    el.addEventListener('focusout', () => set(''));
-  });
-  // Klick auf eine Route in der Karte öffnet ihre Seite
+  // Aufgeklappte Route bleibt in der Karte hervorgehoben; immer nur eine ist offen
+  const all = [...ride.querySelectorAll('li[data-route] details')];
+  all.forEach((d) => d.addEventListener('toggle', () => {
+    const r = d.parentElement.dataset.route;
+    if (d.open) { all.forEach((o) => { if (o !== d) o.open = false; }); pinned = r; }
+    else if (pinned === r) pinned = '';
+    set(pinned);
+  }));
+  // Klick auf eine Route in der Karte klappt ihren Eintrag auf
   ride.querySelectorAll('.route, .start').forEach((el) => el.addEventListener('click', () => {
-    const a = ride.querySelector(`li[data-route="${el.dataset.route}"] a`);
-    if (a) location.href = a.href;
+    const d = ride.querySelector(`li[data-route="${el.dataset.route}"] details`);
+    if (!d) return;
+    d.open = true;
+    d.scrollIntoView({ block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   }));
 }
 

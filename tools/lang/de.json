@@ -58,14 +58,14 @@
   "map_styria": "Steiermark",
   "map_halbenrain": "Halbenrain",
   "ride_more": "Route, Höhenprofil und GPX",
-  "ebike_title": "E-Bike laden am Murradweg und R45 in Halbenrain | s’Genussplatz’l",
+  "ebike_title": "E-Bike laden am Gleichenberger Radweg R45 und Murradweg in Halbenrain | s’Genussplatz’l",
   "ebike_desc": "Kostenlose E-Bike-Ladestation am Gleichenberger Radweg R45 in Unterpurkla, Halbenrain, kurz vor dem Murradweg R2. Laden im Schatten unterm Nussbaum, März bis Oktober.",
   "ebike_h1": "E-Bike laden am Radweg.",
   "ebike_lead": "Kostenlos Akku laden, während Sie unterm Nussbaum rasten: direkt am Gleichenberger Radweg R45, kurz vor dem Murradweg.",
   "ebike_cost": "Kosten",
   "ebike_cost_value": "kostenlos",
   "ebike_where": "Wo",
-  "ebike_where_value": "Unterpurkla 28, am R45",
+  "ebike_where_value": "Unterpurkla 28, am Gleichenberger Radweg R45",
   "ebike_when": "Wann",
   "ebike_when_value": "März bis Oktober, 9 bis 22 Uhr",
   "ebike_mur": "Murradweg",
@@ -76,7 +76,7 @@
   "ebike_how_text": "Stellen Sie Ihr Rad an die Ladesäule, schließen Sie Ihr Ladegerät an und gönnen Sie sich eine Pause. Während der Akku lädt, warten Schatten unterm Nussbaum, regionale Weine und Spritzer, kühle Getränke, ein WC und an heißen Tagen ein klimatisierter Raum.",
   "ebike_charger": "Bitte nehmen Sie Ihr eigenes Ladegerät mit.",
   "ebike_routes_title": "Mit dem Rad zu uns",
-  "index_title": "s’Genussplatz’l, Rasten unterm Nussbaum in Unterpurkla am Radweg R45",
+  "index_title": "s’Genussplatz’l, Rasten unterm Nussbaum in Unterpurkla am Gleichenberger Radweg R45",
   "index_desc": "Rasten unterm Nussbaum in Unterpurkla: eine Oase der Entspannung in der Toskana der Steiermark, mit regionalen Weinen, Kunst und Naturschatten am Gleichenberger Radweg R45.",
   "ld_desc": "Rastplatz unterm Nussbaum am Gleichenberger Radweg R45 in Unterpurkla: regionale Weine, Kunst und Naturschatten im Thermen- & Vulkanland, der Toskana der Steiermark.",
   "ld_amenities": [
@@ -92,7 +92,7 @@
   ],
   "privacy_title": "Datenschutz | s’Genussplatz’l",
   "privacy_desc": "Datenschutzerklärung der Website des s’Genussplatz’l in Unterpurkla: Hosting, Besucherstatistik ohne Cookies, Ihre Rechte.",
-  "bs_title": "Schematische Karte der Bike-&-Spa-Runde mit den Etappenorten {names}; die Etappe von Mureck nach Bad Gleichenberg führt am Radweg R45 am Genussplatzl vorbei",
+  "bs_title": "Schematische Karte der Bike-&-Spa-Runde mit den Etappenorten {names}; die Etappe von Mureck nach Bad Gleichenberg führt am Gleichenberger Radweg R45 am Genussplatzl vorbei",
   "bs_austria": "Österreich",
   "bs_hungary": "Ungarn",
   "bs_slovenia": "Slowenien",
@@ -144,23 +144,23 @@
    ]
   },
   "nord": {
-   "name": "R45 ab Bad Gleichenberg",
-   "short": "R45 ab Bad Gleichenberg",
+   "name": "Gleichenberger Radweg R45 ab Bad Gleichenberg",
+   "short": "Gleichenberger Radweg R45 ab Bad Gleichenberg",
    "h1": "Von Bad Gleichenberg durchs Vulkanland.",
    "lead": "Am Gleichenberger Radweg R45 vom Kurort sanft bergab bis zur Mur, durch Dörfer, Felder und Hügel des Vulkanlands.",
    "ways": "Gleichenberger Radweg R45",
-   "title": "R45 ab Bad Gleichenberg nach Unterpurkla, Radroute mit GPX",
+   "title": "Gleichenberger Radweg R45 ab Bad Gleichenberg nach Unterpurkla, Radroute mit GPX",
    "desc": "Gleichenberger Radweg R45 von Bad Gleichenberg über Trautmannsdorf und Radochen zum s’Genussplatz’l in Unterpurkla: ca. 20 km, leicht fallend, mit GPX.",
    "index_text": "Aus dem Norden vom Kurort mitten im Vulkanland, der Gleichenberger Radweg führt direkt bei uns vorbei.",
    "sky": "Norden",
    "stops": [
     [
      "Bad Gleichenberg",
-     "Kurort mitten im Vulkanland und Etappenort der Bike-&-Spa-Runde, deren Etappe ab Mureck auf dem R45 bei uns vorbeiführt."
+     "Kurort mitten im Vulkanland und Etappenort der Bike-&-Spa-Runde, deren Etappe ab Mureck auf dem Gleichenberger Radweg R45 bei uns vorbeiführt."
     ],
     [
      "Trautmannsdorf",
-     "Der R45 verlässt den Kurort Richtung Süden, durch das sanfte Hügelland."
+     "Der Gleichenberger Radweg R45 verlässt den Kurort Richtung Süden, durch das sanfte Hügelland."
     ],
     [
      "Radochen",

@@ -59,14 +59,14 @@
   "map_styria": "Štajerska",
   "map_halbenrain": "Halbenrain",
   "ride_more": "Pot, višinski profil in GPX",
-  "ebike_title": "Polnjenje e-koles ob kolesarski poti ob Muri in R45 v Halbenrainu | s’Genussplatz’l",
+  "ebike_title": "Polnjenje e-koles ob kolesarski poti R45 (Gleichenberger Radweg) in kolesarski poti ob Muri v Halbenrainu | s’Genussplatz’l",
   "ebike_desc": "Brezplačna polnilnica za e-kolesa ob kolesarski poti R45 (Gleichenberger Radweg) v Unterpurkli, Halbenrain, tik pred kolesarsko potjo ob Muri R2. Polnjenje v senci pod orehom, od marca do oktobra.",
   "ebike_h1": "Polnjenje e-koles ob kolesarski poti.",
   "ebike_lead": "Baterijo napolnite brezplačno, medtem ko počivate pod orehom: neposredno ob kolesarski poti R45 (Gleichenberger Radweg), tik pred kolesarsko potjo ob Muri.",
   "ebike_cost": "Cena",
   "ebike_cost_value": "brezplačno",
   "ebike_where": "Kje",
-  "ebike_where_value": "Unterpurkla 28, ob R45",
+  "ebike_where_value": "Unterpurkla 28, ob kolesarski poti R45 (Gleichenberger Radweg)",
   "ebike_when": "Kdaj",
   "ebike_when_value": "od marca do oktobra, od 9. do 22. ure",
   "ebike_mur": "Kolesarska pot ob Muri",
@@ -77,7 +77,7 @@
   "ebike_how_text": "Postavite kolo k polnilnemu stebričku, priključite svoj polnilnik in si privoščite odmor. Medtem ko se baterija polni, Vas pričakajo senca pod orehom, regionalna vina in špricerji, hladne pijače, WC in v vročih dneh klimatiziran prostor.",
   "ebike_charger": "Prosimo, prinesite s seboj svoj polnilnik.",
   "ebike_routes_title": "S kolesom do nas",
-  "index_title": "s’Genussplatz’l, počitek pod orehom v Unterpurkli ob kolesarski poti R45",
+  "index_title": "s’Genussplatz’l, počitek pod orehom v Unterpurkli ob kolesarski poti R45 (Gleichenberger Radweg)",
   "index_desc": "Počitek pod orehom v Unterpurkli: oaza sprostitve v Toskani Štajerske, z regionalnimi vini, umetnostjo in naravno senco ob kolesarski poti R45 (Gleichenberger Radweg).",
   "ld_desc": "Počivališče pod orehom ob kolesarski poti R45 (Gleichenberger Radweg) v Unterpurkli: regionalna vina, umetnost in naravna senca v regiji Thermen- & Vulkanland (dežela term in vulkanov), Toskani Štajerske.",
   "ld_amenities": [
@@ -93,7 +93,7 @@
   ],
   "privacy_title": "Varstvo podatkov | s’Genussplatz’l",
   "privacy_desc": "Izjava o varstvu podatkov spletne strani s’Genussplatz’l v Unterpurkli: gostovanje, statistika obiskov brez piškotkov, Vaše pravice.",
-  "bs_title": "Shematski zemljevid krožne poti Bike & Spa z etapnimi kraji {names}; etapa od Murecka do Bad Gleichenberga vodi po kolesarski poti R45 mimo Genussplatzla",
+  "bs_title": "Shematski zemljevid krožne poti Bike & Spa z etapnimi kraji {names}; etapa od Murecka do Bad Gleichenberga vodi po kolesarski poti R45 (Gleichenberger Radweg) mimo Genussplatzla",
   "bs_austria": "Avstrija",
   "bs_hungary": "Madžarska",
   "bs_slovenia": "Slovenija",
@@ -144,23 +144,23 @@
    ]
   },
   "nord": {
-   "name": "R45 iz Bad Gleichenberga",
-   "short": "R45 iz Bad Gleichenberga",
+   "name": "Kolesarska pot R45 (Gleichenberger Radweg) iz Bad Gleichenberga",
+   "short": "Kolesarska pot R45 (Gleichenberger Radweg) iz Bad Gleichenberga",
    "h1": "Iz Bad Gleichenberga skozi Vulkanland.",
    "lead": "Po kolesarski poti R45 (Gleichenberger Radweg) iz zdraviliškega kraja rahlo navzdol do Mure, skozi vasi, polja in griče Vulkanlanda.",
    "ways": "kolesarska pot R45 (Gleichenberger Radweg)",
-   "title": "R45 iz Bad Gleichenberga do Unterpurkle, kolesarska pot z GPX",
+   "title": "Kolesarska pot R45 (Gleichenberger Radweg) iz Bad Gleichenberga do Unterpurkle z GPX",
    "desc": "Kolesarska pot R45 (Gleichenberger Radweg) iz Bad Gleichenberga skozi Trautmannsdorf in Radochen do s’Genussplatz’l v Unterpurkli: pribl. 20 km, rahlo navzdol, z GPX.",
    "index_text": "S severa iz zdraviliškega kraja sredi Vulkanlanda; kolesarska pot Gleichenberger Radweg pelje neposredno mimo nas.",
    "sky": "Sever",
    "stops": [
     [
      "Bad Gleichenberg",
-     "Zdraviliški kraj sredi Vulkanlanda in etapni kraj krožne poti Bike & Spa, katere etapa iz Murecka po R45 vodi mimo nas."
+     "Zdraviliški kraj sredi Vulkanlanda in etapni kraj krožne poti Bike & Spa, katere etapa iz Murecka po kolesarski poti R45 (Gleichenberger Radweg) vodi mimo nas."
     ],
     [
      "Trautmannsdorf",
-     "R45 zapusti zdraviliški kraj v smeri juga, skozi blago gričevje."
+     "Kolesarska pot R45 (Gleichenberger Radweg) zapusti zdraviliški kraj v smeri juga, skozi blago gričevje."
     ],
     [
      "Radochen",

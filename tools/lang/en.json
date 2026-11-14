@@ -59,14 +59,14 @@
   "map_styria": "Styria",
   "map_halbenrain": "Halbenrain",
   "ride_more": "Route, elevation profile and GPX",
-  "ebike_title": "E-bike charging on the Mur Cycle Path and R45 in Halbenrain | s’Genussplatz’l",
+  "ebike_title": "E-bike charging on the Gleichenberg cycle route R45 and the Mur Cycle Path in Halbenrain | s’Genussplatz’l",
   "ebike_desc": "Free e-bike charging point on the Gleichenberg cycle route R45 in Unterpurkla, Halbenrain, just before the Mur Cycle Path R2. Charge in the shade beneath the walnut tree, March to October.",
   "ebike_h1": "E-bike charging by the cycle path.",
   "ebike_lead": "Charge your battery free of charge while you rest beneath the walnut tree: right on the Gleichenberg cycle route R45, just before the Mur Cycle Path.",
   "ebike_cost": "Cost",
   "ebike_cost_value": "free",
   "ebike_where": "Where",
-  "ebike_where_value": "Unterpurkla 28, on the R45",
+  "ebike_where_value": "Unterpurkla 28, on the Gleichenberg cycle route R45",
   "ebike_when": "When",
   "ebike_when_value": "March to October, 9 am to 10 pm",
   "ebike_mur": "Mur Cycle Path",
@@ -77,7 +77,7 @@
   "ebike_how_text": "Park your bike at the charging point, plug in your charger and treat yourself to a break. While the battery charges, you can enjoy shade beneath the walnut tree, regional wines and spritzers, cool drinks, a toilet and, on hot days, an air-conditioned room.",
   "ebike_charger": "Please bring your own charger.",
   "ebike_routes_title": "Cycling to us",
-  "index_title": "s’Genussplatz’l, a rest beneath the walnut tree in Unterpurkla on cycle route R45",
+  "index_title": "s’Genussplatz’l, a rest beneath the walnut tree in Unterpurkla on the Gleichenberg cycle route R45",
   "index_desc": "A rest beneath the walnut tree in Unterpurkla: an oasis of calm in the Tuscany of Styria, with regional wines, art and natural shade on the Gleichenberg cycle route R45.",
   "ld_desc": "Rest stop beneath the walnut tree on the Gleichenberg cycle route R45 in Unterpurkla: regional wines, art and natural shade in the Thermen- & Vulkanland, the Tuscany of Styria.",
   "ld_amenities": [
@@ -93,7 +93,7 @@
   ],
   "privacy_title": "Privacy | s’Genussplatz’l",
   "privacy_desc": "Privacy policy for the s’Genussplatz’l website in Unterpurkla: hosting, cookie-free visitor statistics, your rights.",
-  "bs_title": "Schematic map of the Bike & Spa loop with the stage towns {names}; the stage from Mureck to Bad Gleichenberg passes the Genussplatzl on cycle route R45",
+  "bs_title": "Schematic map of the Bike & Spa loop with the stage towns {names}; the stage from Mureck to Bad Gleichenberg passes the Genussplatzl on the Gleichenberg cycle route R45",
   "bs_austria": "Austria",
   "bs_hungary": "Hungary",
   "bs_slovenia": "Slovenia",
@@ -144,23 +144,23 @@
    ]
   },
   "nord": {
-   "name": "R45 from Bad Gleichenberg",
-   "short": "R45 from Bad Gleichenberg",
+   "name": "Gleichenberg cycle route R45 from Bad Gleichenberg",
+   "short": "Gleichenberg cycle route R45 from Bad Gleichenberg",
    "h1": "From Bad Gleichenberg through the Vulkanland.",
    "lead": "Along the Gleichenberg cycle route R45 from the spa town gently downhill to the Mur, through the villages, fields and hills of the Vulkanland.",
    "ways": "Gleichenberg cycle route R45",
-   "title": "R45 from Bad Gleichenberg to Unterpurkla, cycle route with GPX",
+   "title": "Gleichenberg cycle route R45 from Bad Gleichenberg to Unterpurkla, with GPX",
    "desc": "Gleichenberg cycle route R45 from Bad Gleichenberg via Trautmannsdorf and Radochen to s’Genussplatz’l in Unterpurkla: approx. 20 km, gently downhill, with GPX.",
    "index_text": "From the north, from the spa town in the heart of the Vulkanland; the Gleichenberg cycle route runs right past our door.",
    "sky": "North",
    "stops": [
     [
      "Bad Gleichenberg",
-     "Spa town in the heart of the Vulkanland and a stage town of the Bike & Spa loop, whose stage from Mureck runs past us on the R45."
+     "Spa town in the heart of the Vulkanland and a stage town of the Bike & Spa loop, whose stage from Mureck runs past us on the Gleichenberg cycle route R45."
     ],
     [
      "Trautmannsdorf",
-     "The R45 leaves the spa town heading south, through the gently rolling hills."
+     "The Gleichenberg cycle route R45 leaves the spa town heading south, through the gently rolling hills."
     ],
     [
      "Radochen",

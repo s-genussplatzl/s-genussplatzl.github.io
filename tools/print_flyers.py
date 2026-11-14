@@ -122,7 +122,7 @@ a5 = f"""
       <h1>Rasten unterm Nussbaum.</h1>
       <p class="a5-lead">Eine Oase der Entspannung in der Toskana der Steiermark, mitten im Thermen- &amp; Vulkanland.</p>
       {slogan("9mm", "11pt")}
-      <p class="a5-meta">Unterpurkla 28, 8484 Halbenrain, direkt am Radweg R45<br>März bis Oktober, täglich 9 bis 22 Uhr</p>
+      <p class="a5-meta">Unterpurkla 28, 8484 Halbenrain, direkt am Gleichenberger Radweg R45<br>März bis Oktober, täglich 9 bis 22 Uhr</p>
     </div>
   </div>
 </section>
@@ -178,7 +178,7 @@ a6 = f"""
 <section class="sheet a6 light">
   <div class="safe a6-back">
     <h2>Ihr Ausflug mit dem Rad.</h2>
-    <p>Rast unterm Nussbaum, regionale Weine und Kunst im Garten, am Radweg R45 in Unterpurkla.</p>
+    <p>Rast unterm Nussbaum, regionale Weine und Kunst im Garten, am Gleichenberger Radweg R45 in Unterpurkla.</p>
     <ul class="a6-dist">
       <li><span>Bad Radkersburg</span><b>12 km</b></li>
       <li><span>Bad Gleichenberg</span><b>20 km</b></li>

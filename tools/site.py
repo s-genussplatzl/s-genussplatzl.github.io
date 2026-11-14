@@ -578,9 +578,11 @@ def bikespa_svg():
 def index_page():
     content = page_src("index.html")
     items = "\n".join(
-        f'          <li data-route="{k}"><h3>{escape(TR[k]["name"])}</h3><span class="distance">{approx_km(k)}</span>'
-        f'<p>{escape(TR[k]["index_text"])}</p><a class="ride__more" href="radrouten/{ROUTES[k]["slug"]}.html"><span>{escape(t("ride_more"))}</span>'
-        f'<span class="ride__go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></span></a></li>'
+        f'          <li data-route="{k}"><details name="ride"><summary><h3>{escape(TR[k]["name"])}</h3><span class="distance">{approx_km(k)}</span>'
+        f'<span class="ride__toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 9l7 7 7-7"/></svg></span></summary>'
+        f'<div class="ride__body"><p>{escape(TR[k]["index_text"])}</p>'
+        f'<a class="ride__more" href="radrouten/{ROUTES[k]["slug"]}.html"><span>{escape(t("ride_more"))}</span>'
+        f'<span class="ride__go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></span></a></div></details></li>'
         for k in KEYS)
     content = content.replace("{{ROUTE_ITEMS}}", items).replace("{{MAP}}", overview_map())
     content = content.replace("{{BIKESPA}}", bikespa_svg())

@@ -58,14 +58,14 @@
   "map_styria": "Stájerország",
   "map_halbenrain": "Halbenrain",
   "ride_more": "Útvonal, magassági profil és GPX",
-  "ebike_title": "E-bike töltés a Mura menti kerékpárút és az R45 mentén, Halbenrainban | s’Genussplatz’l",
+  "ebike_title": "E-bike töltés a Gleichenbergi kerékpárút (R45) és a Mura menti kerékpárút mentén, Halbenrainban | s’Genussplatz’l",
   "ebike_desc": "Ingyenes e-bike töltőállomás a Gleichenbergi kerékpárút (R45) mentén Unterpurklában, Halbenrain községben, nem sokkal a Mura menti kerékpárút (R2) előtt. Töltés a diófa árnyékában, márciustól októberig.",
   "ebike_h1": "E-bike töltés a kerékpárút mentén.",
   "ebike_lead": "Töltse fel akkumulátorát ingyen, amíg a diófa alatt pihen: közvetlenül a Gleichenbergi kerékpárút (R45) mentén, nem sokkal a Mura menti kerékpárút előtt.",
   "ebike_cost": "Díj",
   "ebike_cost_value": "ingyenes",
   "ebike_where": "Hol",
-  "ebike_where_value": "Unterpurkla 28, az R45 mentén",
+  "ebike_where_value": "Unterpurkla 28, a Gleichenbergi kerékpárút (R45) mentén",
   "ebike_when": "Mikor",
   "ebike_when_value": "márciustól októberig, 9–22 óra között",
   "ebike_mur": "Mura menti kerékpárút",
@@ -76,7 +76,7 @@
   "ebike_how_text": "Állítsa kerékpárját a töltőoszlophoz, csatlakoztassa a töltőjét, és tartson egy kis pihenőt. Amíg az akkumulátor töltődik, árnyék a diófa alatt, regionális borok és fröccsök, hűsítő italok, mosdó, a forró napokon pedig klimatizált helyiség várja Önt.",
   "ebike_charger": "Kérjük, hozza magával saját töltőjét.",
   "ebike_routes_title": "Kerékpárral hozzánk",
-  "index_title": "s’Genussplatz’l – pihenő a diófa alatt Unterpurklában, az R45-ös kerékpárút mentén",
+  "index_title": "s’Genussplatz’l – pihenő a diófa alatt Unterpurklában, a Gleichenbergi kerékpárút (R45) mentén",
   "index_desc": "Pihenő a diófa alatt Unterpurklában: a kikapcsolódás oázisa Stájerország Toszkánájában, regionális borokkal, művészettel és természetes árnyékkal a Gleichenbergi kerékpárút (R45) mentén.",
   "ld_desc": "Pihenőhely a diófa alatt a Gleichenbergi kerékpárút (R45) mentén, Unterpurklában: regionális borok, művészet és természetes árnyék a Termál- és Vulkánvidéken, Stájerország Toszkánájában.",
   "ld_amenities": [
@@ -92,7 +92,7 @@
   ],
   "privacy_title": "Adatvédelem | s’Genussplatz’l",
   "privacy_desc": "Az unterpurklai s’Genussplatz’l weboldalának adatvédelmi tájékoztatója: tárhely, sütik nélküli látogatottsági statisztika, az Ön jogai.",
-  "bs_title": "A Bike & Spa kör sematikus térképe a következő szakaszállomásokkal: {names}; a Mureck és Bad Gleichenberg közötti szakasz az R45-ös kerékpárúton a Genussplatzl mellett halad el",
+  "bs_title": "A Bike & Spa kör sematikus térképe a következő szakaszállomásokkal: {names}; a Mureck és Bad Gleichenberg közötti szakasz a Gleichenbergi kerékpárúton (R45) a Genussplatzl mellett halad el",
   "bs_austria": "Ausztria",
   "bs_hungary": "Magyarország",
   "bs_slovenia": "Szlovénia",
@@ -144,23 +144,23 @@
    ]
   },
   "nord": {
-   "name": "R45 Bad Gleichenbergtől",
-   "short": "R45 Bad Gleichenbergtől",
+   "name": "Gleichenbergi kerékpárút (R45) Bad Gleichenbergtől",
+   "short": "Gleichenbergi kerékpárút (R45) Bad Gleichenbergtől",
    "h1": "Bad Gleichenbergtől a Vulkánvidéken át.",
    "lead": "A Gleichenbergi kerékpárúton (R45) a fürdővárosból enyhén lejtve egészen a Muráig, a Vulkánvidék falvain, mezőin és dombjain át.",
    "ways": "Gleichenbergi kerékpárút (R45)",
-   "title": "R45 Bad Gleichenbergtől Unterpurkláig – kerékpáros útvonal GPX-szel",
+   "title": "Gleichenbergi kerékpárút (R45) Bad Gleichenbergtől Unterpurkláig – kerékpáros útvonal GPX-szel",
    "desc": "Gleichenbergi kerékpárút (R45) Bad Gleichenbergtől Trautmannsdorfon és Radochenen át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 20 km, enyhén lejtős, GPX-szel.",
    "index_text": "Észak felől, a Vulkánvidék szívében fekvő fürdővárosból: a Gleichenbergi kerékpárút közvetlenül mellettünk halad el.",
    "sky": "Észak",
    "stops": [
     [
      "Bad Gleichenberg",
-     "Fürdőváros a Vulkánvidék szívében és a Bike & Spa kör szakaszállomása; a kör Mureckből induló szakasza az R45-ön halad el mellettünk."
+     "Fürdőváros a Vulkánvidék szívében és a Bike & Spa kör szakaszállomása; a kör Mureckből induló szakasza a Gleichenbergi kerékpárúton (R45) halad el mellettünk."
     ],
     [
      "Trautmannsdorf",
-     "Az R45 dél felé hagyja el a fürdővárost, a lankás dombvidéken át."
+     "A Gleichenbergi kerékpárút (R45) dél felé hagyja el a fürdővárost, a lankás dombvidéken át."
     ],
     [
      "Radochen",

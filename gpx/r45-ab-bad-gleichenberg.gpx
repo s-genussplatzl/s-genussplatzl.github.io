@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="s-genussplatzl.at" xmlns="http://www.topografix.com/GPX/1/1">
   <metadata>
-    <name>R45 ab Bad Gleichenberg zum s’Genussplatz’l</name>
+    <name>Gleichenberger Radweg R45 ab Bad Gleichenberg zum s’Genussplatz’l</name>
     <desc>Gleichenberger Radweg R45 von Bad Gleichenberg über Trautmannsdorf und Radochen zum s’Genussplatz’l in Unterpurkla: ca. 20 km, leicht fallend, mit GPX. Route berechnet mit BRouter auf Daten von OpenStreetMap (© OpenStreetMap-Mitwirkende, ODbL).</desc>
     <link href="https://s-genussplatzl.github.io/radrouten/r45-ab-bad-gleichenberg.html"><text>s’Genussplatz’l</text></link>
   </metadata>
   <wpt lat="46.7324" lon="15.9061"><name>s’Genussplatz’l</name><desc>Unterpurkla 28, 8484 Halbenrain</desc></wpt>
   <trk>
-    <name>R45 ab Bad Gleichenberg zum s’Genussplatz’l</name>
+    <name>Gleichenberger Radweg R45 ab Bad Gleichenberg zum s’Genussplatz’l</name>
     <trkseg>
       <trkpt lat="46.87377" lon="15.90408"><ele>273.2</ele></trkpt>
       <trkpt lat="46.8736" lon="15.90343"><ele>271.8</ele></trkpt>
