@@ -118,7 +118,15 @@
   "imprint_title": "Impresszum | s’Genussplatz’l",
   "imprint_desc": "A s’Genussplatz’l (Unterpurkla, Halbenrain) weboldalának impresszuma: tulajdonos, elérhetőség és jogi adatok.",
   "imprint_h1": "Impresszum.",
-  "imprint_lead": "Az osztrák e-kereskedelmi törvény (ECG) 5. §-a és a médiatörvény (MedienG) 25. §-a szerinti adatok."
+  "imprint_lead": "Az osztrák e-kereskedelmi törvény (ECG) 5. §-a és a médiatörvény (MedienG) 25. §-a szerinti adatok.",
+  "maker_title": "A weboldal is házi készítésű.",
+  "maker_p1_html": "<strong>Michael Ruckenstuhl</strong>, a s’Genussplatz’l tulajdonosa, egyben a feldbachi AUTelligence Solutions GmbH társtulajdonosa is. A weboldal tervezése és teljes kivitelezése házon belül, az AUTelligence-nél készült: négy nyelv, tizenegy kerékpáros útvonal, saját térképek.",
+  "maker_p2": "Az AUTelligence szoftvereket és mesterségesintelligencia-megoldásokat fejleszt vállalkozások számára. Ilyen weboldalakat a régió vendéglátóinak, vállalkozásainak és egyesületeinek is készítünk.",
+  "maker_p3": "Ha érdekli, vagy kérdése van, bármikor szívesen állunk rendelkezésére:",
+  "maker_note": "Szoftver és MI-megoldások Feldbachból, Stájerországból",
+  "maker_btn": "Tovább az AUTelligence oldalára",
+  "maker_logo_label": "AUTelligence, a weboldalra",
+  "credit_label": "Webdesign és kivitelezés:"
  },
  "routes": {
   "west": {

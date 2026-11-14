@@ -183,7 +183,7 @@ def label(P, de_name, lon, lat, shown=None, cls=""):
 def home_marker(P):
     hx, hy = P.xy(*HOME)
     return (f'<circle class="home-ring" cx="{hx}" cy="{hy}" r="24"/><circle class="place--home" cx="{hx}" cy="{hy}" r="12"/>'
-            f'<text class="label-home" x="{hx + 34}" y="{hy - 16}">s’Genussplatz’l</text>')
+            f'<text class="label-home" x="{round(hx + 38, 1)}" y="{round(hy + 10, 1)}">s’Genussplatz’l</text>')
 
 
 def overview_map():
@@ -338,6 +338,38 @@ def fill_ui(text):
     return re.sub(r"\{\{t\.([a-z0-9_]+)\}\}", rep, text)
 
 
+MAKER_URL = "https://autelligence.at/"
+MAKER_MAIL = "michael.ruckenstuhl@autelligence.at"
+MAKER_LOGO = (ROOT / "tools" / "data" / "autelligence-logo.svg").read_text(encoding="utf-8").strip()
+
+
+def maker_band():
+    """Startseite: eigenes helles Band unter der Fußzeile, wer die Website gebaut hat."""
+    return f'''
+<aside class="maker" id="webdesign" aria-labelledby="maker-title">
+  <div class="container maker__grid">
+    <div class="maker__text">
+      <h2 id="maker-title">{escape(t("maker_title"))}</h2>
+      <p>{U["maker_p1_html"]}</p>
+      <p>{escape(t("maker_p2"))}</p>
+      <p>{escape(t("maker_p3"))} <a href="mailto:{MAKER_MAIL}">{MAKER_MAIL}</a></p>
+    </div>
+    <div class="maker__brand">
+      <a class="maker__logo" href="{MAKER_URL}" aria-label="{escape(t("maker_logo_label"), quote=True)}">{MAKER_LOGO}</a>
+      <p class="maker__note">{escape(t("maker_note"))}</p>
+      <a class="btn btn--primary" href="{MAKER_URL}">{escape(t("maker_btn"))}</a>
+    </div>
+  </div>
+</aside>
+'''
+
+
+def credit_line():
+    """Unterseiten: eine Zeile am Ende der Fußzeile."""
+    return (f'  <div class="container footer__credit"><p>{escape(t("credit_label"))} '
+            f'<a href="{MAKER_URL}">Michael Ruckenstuhl, AUTelligence Solutions GmbH</a></p></div>\n')
+
+
 def render(path, title, desc, content, jsonld=None, bodyclass="page"):
     """path: Seitenpfad relativ zur Sprachwurzel, z. B. radrouten/x.html."""
     out_path = prefix(L) + path
@@ -353,6 +385,7 @@ def render(path, title, desc, content, jsonld=None, bodyclass="page"):
            .replace("{{canonical}}", page_url(L, path)).replace("{{site}}", SITE).replace("{{jsonld}}", ld).replace("{{bodyclass}}", bodyclass)
            .replace("{{lang}}", HREFLANG[L]).replace("{{locale}}", U["locale"]).replace("{{alternates}}", alt)
            .replace("{{langswitch}}", switch).replace("{{langfoot}}", foot)
+           .replace("{{maker}}", maker_band() if path == "index.html" else "").replace("{{credit}}", "" if path == "index.html" else credit_line())
            .replace("{{analytics}}", f'<script defer src="{UMAMI_SRC}" data-website-id="{UMAMI_ID}" data-domains="s-genussplatzl.at,www.s-genussplatzl.at,s-genussplatzl.github.io"></script>' if UMAMI_ID else "")
            .replace("{{content}}", content).replace("{{root}}", root).replace("{{home}}", home))
     (ROOT / out_path).parent.mkdir(parents=True, exist_ok=True)

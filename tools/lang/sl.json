@@ -118,7 +118,15 @@
   "imprint_title": "Pravno obvestilo | s’Genussplatz’l",
   "imprint_desc": "Pravno obvestilo spletne strani s’Genussplatz’l v Unterpurkli, Halbenrain: lastnik, kontakt in pravni podatki.",
   "imprint_h1": "Pravno obvestilo.",
-  "imprint_lead": "Podatki po 5. členu avstrijskega zakona o elektronskem poslovanju (ECG) in 25. členu zakona o medijih (MedienG)."
+  "imprint_lead": "Podatki po 5. členu avstrijskega zakona o elektronskem poslovanju (ECG) in 25. členu zakona o medijih (MedienG).",
+  "maker_title": "Tudi spletna stran je domače delo.",
+  "maker_p1_html": "<strong>Michael Ruckenstuhl</strong>, lastnik s’Genussplatz’l, je tudi družbenik podjetja AUTelligence Solutions GmbH v Feldbachu. Zasnova in celotna izdelava te spletne strani sta nastali interno v podjetju AUTelligence: štirje jeziki, enajst kolesarskih poti, lastni zemljevidi.",
+  "maker_p2": "AUTelligence razvija programsko opremo in rešitve z umetno inteligenco za podjetja. Takšne spletne strani izdelujemo tudi za gostitelje, podjetja in društva iz regije.",
+  "maker_p3": "Če vas zanima več ali imate vprašanja, nam lahko kadar koli pišete:",
+  "maker_note": "Programska oprema in rešitve z umetno inteligenco iz Feldbacha na Štajerskem",
+  "maker_btn": "Na stran AUTelligence",
+  "maker_logo_label": "AUTelligence, na spletno stran",
+  "credit_label": "Spletno oblikovanje in izvedba:"
  },
  "routes": {
   "west": {

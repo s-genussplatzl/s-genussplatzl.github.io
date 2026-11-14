@@ -118,7 +118,15 @@
   "imprint_title": "Legal notice | s’Genussplatz’l",
   "imprint_desc": "Legal notice for the website of s’Genussplatz’l in Unterpurkla, Halbenrain: owner, contact and legal information.",
   "imprint_h1": "Legal notice.",
-  "imprint_lead": "Information required under Section 5 of the Austrian E-Commerce Act and Section 25 of the Media Act."
+  "imprint_lead": "Information required under Section 5 of the Austrian E-Commerce Act and Section 25 of the Media Act.",
+  "maker_title": "This website is home-made too.",
+  "maker_p1_html": "<strong>Michael Ruckenstuhl</strong>, owner of s’Genussplatz’l, is also a shareholder of AUTelligence Solutions GmbH in Feldbach. The design and the complete build of this website were done in-house at AUTelligence: four languages, eleven cycle routes, maps of our own.",
+  "maker_p2": "AUTelligence develops software and AI solutions for businesses. We also build websites like this one for hosts, businesses and clubs in the region.",
+  "maker_p3": "If you are interested or have any questions, you are welcome to get in touch at any time:",
+  "maker_note": "Software and AI solutions from Feldbach, Styria",
+  "maker_btn": "Visit AUTelligence",
+  "maker_logo_label": "AUTelligence, visit the website",
+  "credit_label": "Web design and build:"
  },
  "routes": {
   "west": {

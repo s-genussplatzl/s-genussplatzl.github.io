@@ -118,7 +118,15 @@
   "imprint_title": "Impressum | s’Genussplatz’l",
   "imprint_desc": "Impressum der Website des s’Genussplatz’l in Unterpurkla, Halbenrain: Inhaber, Kontakt und rechtliche Angaben.",
   "imprint_h1": "Impressum.",
-  "imprint_lead": "Angaben nach § 5 E-Commerce-Gesetz und § 25 Mediengesetz."
+  "imprint_lead": "Angaben nach § 5 E-Commerce-Gesetz und § 25 Mediengesetz.",
+  "maker_title": "Auch die Website ist hausgemacht.",
+  "maker_p1_html": "<strong>Michael Ruckenstuhl</strong>, Inhaber vom s’Genussplatz’l, ist auch Gesellschafter der AUTelligence Solutions GmbH in Feldbach. Entwurf und Aufbau dieser Website wurden komplett hausintern bei AUTelligence umgesetzt: vier Sprachen, elf Radrouten, eigene Karten.",
+  "maker_p2": "AUTelligence entwickelt Software und KI-Lösungen für Betriebe. Websites wie diese bauen wir auch für Gastgeber, Betriebe und Vereine aus der Region.",
+  "maker_p3": "Bei Interesse oder Fragen können Sie sich jederzeit gerne bei uns melden:",
+  "maker_note": "Software und KI-Lösungen aus Feldbach, Steiermark",
+  "maker_btn": "Zu AUTelligence",
+  "maker_logo_label": "AUTelligence, zur Website",
+  "credit_label": "Webdesign und Umsetzung:"
  },
  "routes": {
   "west": {
