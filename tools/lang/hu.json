@@ -104,7 +104,12 @@
   "spots_prev": "Előző látnivaló",
   "spots_next": "Következő látnivaló",
   "photo_by": "Fotó:",
-  "spots_note": "Fotók: Wikimedia Commons, vágva."
+  "spots_note": "Fotók: Wikimedia Commons, vágva.",
+  "region_label": "A régióban",
+  "region_tv_url": "https://www.steiermark.com/en/Thermen-Vulkanland",
+  "region_wine": "Vulkanland Steiermark borvidék",
+  "region_kloech": "Klöchi borút",
+  "region_traminer": "Tramini-tanösvény, Klöch"
  },
  "routes": {
   "west": {

@@ -104,7 +104,12 @@
   "spots_prev": "Vorheriges Ziel",
   "spots_next": "Nächstes Ziel",
   "photo_by": "Foto:",
-  "spots_note": "Fotos: Wikimedia Commons, zugeschnitten."
+  "spots_note": "Fotos: Wikimedia Commons, zugeschnitten.",
+  "region_label": "In der Region",
+  "region_tv_url": "https://www.steiermark.com/de/Thermen-Vulkanland",
+  "region_wine": "Weinbaugebiet Vulkanland Steiermark",
+  "region_kloech": "Klöcher Weinstraße",
+  "region_traminer": "Traminerweg Klöch"
  },
  "routes": {
   "west": {

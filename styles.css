@@ -227,6 +227,10 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 .footer__colophon { font-size: var(--text-sm); line-height: 1.7; color: var(--color-ink-2); max-width: 62ch; }
 .footer__links { display: flex; flex-wrap: wrap; gap: var(--space-lg); list-style: none; margin: var(--space-lg) 0 0; padding: 0; font-size: var(--text-sm); }
 .footer__links a { color: var(--color-ink); }
+.footer__region { margin-top: var(--space-xl); padding-top: var(--space-lg); border-top: var(--rule-hair) solid var(--color-rule); }
+.footer__label { margin: 0; font-size: var(--text-sm); color: var(--color-muted); }
+.footer__region .footer__links { margin-top: var(--space-sm); }
+.wine__region { margin-top: var(--space-md); max-width: 46ch; }
 @media (max-width: 60rem) { .footer__grid { grid-template-columns: minmax(0, 1fr); } }
 
 /* ---------- Subpages: page head, facts, routes ---------- */

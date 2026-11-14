@@ -104,7 +104,12 @@
   "spots_prev": "Prejšnja točka",
   "spots_next": "Naslednja točka",
   "photo_by": "Foto:",
-  "spots_note": "Fotografije: Wikimedia Commons, obrezane."
+  "spots_note": "Fotografije: Wikimedia Commons, obrezane.",
+  "region_label": "V regiji",
+  "region_tv_url": "https://www.steiermark.com/en/Thermen-Vulkanland",
+  "region_wine": "Vinorodno območje Vulkanland Steiermark",
+  "region_kloech": "Vinska cesta Klöch",
+  "region_traminer": "Traminčeva pot Klöch"
  },
  "routes": {
   "west": {
