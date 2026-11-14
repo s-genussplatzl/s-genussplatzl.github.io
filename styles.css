@@ -215,13 +215,11 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 .sign:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 4px; }
 .sign__arrow { position: absolute; top: var(--space-lg); right: var(--space-md); width: 3.25rem; height: auto; fill: none; stroke: currentColor; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
 .sign__icon { width: 6.5rem; height: 4.25rem; margin-top: var(--space-2xl); background-color: currentColor; -webkit-mask: var(--icon) left center / contain no-repeat; mask: var(--icon) left center / contain no-repeat; }
-.sign--left .sign__arrow { right: auto; left: var(--space-md); transform: scaleX(-1); }
-.sign--left .sign__icon { align-self: flex-end; -webkit-mask-position: right center; mask-position: right center; }
 .sign__icon--regional { --icon: url("images/icons/regional.png"); }
 .sign__icon--radeln { --icon: url("images/icons/radeln.png"); }
 .sign__icon--relaxen { --icon: url("images/icons/relaxen.png"); }
-.sign h3 { margin: 0; display: grid; align-content: end; min-height: 2.1em; font-family: var(--font-display); font-weight: 400; font-size: var(--text-3xl); line-height: 1.05; color: inherit; overflow-wrap: break-word; min-width: 0; }
-.sign p { margin: var(--space-lg) 0 0; font-size: var(--text-md); line-height: 1.45; color: inherit; }
+.sign h3 { margin: 0; display: grid; align-content: start; min-height: 2.1em; font-family: var(--font-display); font-weight: 400; font-size: var(--text-3xl); line-height: 1.05; color: inherit; overflow-wrap: break-word; min-width: 0; }
+.sign p { margin: var(--space-lg) 0 0; font-size: var(--text-md); line-height: 1.45; color: inherit; text-align: center; text-wrap: balance; }
 .sign strong { font-weight: 700; }
 .sign__brand { margin-top: auto; padding-top: var(--space-xl); display: grid; gap: var(--space-2xs); font-family: var(--font-display); font-size: var(--text-lg); }
 .sign__slogan { font-family: var(--font-body); font-size: var(--text-xs); }
