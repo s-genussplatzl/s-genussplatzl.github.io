@@ -110,7 +110,8 @@
   "region_wine": "Vulkanland Steiermark borvidék",
   "region_kloech": "Klöchi borút",
   "region_traminer": "Tramini-tanösvény, Klöch",
-  "take_text_gpx": "Töltse le az útvonalat GPX-fájlként navigációs készülékéhez, Garmin vagy Wahoo eszközéhez, a Komoothoz, illetve kerékpáros alkalmazásához."
+  "take_text_gpx": "Töltse le az útvonalat GPX-fájlként navigációs készülékéhez, Garmin vagy Wahoo eszközéhez, a Komoothoz, illetve kerékpáros alkalmazásához.",
+  "nav_menu": "Menü"
  },
  "routes": {
   "west": {

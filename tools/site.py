@@ -259,7 +259,7 @@ def profile(key):
     lo, hi = min(e for _, e in sm), max(e for _, e in sm)
     y0 = math.floor((lo - 10) / 10) * 10
     y1 = max(math.ceil((hi + 10) / 10) * 10, y0 + 60)
-    W, H, Lm, B, T, Rm = 1000, 240, 56, 34, 12, 8
+    W, H, Lm, B, T, Rm = 1000, 320, 56, 38, 14, 8
     sx = lambda d: Lm + (W - Lm - Rm) * d / total
     sy = lambda e: T + (H - T - B) * (1 - (e - y0) / (y1 - y0))
     line = "M" + " L".join(f"{sx(d):.1f} {sy(e):.1f}" for d, e in sm)
@@ -273,7 +273,8 @@ def profile(key):
     kstep = 5 if total > 12 else 2
     k = 0
     while k <= total + 0.01:
-        o.append(f'<text class="tick" x="{sx(k):.1f}" y="{H - 8}" text-anchor="middle">{k} km</text>')
+        alt = " tick--alt" if (k // kstep) % 2 else ""  # am Handy nur jede zweite Marke
+        o.append(f'<text class="tick{alt}" x="{sx(k):.1f}" y="{H - 8}" text-anchor="middle">{k} km</text>')
         k += kstep
     o.append(f'<path class="prof-area" d="{area}"/><path class="prof-line" d="{line}"/>')
     o.append(f'<line class="prof-cross" x1="0" x2="0" y1="{T}" y2="{H - B}" visibility="hidden"/>')
@@ -578,7 +579,8 @@ def index_page():
     content = page_src("index.html")
     items = "\n".join(
         f'          <li data-route="{k}"><h3>{escape(TR[k]["name"])}</h3><span class="distance">{approx_km(k)}</span>'
-        f'<p>{escape(TR[k]["index_text"])}</p><a class="ride__more" href="radrouten/{ROUTES[k]["slug"]}.html">{escape(t("ride_more"))}</a></li>'
+        f'<p>{escape(TR[k]["index_text"])}</p><a class="ride__more" href="radrouten/{ROUTES[k]["slug"]}.html"><span>{escape(t("ride_more"))}</span>'
+        f'<span class="ride__go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></span></a></li>'
         for k in KEYS)
     content = content.replace("{{ROUTE_ITEMS}}", items).replace("{{MAP}}", overview_map())
     content = content.replace("{{BIKESPA}}", bikespa_svg())

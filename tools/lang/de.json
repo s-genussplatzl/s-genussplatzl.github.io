@@ -110,7 +110,8 @@
   "region_wine": "Weinbaugebiet Vulkanland Steiermark",
   "region_kloech": "Klöcher Weinstraße",
   "region_traminer": "Traminerweg Klöch",
-  "take_text_gpx": "Laden Sie die Strecke als GPX-Datei für Ihr Navi, Garmin, Wahoo, Komoot oder Ihre Rad-App."
+  "take_text_gpx": "Laden Sie die Strecke als GPX-Datei für Ihr Navi, Garmin, Wahoo, Komoot oder Ihre Rad-App.",
+  "nav_menu": "Menü"
  },
  "routes": {
   "west": {

@@ -110,7 +110,8 @@
   "region_tv_url": "https://www.steiermark.com/en/Thermen-Vulkanland",
   "region_wine": "Vinorodno območje Vulkanland Steiermark",
   "region_kloech": "Vinska cesta Klöch",
-  "region_traminer": "Traminčeva pot Klöch"
+  "region_traminer": "Traminčeva pot Klöch",
+  "nav_menu": "Meni"
  },
  "routes": {
   "west": {

@@ -15,13 +15,20 @@ document.querySelectorAll('[data-slider]').forEach((slider) => {
 });
 const ride = document.querySelector('[data-ride]');
 if (ride) {
-  let pinned = '';
   const set = (r) => { ride.dataset.active = r; ride.querySelectorAll('[data-route]').forEach((el) => el.classList.toggle('is-active', el.dataset.route === r)); };
-  ride.querySelectorAll('li[data-route], .route').forEach((el) => {
+  ride.querySelectorAll('li[data-route], .route, .start').forEach((el) => {
     el.addEventListener('mouseenter', () => set(el.dataset.route));
-    el.addEventListener('mouseleave', () => set(pinned));
-    el.addEventListener('click', () => { pinned = pinned === el.dataset.route ? '' : el.dataset.route; set(pinned); });
+    el.addEventListener('mouseleave', () => set(''));
   });
+  ride.querySelectorAll('li[data-route]').forEach((el) => {
+    el.addEventListener('focusin', () => set(el.dataset.route));
+    el.addEventListener('focusout', () => set(''));
+  });
+  // Klick auf eine Route in der Karte öffnet ihre Seite
+  ride.querySelectorAll('.route, .start').forEach((el) => el.addEventListener('click', () => {
+    const a = ride.querySelector(`li[data-route="${el.dataset.route}"] a`);
+    if (a) location.href = a.href;
+  }));
 }
 
 document.querySelectorAll('[data-profile-figure]').forEach((fig) => {
@@ -48,5 +55,14 @@ document.querySelectorAll('[data-profile-figure]').forEach((fig) => {
   };
   const hide = () => { cross.setAttribute('visibility', 'hidden'); dot.setAttribute('visibility', 'hidden'); out.textContent = resting; };
   svg.addEventListener('pointermove', (e) => show(e.clientX));
+  svg.addEventListener('pointerdown', (e) => show(e.clientX));
   svg.addEventListener('pointerleave', hide);
 });
+
+// Menü am Handy: nach dem Antippen eines Links, außerhalb oder mit Escape schließen
+const menu = document.querySelector('details.menu');
+if (menu) {
+  menu.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => menu.removeAttribute('open')));
+  document.addEventListener('click', (e) => { if (menu.open && !menu.contains(e.target)) menu.removeAttribute('open'); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && menu.open) { menu.removeAttribute('open'); menu.querySelector('summary').focus(); } });
+}
