@@ -2,6 +2,7 @@
  * hero: Ledge (full-bleed evening photograph, the head resting at its base) · nav: edge-aligned (draw dealt search-led, swapped: a one-page site has nothing to search) · footer: colophon block · imagery: photographs, the owner's own 8, natural · signature: the copper pavilion lit at dusk, full-bleed on the first screen · hedgerow: hedge, signal swapped to the logo's copper
  * axes: dark/high-contrast-serif/chromatic-copper · posture: drenched · contrast: pass · fold: pass · copy: verbatim (story text approved by the owner) · v2.0.0 */
 /* Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V4 · weakest: P, a place page could drift into brochure tone; the sights are set as a field guide with real bike distances and the real course of the Mur instead of adjectives */
+/* Hallmark · waive 83 · images/platte.webp is a 368px tiled grain texture on the anthracite bands, taken from the owner's facade panel · the linter counts the tiled background as photographs */
 /* Hallmark · waive 3 · ul.signs reproduces the three real roadside panels at the driveway, icon above heading as printed on them · the tiles are a depiction of existing signs, not a feature grid */
 /* Hallmark · waive 77 · the Wegweiser section carries three sign panels 540px tall · the linter does not count linked panels without images as mass */
 /* Hallmark · waive 77 · the Unterwegs section on route pages carries the sticky route map, 600px tall · the linter does not count an inline SVG map as mass */
@@ -109,8 +110,8 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 .slider__status { font-size: var(--text-sm); color: var(--color-muted); font-variant-numeric: tabular-nums; min-width: 9ch; text-align: center; }
 
 /* Wine: cream band, field-guide index */
-.band--cream { padding-block: var(--section-gap) 0; }
-.band--cream .lead { color: var(--color-ink-2); }
+.band--cream { margin-top: var(--section-gap); padding-block: var(--section-gap-s); background: var(--color-paper-2) var(--stone); color: var(--color-ink); }
+.band--cream .lead { color: var(--color-ink); }
 .wine__grid { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: var(--space-3xl); align-items: center; }
 .partners { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap-columns); }
 .partners { align-items: end; }
@@ -150,15 +151,17 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 .bikespa__map svg { width: 100%; height: auto; }
 .bikespa__map figcaption { margin-top: var(--space-sm); font-size: var(--text-sm); color: var(--color-muted); }
 .bs-land { stroke: none; }
-.bs-land--si { fill: var(--color-paper-3); }
-.bs-land--hu { fill: color-mix(in oklab, var(--color-accent) 12%, var(--color-paper-2)); }
+.bs-land--base { fill: var(--color-paper); }
+.bs-land--si { fill: color-mix(in oklab, var(--color-ink) 13%, var(--color-paper)); }
+.bs-land--hu { fill: color-mix(in oklab, var(--color-accent) 22%, var(--color-paper)); }
 .bs-border { fill: none; stroke: var(--color-ink-2); stroke-width: 2; stroke-dasharray: 7 7; stroke-linecap: round; opacity: 0.6; }
 .bs-route { fill: none; stroke: var(--color-accent); stroke-width: 3; stroke-linejoin: round; }
-.bs-stop { fill: var(--color-paper-2); stroke: var(--color-ink-2); stroke-width: 2.5; }
+.bs-stop { fill: var(--color-paper); stroke: var(--color-ink-2); stroke-width: 2.5; }
 .bs-home { fill: var(--color-accent); }
 .bs-home-ring { fill: none; stroke: var(--color-accent); stroke-width: 1.5; }
 .bikespa__map text { font-family: var(--font-body); font-size: 20px; fill: var(--color-ink-2); }
 .bikespa__map text, .ride .map text { paint-order: stroke; stroke: var(--color-paper-2); stroke-width: 7px; stroke-linejoin: round; }
+.bikespa__map text { stroke: var(--color-paper); stroke-width: 5px; }
 .bikespa__map .bs-home-label { font-family: var(--font-display); font-size: 28px; fill: var(--color-ink); }
 .bikespa__map .bs-country { font-size: 18px; fill: var(--color-muted); }
 @media (max-width: 60rem) { .bikespa__grid { grid-template-columns: minmax(0, 1fr); gap: var(--space-2xl); } .bikespa__map text { font-size: 26px; } .bikespa__map .bs-home-label { font-size: 34px; } }
@@ -239,7 +242,7 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 @media (max-width: 40rem) { .amenities { grid-template-columns: minmax(0, 1fr); } }
 
 /* Footer: colophon block */
-.site-footer { padding-block: var(--space-3xl) var(--space-2xl); border-top: var(--rule-hair) solid var(--color-rule); background: var(--color-paper-2) var(--stone); }
+.site-footer { padding-block: var(--space-3xl) var(--space-2xl); border-top: 6px solid var(--color-accent); background: var(--color-paper-2) var(--stone); }
 .footer__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--space-3xl); align-items: center; }
 .footer__logo { justify-self: center; width: min(400px, 78vw); aspect-ratio: 640 / 502; background-color: var(--color-foil); -webkit-mask: url("images/logo-mask.png") center / contain no-repeat; mask: url("images/logo-mask.png") center / contain no-repeat; }
 .footer__colophon { font-size: var(--text-sm); line-height: 1.7; color: var(--color-ink-2); max-width: 62ch; }
@@ -309,7 +312,7 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 
 /* Bike & Spa page */
 .bikespa__grid--page { align-items: start; }
-.bikespa__grid--page .bikespa__map { background: var(--color-paper-2); padding: var(--space-lg); }
+.bikespa__grid--page .bikespa__map { background: transparent; padding: 0; }
 .project__grid { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: var(--space-3xl); align-items: start; }
 .project__text { display: grid; gap: var(--space-lg); }
 .project__text > p { color: var(--color-ink-2); max-width: 62ch; }

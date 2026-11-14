@@ -67,6 +67,7 @@ def build(ui):
     out = [
         f'<svg viewBox="0 0 {W} {H}" role="img" aria-labelledby="bs-title">',
         f'<title id="bs-title">{escape(ui["bs_title"].format(names=names))}</title>',
+        f'<rect class="bs-land bs-land--base" x="0" y="0" width="{W}" height="{H}"/>',  # Kartengrund (Österreich), damit die Karte eine eigene Fläche hat
         _land('si'), _land('hu'),
         '<text class="bs-country" x="{}" y="{}">{}</text>'.format(*xy(47.13, 15.60), escape(ui["bs_austria"])),
         '<text class="bs-country" x="{}" y="{}">{}</text>'.format(*xy(46.80, 16.40), escape(ui["bs_hungary"])),
