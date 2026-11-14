@@ -101,13 +101,22 @@
             <figcaption>Unterm Nussbaum, im Garten des Hofes</figcaption>
           </figure>
           <figure class="slide">
-            <div class="slide__frame" data-slot="pavillon" data-alt="Der Kupferpavillon bei Tag">
+            <div class="slide__frame" data-slot="abendrot" data-alt="Das Genussplatzl im Abendrot">
               <picture>
-                <source type="image/webp" srcset="images/pavillon-800.webp 800w, images/pavillon-1600.webp 1600w" sizes="(max-width: 60rem) 100vw, 58vw">
-                <img src="images/pavillon-1600.jpg" srcset="images/pavillon-800.jpg 800w, images/pavillon-1600.jpg 1600w" sizes="(max-width: 60rem) 100vw, 58vw" width="1600" height="1200" alt="Der Pavillon mit Kupferfassade und Glasfront bei Sonnenschein, davor weißer Kies" loading="lazy">
+                <source type="image/webp" srcset="images/abendrot-800.webp 800w, images/abendrot-1120.webp 1120w" sizes="(max-width: 60rem) 100vw, 58vw">
+                <img src="images/abendrot-1120.jpg" srcset="images/abendrot-800.jpg 800w, images/abendrot-1120.jpg 1120w" sizes="(max-width: 60rem) 100vw, 58vw" width="1120" height="840" alt="Der Pavillon mit Kupferdach unter einem orange leuchtenden Abendhimmel, davor Stühle auf weißem Kies" loading="lazy">
               </picture>
             </div>
-            <figcaption>Stil und Design im Grünen</figcaption>
+            <figcaption>Abendrot über dem Genussplatzl</figcaption>
+          </figure>
+          <figure class="slide">
+            <div class="slide__frame" data-slot="kranich" data-alt="Kranich aus Metall im Garten">
+              <picture>
+                <source type="image/webp" srcset="images/kranich-800.webp 800w, images/kranich-1600.webp 1600w" sizes="(max-width: 60rem) 100vw, 58vw">
+                <img src="images/kranich-1600.jpg" srcset="images/kranich-800.jpg 800w, images/kranich-1600.jpg 1600w" sizes="(max-width: 60rem) 100vw, 58vw" width="1600" height="1200" alt="Bunter Kranich aus Metall auf der Wiese, dahinter der Pavillon mit Sonnensegel unter blauem Himmel" loading="lazy">
+              </picture>
+            </div>
+            <figcaption>Sommertag im Garten</figcaption>
           </figure>
           <figure class="slide">
             <div class="slide__frame" data-slot="sitzplaetze" data-alt="Holzliegestühle im Grünen">
@@ -119,6 +128,15 @@
             <figcaption>Ankommen und durchatmen</figcaption>
           </figure>
           <figure class="slide">
+            <div class="slide__frame" data-slot="glaeser" data-alt="Weingläser und eine Flasche auf einem Baumstamm">
+              <picture>
+                <source type="image/webp" srcset="images/glaeser-800.webp 800w, images/glaeser-1600.webp 1600w" sizes="(max-width: 60rem) 100vw, 58vw">
+                <img src="images/glaeser-1600.jpg" srcset="images/glaeser-800.jpg 800w, images/glaeser-1600.jpg 1600w" sizes="(max-width: 60rem) 100vw, 58vw" width="1600" height="1200" alt="Eine Flasche Scheurebe vom Weinhof Radl und Weingläser auf einer Baumscheibe im Garten" loading="lazy">
+              </picture>
+            </div>
+            <figcaption>Auf ein Glas im Garten</figcaption>
+          </figure>
+          <figure class="slide">
             <div class="slide__frame" data-slot="radstation" data-alt="Fahrrad an der Ladestation">
               <picture>
                 <source type="image/webp" srcset="images/radstation-800.webp 800w, images/radstation-1600.webp 1600w" sizes="(max-width: 60rem) 100vw, 58vw">
@@ -127,10 +145,19 @@
             </div>
             <figcaption>Rast für Rad und Akku</figcaption>
           </figure>
+          <figure class="slide">
+            <div class="slide__frame" data-slot="weine" data-alt="Weine unserer Winzer">
+              <picture>
+                <source type="image/webp" srcset="images/weine-800.webp 800w, images/weine-1600.webp 1600w" sizes="(max-width: 60rem) 100vw, 58vw">
+                <img src="images/weine-1600.jpg" srcset="images/weine-800.jpg 800w, images/weine-1600.jpg 1600w" sizes="(max-width: 60rem) 100vw, 58vw" width="1600" height="1200" alt="Weinflaschen von Der Gollenz und Weingut Radl mit zwei Weingläsern, dahinter das Wandbild mit dem Genussplatzl-Logo" loading="lazy">
+              </picture>
+            </div>
+            <figcaption>Weine von unseren Winzern aus Tieschen und Klöch</figcaption>
+          </figure>
         </div>
         <div class="slider__controls" hidden>
           <button class="slider__btn" type="button" data-dir="-1" aria-label="Vorheriges Bild"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
-          <p class="slider__status" aria-live="polite">Bild 1 von 4</p>
+          <p class="slider__status" aria-live="polite">Bild 1 von 7</p>
           <button class="slider__btn" type="button" data-dir="1" aria-label="Nächstes Bild"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
         </div>
       </div>
@@ -169,14 +196,23 @@
       </div>
       <div class="slider slider--art" data-slider>
         <div class="slider__track art__rail" tabindex="0" role="region" aria-label="Kunstfiguren im Garten, seitlich blätterbar">
-          <figure class="art__item art__item--wide">
-            <div data-slot="kunst-weinherz" data-alt="Das Weinherz aus Flaschen im Garten">
+          <figure class="art__item">
+            <div data-slot="kunst-traubenstaender" data-alt="Weinständer in Form einer großen Weintraube">
               <picture>
-                <source type="image/webp" srcset="images/kunst-weinherz-800.webp 800w, images/kunst-weinherz-1600.webp 1600w" sizes="(max-width: 40rem) 78vw, 60vw">
-                <img src="images/kunst-weinherz-1600.jpg" srcset="images/kunst-weinherz-800.jpg 800w, images/kunst-weinherz-1600.jpg 1600w" sizes="(max-width: 40rem) 78vw, 60vw" width="1600" height="1200" alt="Herz aus Weinflaschen in einem Metallgestell, dahinter der Garten" loading="lazy">
+                <source type="image/webp" srcset="images/kunst-traubenstaender-600.webp 600w, images/kunst-traubenstaender-1200.webp 1200w" sizes="(max-width: 40rem) 78vw, 30vw">
+                <img src="images/kunst-traubenstaender-1200.jpg" srcset="images/kunst-traubenstaender-600.jpg 600w, images/kunst-traubenstaender-1200.jpg 1200w" sizes="(max-width: 40rem) 78vw, 30vw" width="1200" height="1500" alt="Große geschmiedete Weintraube aus Metallringen, die Weinflaschen hält, mit Weinblatt und Ranke, im Garten" loading="lazy">
               </picture>
             </div>
-            <figcaption>Das Weinherz</figcaption>
+            <figcaption>Die große Weintraube als Weinständer</figcaption>
+          </figure>
+          <figure class="art__item">
+            <div data-slot="kunst-traubenstaender-klein" data-alt="Kleiner Weinständer in Form einer Weintraube">
+              <picture>
+                <source type="image/webp" srcset="images/kunst-traubenstaender-klein-600.webp 600w, images/kunst-traubenstaender-klein-1200.webp 1200w" sizes="(max-width: 40rem) 78vw, 30vw">
+                <img src="images/kunst-traubenstaender-klein-1200.jpg" srcset="images/kunst-traubenstaender-klein-600.jpg 600w, images/kunst-traubenstaender-klein-1200.jpg 1200w" sizes="(max-width: 40rem) 78vw, 30vw" width="1200" height="1500" alt="Kleine geschmiedete Weintraube aus Metallringen mit zwei Weinblättern, darin drei Weinflaschen, auf der Wiese" loading="lazy">
+              </picture>
+            </div>
+            <figcaption>Die kleine Weintraube als Weinständer</figcaption>
           </figure>
           <figure class="art__item">
             <div data-slot="kunst-rose" data-alt="Große geschmiedete Rose">
@@ -206,6 +242,15 @@
             <figcaption>Die Weintraube</figcaption>
           </figure>
           <figure class="art__item">
+            <div data-slot="kunst-kupferherz" data-alt="Weintraube aus Metall vor dem Kupferherz">
+              <picture>
+                <source type="image/webp" srcset="images/kunst-kupferherz-600.webp 600w, images/kunst-kupferherz-1200.webp 1200w" sizes="(max-width: 40rem) 78vw, 30vw">
+                <img src="images/kunst-kupferherz-1200.jpg" srcset="images/kunst-kupferherz-600.jpg 600w, images/kunst-kupferherz-1200.jpg 1200w" sizes="(max-width: 40rem) 78vw, 30vw" width="1200" height="1500" alt="Geschmiedete Weintraube mit Blättern auf einem Eisensockel, darüber die Kupfertafel mit dem Herz und dem Schriftzug Genussplatzl" loading="lazy">
+              </picture>
+            </div>
+            <figcaption>Die Weintraube am Kupferherz</figcaption>
+          </figure>
+          <figure class="art__item">
             <div data-slot="kunst-weinstaender" data-alt="Weinständer aus Holz mit Gläsern">
               <picture>
                 <source type="image/webp" srcset="images/kunst-weinstaender-600.webp 600w, images/kunst-weinstaender-1200.webp 1200w" sizes="(max-width: 40rem) 78vw, 30vw">
@@ -217,7 +262,7 @@
         </div>
         <div class="slider__controls" hidden>
           <button class="slider__btn" type="button" data-dir="-1" aria-label="Vorheriges Kunstwerk"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
-          <p class="slider__status" aria-live="polite">Kunstwerk 1 von 5</p>
+          <p class="slider__status" aria-live="polite">Kunstwerk 1 von 7</p>
           <button class="slider__btn" type="button" data-dir="1" aria-label="Nächstes Kunstwerk"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
         </div>
       </div>
@@ -545,6 +590,44 @@
         </ul>
       </div>
       <p class="around__source">Entfernungen per Rad bis zum Genussplatzl, gerundet. Unseren Platz und weitere Touren finden Sie auch <a href="https://www.komoot.com/de-de/highlight/8495359">auf Komoot</a>.</p>
+    </div>
+  </section>
+
+  <section class="section" id="wegweiser" aria-labelledby="signs-title">
+    <div class="container signs__grid">
+      <div class="head-block">
+        <h2 id="signs-title">Folgen Sie den Tafeln.</h2>
+        <p class="lead">An unserer Zufahrt weisen anthrazitfarbene Tafeln den Weg, alle 30 Meter eine. Wer sie sieht, ist fast da.</p>
+      </div>
+      <ul class="signs" aria-label="Unsere Wegweiser, jede Tafel führt zum passenden Abschnitt">
+          <li>
+            <a class="sign" href="#geschichte">
+              <svg class="sign__arrow" viewBox="0 0 60 80" aria-hidden="true"><path d="M14 12 L46 40 L14 68"/></svg>
+              <span class="sign__icon sign__icon--relaxen" aria-hidden="true"></span>
+              <h3>Müde Beine?</h3>
+              <p><strong>Erholung &amp; Regeneration pur</strong> warten auf dich!</p>
+              <span class="sign__brand">s’Genussplatz’l<span class="sign__slogan">Regional, Radeln, Relaxen</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="sign" href="#wein">
+              <svg class="sign__arrow" viewBox="0 0 60 80" aria-hidden="true"><path d="M14 12 L46 40 L14 68"/></svg>
+              <span class="sign__icon sign__icon--regional" aria-hidden="true"></span>
+              <h3>Durstig?</h3>
+              <p>Gönn dir eine <strong>Pause</strong> &amp; erfrische dich mit unseren <strong>regionalen Getränken.</strong></p>
+              <span class="sign__brand">s’Genussplatz’l<span class="sign__slogan">Regional, Radeln, Relaxen</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="sign" href="#kunst">
+              <svg class="sign__arrow" viewBox="0 0 60 80" aria-hidden="true"><path d="M14 12 L46 40 L14 68"/></svg>
+              <span class="sign__icon sign__icon--radeln" aria-hidden="true"></span>
+              <h3>Kunst &amp; Stil</h3>
+              <p><strong>Das und vieles mehr</strong> erwartet dich in wenigen Pedaltritten.</p>
+              <span class="sign__brand">s’Genussplatz’l<span class="sign__slogan">Regional, Radeln, Relaxen</span></span>
+            </a>
+          </li>
+      </ul>
     </div>
   </section>
 

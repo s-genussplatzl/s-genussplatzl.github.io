@@ -482,7 +482,7 @@ def route_page(key):
   <section class="section" aria-labelledby="goal-title">
     <div class="container goal__grid">
       <div class="goal__photo" data-slot="ziel-{key}" data-alt="{escape(t("goal_slot_alt"), quote=True)}">
-        {picture("abend-q", t("goal_alt"), 1200, 1200, "(max-width: 60rem) 100vw, 45vw", [1200], root)}
+        {picture("abendrot-q", t("goal_alt"), 1000, 1000, "(max-width: 60rem) 100vw, 45vw", [1000], root)}
       </div>
       <div class="goal__text">
         <h2 id="goal-title">{escape(t("goal_title"))}</h2>

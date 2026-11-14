@@ -2,6 +2,8 @@
  * hero: Ledge (full-bleed evening photograph, the head resting at its base) · nav: edge-aligned (draw dealt search-led, swapped: a one-page site has nothing to search) · footer: colophon block · imagery: photographs, the owner's own 8, natural · signature: the copper pavilion lit at dusk, full-bleed on the first screen · hedgerow: hedge, signal swapped to the logo's copper
  * axes: dark/high-contrast-serif/chromatic-copper · posture: drenched · contrast: pass · fold: pass · copy: verbatim (story text approved by the owner) · v2.0.0 */
 /* Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V4 · weakest: P, a place page could drift into brochure tone; the sights are set as a field guide with real bike distances and the real course of the Mur instead of adjectives */
+/* Hallmark · waive 3 · ul.signs reproduces the three real roadside panels at the driveway, icon above heading as printed on them · the tiles are a depiction of existing signs, not a feature grid */
+/* Hallmark · waive 77 · the Wegweiser section carries three sign panels 540px tall · the linter does not count linked panels without images as mass */
 /* Hallmark · waive 77 · the Unterwegs section on route pages carries the sticky route map, 600px tall · the linter does not count an inline SVG map as mass */
 @import url("./fonts.css");
 @import url("./tokens.css");
@@ -109,11 +111,11 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 .band--cream { margin-top: var(--section-gap); padding-block: var(--section-gap-s); background: var(--color-ink); color: var(--color-paper); }
 .band--cream h2, .band--cream h3 { color: var(--color-paper); }
 .band--cream .lead { color: var(--color-paper); }
-.wine__grid { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: var(--space-3xl); align-items: start; }
+.wine__grid { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: var(--space-3xl); align-items: center; }
 .partners { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap-columns); }
 .partners { align-items: end; }
 .partners li { display: grid; gap: var(--space-md); justify-items: center; text-align: center; }
-.partner__logo { width: 100%; height: 130px; display: grid; place-items: center; background: transparent; }
+.partner__logo { width: 100%; height: 190px; display: grid; place-items: center; background: transparent; }
 .partner__logo > img { object-fit: contain; object-position: 50% 100%; filter: none; padding: 0; }
 .partner__stand-in { font-family: var(--font-display); font-size: var(--text-2xl); line-height: 1.15; text-align: center; color: var(--color-paper); }
 .partner__place { font-size: var(--text-sm); color: var(--color-paper); display: grid; gap: var(--space-3xs); }
@@ -121,7 +123,7 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 .band--cream a { color: var(--color-paper); }
 .band--cream a:focus-visible { outline: 2px solid var(--color-paper); outline-offset: 3px; }
 @media (max-width: 60rem) { .wine__grid { grid-template-columns: minmax(0, 1fr); gap: var(--space-xl); } }
-@media (max-width: 40rem) { .partners { grid-template-columns: minmax(0, 1fr); gap: var(--space-2xl); } .partner__logo { height: 120px; } }
+@media (max-width: 40rem) { .partners { grid-template-columns: minmax(0, 1fr); gap: var(--space-2xl); } .partner__logo { height: 150px; } }
 
 /* Art: rail of portrait frames */
 .art__rail { grid-auto-columns: minmax(280px, 30%); gap: var(--gap-columns); padding-bottom: var(--space-sm); }
@@ -204,6 +206,25 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 @media (max-width: 60rem) { .index > li { grid-template-columns: minmax(0, 1fr) auto; } .index p { grid-column: 1 / -1; } .map { padding: var(--space-md); } .map text { font-size: 22px; } .map .label-home { font-size: 30px; } }
 
 /* Visit: band with the way in and the hours */
+/* Wegweiser: die Fassadentafeln an der Zufahrt, nachgebaut (Anthrazit, kupferfarbene Folie) */
+.signs__grid { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: var(--space-3xl); align-items: center; }
+.signs__grid .head-block { margin-bottom: 0; }
+.signs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap-columns); }
+.sign { position: relative; display: flex; flex-direction: column; gap: var(--space-md); height: 100%; min-height: 34rem; padding: var(--space-xl) var(--space-lg) var(--space-lg); background-color: var(--color-slate); background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.09 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E"); color: var(--color-foil); text-decoration: none; transition: background-color var(--dur-short) var(--ease-out); }
+.sign:hover { background-color: var(--color-slate-2); }
+.sign:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 4px; }
+.sign__arrow { position: absolute; top: var(--space-lg); right: var(--space-md); width: 3.25rem; height: auto; fill: none; stroke: currentColor; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
+.sign__icon { width: 6.5rem; height: 4.25rem; margin-top: var(--space-2xl); background-color: currentColor; -webkit-mask: var(--icon) left center / contain no-repeat; mask: var(--icon) left center / contain no-repeat; }
+.sign__icon--regional { --icon: url("images/icons/regional.png"); }
+.sign__icon--radeln { --icon: url("images/icons/radeln.png"); }
+.sign__icon--relaxen { --icon: url("images/icons/relaxen.png"); }
+.sign h3 { margin: 0; font-family: var(--font-display); font-weight: 400; font-size: var(--text-3xl); line-height: 1.05; color: inherit; overflow-wrap: break-word; min-width: 0; }
+.sign p { margin: 0; font-size: var(--text-md); line-height: 1.45; color: inherit; }
+.sign strong { font-weight: 700; }
+.sign__brand { margin-top: auto; padding-top: var(--space-xl); display: grid; gap: var(--space-2xs); font-family: var(--font-display); font-size: var(--text-lg); }
+.sign__slogan { font-family: var(--font-body); font-size: var(--text-xs); }
+@media (max-width: 60rem) { .signs__grid { grid-template-columns: minmax(0, 1fr); gap: var(--space-xl); } }
+@media (max-width: 40rem) { .signs { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 68%; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; padding-bottom: var(--space-sm); } .signs li { scroll-snap-align: start; } .sign { min-height: 27rem; } .sign h3 { font-size: var(--text-2xl); } }
 .band--visit { margin-top: var(--section-gap); padding-block: var(--section-gap-s); background: var(--color-paper-2); color: var(--color-ink); }
 .visit__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 6fr); gap: var(--space-3xl); align-items: start; }
 .visit__address { font-family: var(--font-display); font-size: var(--text-2xl); line-height: 1.2; color: var(--color-ink); font-style: normal; margin-top: var(--space-lg); }

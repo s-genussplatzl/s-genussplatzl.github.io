@@ -53,13 +53,22 @@
             <figcaption>A diófa alatt, a porta kertjében</figcaption>
           </figure>
           <figure class="slide">
-            <div class="slide__frame" data-slot="pavillon" data-alt="A rézpavilon nappal">
+            <div class="slide__frame" data-slot="abendrot" data-alt="A Genussplatzl naplementében">
               <picture>
-                <source type="image/webp" srcset="images/pavillon-800.webp 800w, images/pavillon-1600.webp 1600w" sizes="(max-width: 60rem) 100vw, 58vw">
-                <img src="images/pavillon-1600.jpg" srcset="images/pavillon-800.jpg 800w, images/pavillon-1600.jpg 1600w" sizes="(max-width: 60rem) 100vw, 58vw" width="1600" height="1200" alt="A rézhomlokzatú, üvegfrontú pavilon napsütésben, előtte fehér kavics" loading="lazy">
+                <source type="image/webp" srcset="images/abendrot-800.webp 800w, images/abendrot-1120.webp 1120w" sizes="(max-width: 60rem) 100vw, 58vw">
+                <img src="images/abendrot-1120.jpg" srcset="images/abendrot-800.jpg 800w, images/abendrot-1120.jpg 1120w" sizes="(max-width: 60rem) 100vw, 58vw" width="1120" height="840" alt="A rézborítású pavilon narancsszínben izzó esti égbolt alatt, előtte székek a fehér kavicson" loading="lazy">
               </picture>
             </div>
-            <figcaption>Stílus és design a zöldben</figcaption>
+            <figcaption>Naplemente a Genussplatzl felett</figcaption>
+          </figure>
+          <figure class="slide">
+            <div class="slide__frame" data-slot="kranich" data-alt="Fém daru a kertben">
+              <picture>
+                <source type="image/webp" srcset="images/kranich-800.webp 800w, images/kranich-1600.webp 1600w" sizes="(max-width: 60rem) 100vw, 58vw">
+                <img src="images/kranich-1600.jpg" srcset="images/kranich-800.jpg 800w, images/kranich-1600.jpg 1600w" sizes="(max-width: 60rem) 100vw, 58vw" width="1600" height="1200" alt="Színes fém daru a gyepen, mögötte a pavilon napvitorlával a kék ég alatt" loading="lazy">
+              </picture>
+            </div>
+            <figcaption>Nyári nap a kertben</figcaption>
           </figure>
           <figure class="slide">
             <div class="slide__frame" data-slot="sitzplaetze" data-alt="Fa nyugágyak a zöldben">
@@ -71,6 +80,15 @@
             <figcaption>Megérkezni és fellélegezni</figcaption>
           </figure>
           <figure class="slide">
+            <div class="slide__frame" data-slot="glaeser" data-alt="Borospoharak és egy palack egy fatönkön">
+              <picture>
+                <source type="image/webp" srcset="images/glaeser-800.webp 800w, images/glaeser-1600.webp 1600w" sizes="(max-width: 60rem) 100vw, 58vw">
+                <img src="images/glaeser-1600.jpg" srcset="images/glaeser-800.jpg 800w, images/glaeser-1600.jpg 1600w" sizes="(max-width: 60rem) 100vw, 58vw" width="1600" height="1200" alt="Egy palack Scheurebe a Weinhof Radl borászattól és borospoharak egy fakorongon a kertben" loading="lazy">
+              </picture>
+            </div>
+            <figcaption>Egy pohár bor a kertben</figcaption>
+          </figure>
+          <figure class="slide">
             <div class="slide__frame" data-slot="radstation" data-alt="Kerékpár a töltőállomásnál">
               <picture>
                 <source type="image/webp" srcset="images/radstation-800.webp 800w, images/radstation-1600.webp 1600w" sizes="(max-width: 60rem) 100vw, 58vw">
@@ -79,10 +97,19 @@
             </div>
             <figcaption>Pihenő kerékpárnak és akkumulátornak</figcaption>
           </figure>
+          <figure class="slide">
+            <div class="slide__frame" data-slot="weine" data-alt="Borászaink borai">
+              <picture>
+                <source type="image/webp" srcset="images/weine-800.webp 800w, images/weine-1600.webp 1600w" sizes="(max-width: 60rem) 100vw, 58vw">
+                <img src="images/weine-1600.jpg" srcset="images/weine-800.jpg 800w, images/weine-1600.jpg 1600w" sizes="(max-width: 60rem) 100vw, 58vw" width="1600" height="1200" alt="Der Gollenz és Weingut Radl borosüvegei két borospohárral, mögöttük a falikép a Genussplatzl logóval" loading="lazy">
+              </picture>
+            </div>
+            <figcaption>Borok borászainktól: Tieschen és Klöch</figcaption>
+          </figure>
         </div>
         <div class="slider__controls" hidden>
           <button class="slider__btn" type="button" data-dir="-1" aria-label="Előző kép"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
-          <p class="slider__status" aria-live="polite">Kép 1/4</p>
+          <p class="slider__status" aria-live="polite">Kép 1/7</p>
           <button class="slider__btn" type="button" data-dir="1" aria-label="Következő kép"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
         </div>
       </div>
@@ -121,14 +148,23 @@
       </div>
       <div class="slider slider--art" data-slider>
         <div class="slider__track art__rail" tabindex="0" role="region" aria-label="Műalkotások a kertben, oldalirányban lapozható">
-          <figure class="art__item art__item--wide">
-            <div data-slot="kunst-weinherz" data-alt="Borosüvegekből készült szív a kertben">
+          <figure class="art__item">
+            <div data-slot="kunst-traubenstaender" data-alt="Nagy szőlőfürt formájú borállvány">
               <picture>
-                <source type="image/webp" srcset="images/kunst-weinherz-800.webp 800w, images/kunst-weinherz-1600.webp 1600w" sizes="(max-width: 40rem) 78vw, 60vw">
-                <img src="images/kunst-weinherz-1600.jpg" srcset="images/kunst-weinherz-800.jpg 800w, images/kunst-weinherz-1600.jpg 1600w" sizes="(max-width: 40rem) 78vw, 60vw" width="1600" height="1200" alt="Borosüvegekből álló szív fémkeretben, mögötte a kert" loading="lazy">
+                <source type="image/webp" srcset="images/kunst-traubenstaender-600.webp 600w, images/kunst-traubenstaender-1200.webp 1200w" sizes="(max-width: 40rem) 78vw, 30vw">
+                <img src="images/kunst-traubenstaender-1200.jpg" srcset="images/kunst-traubenstaender-600.jpg 600w, images/kunst-traubenstaender-1200.jpg 1200w" sizes="(max-width: 40rem) 78vw, 30vw" width="1200" height="1500" alt="Nagy, fém karikákból kovácsolt szőlőfürt, amely borosüvegeket tart, szőlőlevéllel és indával, a kertben" loading="lazy">
               </picture>
             </div>
-            <figcaption>A borszív</figcaption>
+            <figcaption>A nagy szőlőfürt borállványként</figcaption>
+          </figure>
+          <figure class="art__item">
+            <div data-slot="kunst-traubenstaender-klein" data-alt="Kis, szőlőfürt formájú borállvány">
+              <picture>
+                <source type="image/webp" srcset="images/kunst-traubenstaender-klein-600.webp 600w, images/kunst-traubenstaender-klein-1200.webp 1200w" sizes="(max-width: 40rem) 78vw, 30vw">
+                <img src="images/kunst-traubenstaender-klein-1200.jpg" srcset="images/kunst-traubenstaender-klein-600.jpg 600w, images/kunst-traubenstaender-klein-1200.jpg 1200w" sizes="(max-width: 40rem) 78vw, 30vw" width="1200" height="1500" alt="Kis, fém karikákból kovácsolt szőlőfürt két szőlőlevéllel, benne három borosüveg, a gyepen" loading="lazy">
+              </picture>
+            </div>
+            <figcaption>A kis szőlőfürt borállványként</figcaption>
           </figure>
           <figure class="art__item">
             <div data-slot="kunst-rose" data-alt="Nagy kovácsolt rózsa">
@@ -158,6 +194,15 @@
             <figcaption>A szőlőfürt</figcaption>
           </figure>
           <figure class="art__item">
+            <div data-slot="kunst-kupferherz" data-alt="Fém szőlőfürt a rézszív előtt">
+              <picture>
+                <source type="image/webp" srcset="images/kunst-kupferherz-600.webp 600w, images/kunst-kupferherz-1200.webp 1200w" sizes="(max-width: 40rem) 78vw, 30vw">
+                <img src="images/kunst-kupferherz-1200.jpg" srcset="images/kunst-kupferherz-600.jpg 600w, images/kunst-kupferherz-1200.jpg 1200w" sizes="(max-width: 40rem) 78vw, 30vw" width="1200" height="1500" alt="Kovácsolt szőlőfürt levelekkel vas talapzaton, felette a réztábla a szívvel és a Genussplatzl felirattal" loading="lazy">
+              </picture>
+            </div>
+            <figcaption>Szőlőfürt a rézszív alatt</figcaption>
+          </figure>
+          <figure class="art__item">
             <div data-slot="kunst-weinstaender" data-alt="Fa bortartó poharakkal">
               <picture>
                 <source type="image/webp" srcset="images/kunst-weinstaender-600.webp 600w, images/kunst-weinstaender-1200.webp 1200w" sizes="(max-width: 40rem) 78vw, 30vw">
@@ -169,7 +214,7 @@
         </div>
         <div class="slider__controls" hidden>
           <button class="slider__btn" type="button" data-dir="-1" aria-label="Előző műalkotás"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
-          <p class="slider__status" aria-live="polite">Műalkotás 1/5</p>
+          <p class="slider__status" aria-live="polite">Műalkotás 1/7</p>
           <button class="slider__btn" type="button" data-dir="1" aria-label="Következő műalkotás"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
         </div>
       </div>
@@ -217,6 +262,44 @@
         </ul>
       </div>
       <p class="around__source">Kerékpáros távolságok a Genussplatzlig, kerekítve. Pihenőhelyünket és további túrákat <a href="https://www.komoot.com/highlight/8495359">a Komooton</a> is talál.</p>
+    </div>
+  </section>
+
+  <section class="section" id="wegweiser" aria-labelledby="signs-title">
+    <div class="container signs__grid">
+      <div class="head-block">
+        <h2 id="signs-title">Kövesse a táblákat.</h2>
+        <p class="lead">Bekötőutunk mentén antracitszínű táblák mutatják az utat, 30 méterenként egy. Ha meglátja őket, már majdnem megérkezett.</p>
+      </div>
+      <ul class="signs" aria-label="Útjelző tábláink, mindegyik az oldal megfelelő részéhez vezet">
+          <li>
+            <a class="sign" href="#geschichte">
+              <svg class="sign__arrow" viewBox="0 0 60 80" aria-hidden="true"><path d="M14 12 L46 40 L14 68"/></svg>
+              <span class="sign__icon sign__icon--relaxen" aria-hidden="true"></span>
+              <h3>Fáradt lábak?</h3>
+              <p><strong>Tiszta pihenés &amp; feltöltődés</strong> vár rád!</p>
+              <span class="sign__brand">s’Genussplatz’l<span class="sign__slogan">Regionális, Kerekezés, Kikapcsolódás</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="sign" href="#wein">
+              <svg class="sign__arrow" viewBox="0 0 60 80" aria-hidden="true"><path d="M14 12 L46 40 L14 68"/></svg>
+              <span class="sign__icon sign__icon--regional" aria-hidden="true"></span>
+              <h3>Szomjas vagy?</h3>
+              <p>Tarts egy kis <strong>szünetet</strong>, &amp; frissülj fel <strong>regionális italainkkal.</strong></p>
+              <span class="sign__brand">s’Genussplatz’l<span class="sign__slogan">Regionális, Kerekezés, Kikapcsolódás</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="sign" href="#kunst">
+              <svg class="sign__arrow" viewBox="0 0 60 80" aria-hidden="true"><path d="M14 12 L46 40 L14 68"/></svg>
+              <span class="sign__icon sign__icon--radeln" aria-hidden="true"></span>
+              <h3>Művészet &amp; stílus</h3>
+              <p><strong>Ez és még sok más</strong> vár rád néhány pedálfordulatnyira.</p>
+              <span class="sign__brand">s’Genussplatz’l<span class="sign__slogan">Regionális, Kerekezés, Kikapcsolódás</span></span>
+            </a>
+          </li>
+      </ul>
     </div>
   </section>
 

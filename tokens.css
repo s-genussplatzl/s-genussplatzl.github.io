@@ -12,6 +12,7 @@
   --color-paper: oklch(24% 0.052 158); --color-paper-2: oklch(19.5% 0.045 158); --color-paper-3: oklch(29.5% 0.05 158);
   --color-ink: oklch(93% 0.022 88); --color-ink-2: oklch(81% 0.035 150); --color-muted: oklch(69% 0.045 150);
   --color-rule: oklch(35% 0.05 158);
+  --color-slate: oklch(33% 0.008 255); --color-slate-2: oklch(37% 0.008 255); --color-foil: oklch(78% 0.12 68);
   --color-accent: oklch(74% 0.115 58); --color-accent-2: oklch(81% 0.09 62); --color-accent-deep: oklch(50% 0.11 48); --color-accent-ink: oklch(22% 0.05 158); --color-focus: oklch(80% 0.13 60);
   --font-display: "Prata", Georgia, serif; --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
   --font-outlier: "IBM Plex Mono", ui-monospace, monospace;
