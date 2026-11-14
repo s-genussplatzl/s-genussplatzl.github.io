@@ -50,7 +50,7 @@
   "goal_slot_alt": "Das Genussplatzl in der Abenddämmerung",
   "goal_alt": "Das Genussplatzl in der Abenddämmerung, innen beleuchtet",
   "goal_title": "Am Ziel: Rast unterm Nussbaum.",
-  "goal_text_html": "Am Ende der Route warten Schatten unterm Nussbaum, regionale Weine und Spritzer, ein WC, kostenloses <a href=\"{ebike}\">E-Bike-Laden</a> und an heißen Tagen ein klimatisierter Raum. Von März bis Oktober, täglich 9 bis 22 Uhr.",
+  "goal_text_html": "Am Ende der Route warten Schatten unterm Nussbaum, regionale Getränke, ein WC, kostenloses <a href=\"{ebike}\">E-Bike-Laden</a> und an heißen Tagen ein klimatisierter Raum. Von März bis Oktober, täglich 9 bis 22 Uhr.",
   "goal_btn": "Anfahrt und Öffnungszeiten",
   "more_title": "Weitere Routen zum Genussplatzl",
   "overview_title": "Karte: elf Radrouten zum Genussplatzl aus allen Richtungen, von St. Stefan im Rosental im Norden bis Ptuj im Süden und Moravske Toplice im Osten",
@@ -73,12 +73,12 @@
   "ebike_slot_alt": "Fahrrad an der Ladesäule",
   "ebike_alt": "Fahrrad neben der Ladesäule am Genussplatzl",
   "ebike_how_title": "Laden und durchatmen.",
-  "ebike_how_text": "Stellen Sie Ihr Rad an die Ladesäule, schließen Sie Ihr Ladegerät an und gönnen Sie sich eine Pause. Während der Akku lädt, warten Schatten unterm Nussbaum, regionale Weine und Spritzer, kühle Getränke, ein WC und an heißen Tagen ein klimatisierter Raum.",
+  "ebike_how_text": "Stellen Sie Ihr Rad an die Ladesäule, schließen Sie Ihr Ladegerät an und gönnen Sie sich eine Pause. Während der Akku lädt, warten Schatten unterm Nussbaum, regionale Getränke, ein WC und an heißen Tagen ein klimatisierter Raum.",
   "ebike_charger": "Bitte nehmen Sie Ihr eigenes Ladegerät mit.",
   "ebike_routes_title": "Mit dem Rad zu uns",
   "index_title": "s’Genussplatz’l, Rasten unterm Nussbaum in Unterpurkla am Gleichenberger Radweg R45",
-  "index_desc": "Rasten unterm Nussbaum in Unterpurkla: eine Oase der Entspannung in der Toskana der Steiermark, mit regionalen Weinen, Kunst und Naturschatten am Gleichenberger Radweg R45.",
-  "ld_desc": "Rastplatz unterm Nussbaum am Gleichenberger Radweg R45 in Unterpurkla: regionale Weine, Kunst und Naturschatten im Thermen- & Vulkanland, der Toskana der Steiermark.",
+  "index_desc": "Rasten unterm Nussbaum in Unterpurkla: eine Oase der Entspannung in der Toskana der Steiermark, mit regionalen Getränken, Kunst und Naturschatten am Gleichenberger Radweg R45.",
+  "ld_desc": "Rastplatz unterm Nussbaum am Gleichenberger Radweg R45 in Unterpurkla: regionale Getränke, Kunst und Naturschatten im Thermen- & Vulkanland, der Toskana der Steiermark.",
   "ld_amenities": [
    "E-Bike-Ladestation",
    "WC",
@@ -111,7 +111,14 @@
   "region_kloech": "Klöcher Weinstraße",
   "region_traminer": "Traminerweg Klöch",
   "take_text_gpx": "Laden Sie die Strecke als GPX-Datei für Ihr Navi, Garmin, Wahoo, Komoot oder Ihre Rad-App.",
-  "nav_menu": "Menü"
+  "nav_menu": "Menü",
+  "footer_contact_html": "s’Genussplatz’l, Unterpurkla 28, 8484 Halbenrain. E-Mail <a href=\"mailto:info@s-genussplatzl.at\">info@s-genussplatzl.at</a>, Telefon <a href=\"tel:+436645785026\">0664 5785026</a>.",
+  "footer_imprint": "Impressum",
+  "crumb_imprint": "Impressum",
+  "imprint_title": "Impressum | s’Genussplatz’l",
+  "imprint_desc": "Impressum der Website des s’Genussplatz’l in Unterpurkla, Halbenrain: Inhaber, Kontakt und rechtliche Angaben.",
+  "imprint_h1": "Impressum.",
+  "imprint_lead": "Angaben nach § 5 E-Commerce-Gesetz und § 25 Mediengesetz."
  },
  "routes": {
   "west": {
@@ -139,21 +146,25 @@
     ],
     [
      "s’Genussplatz’l",
-     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+     "Rast unterm Nussbaum mit regionalen Getränken, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
     ]
    ]
   },
   "nord": {
-   "name": "Gleichenberger Radweg R45 ab Bad Gleichenberg",
-   "short": "Gleichenberger Radweg R45 ab Bad Gleichenberg",
-   "h1": "Von Bad Gleichenberg durchs Vulkanland.",
-   "lead": "Am Gleichenberger Radweg R45 vom Kurort sanft bergab bis zur Mur, durch Dörfer, Felder und Hügel des Vulkanlands.",
+   "name": "Gleichenberger Radweg R45 ab Feldbach",
+   "short": "Gleichenberger Radweg R45 ab Feldbach",
+   "h1": "Von Feldbach durchs Vulkanland.",
+   "lead": "Der Gleichenberger Radweg R45 in voller Länge: von Feldbach über den Kurort Bad Gleichenberg bis zu uns, durch Dörfer, Felder und Hügel des Vulkanlands.",
    "ways": "Gleichenberger Radweg R45",
-   "title": "Gleichenberger Radweg R45 ab Bad Gleichenberg nach Unterpurkla, Radroute mit GPX",
-   "desc": "Gleichenberger Radweg R45 von Bad Gleichenberg über Trautmannsdorf und Radochen zum s’Genussplatz’l in Unterpurkla: ca. 20 km, leicht fallend, mit GPX.",
-   "index_text": "Aus dem Norden vom Kurort mitten im Vulkanland, der Gleichenberger Radweg führt direkt bei uns vorbei.",
+   "title": "Gleichenberger Radweg R45 ab Feldbach nach Unterpurkla, Radroute mit GPX",
+   "desc": "Gleichenberger Radweg R45 von Feldbach über Bad Gleichenberg, Trautmannsdorf und Radochen zum s’Genussplatz’l in Unterpurkla: ca. 32 km, rund 130 Höhenmeter, mit Karte, Höhenprofil und GPX.",
+   "index_text": "Aus dem Norden von Feldbach über den Kurort Bad Gleichenberg: Der Gleichenberger Radweg R45 führt direkt bei uns vorbei.",
    "sky": "Norden",
    "stops": [
+    [
+     "Feldbach",
+     "Bezirkshauptstadt an der Raab. Am östlichen Stadtrand beginnt der Gleichenberger Radweg R45."
+    ],
     [
      "Bad Gleichenberg",
      "Kurort mitten im Vulkanland und Etappenort der Bike-&-Spa-Runde, deren Etappe ab Mureck auf dem Gleichenberger Radweg R45 bei uns vorbeiführt."
@@ -168,7 +179,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+     "Rast unterm Nussbaum mit regionalen Getränken, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
     ]
    ]
   },
@@ -193,7 +204,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+     "Rast unterm Nussbaum mit regionalen Getränken, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
     ]
    ]
   },
@@ -218,7 +229,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+     "Rast unterm Nussbaum mit regionalen Getränken, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
     ]
    ]
   },
@@ -243,7 +254,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+     "Rast unterm Nussbaum mit regionalen Getränken, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
     ]
    ]
   },
@@ -280,7 +291,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+     "Rast unterm Nussbaum mit regionalen Getränken, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
     ]
    ]
   },
@@ -309,7 +320,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+     "Rast unterm Nussbaum mit regionalen Getränken, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
     ]
    ]
   },
@@ -338,7 +349,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+     "Rast unterm Nussbaum mit regionalen Getränken, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
     ]
    ]
   },
@@ -371,7 +382,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+     "Rast unterm Nussbaum mit regionalen Getränken, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
     ]
    ]
   },
@@ -400,7 +411,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+     "Rast unterm Nussbaum mit regionalen Getränken, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
     ]
    ]
   },
@@ -429,7 +440,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+     "Rast unterm Nussbaum mit regionalen Getränken, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
     ]
    ]
   }
@@ -494,6 +505,66 @@
   "bruecke": [
    "Steirerbrücke",
    "Seit 2006 schwingt die Hängebrücke 82,5 Meter weit über die Mur."
+  ],
+  "feldbach": [
+   "Feldbach",
+   "Die Bezirkshauptstadt an der Raab mit der Stadtpfarrkirche und ihrem bunten Glockenturm."
+  ],
+  "st-stefan": [
+   "Pfarrkirche St. Stefan im Rosental",
+   "Die Kirche im Ortskern, am Start der Route."
+  ],
+  "mettersdorf": [
+   "Mettersdorf am Saßbach",
+   "Das Dorf mit seinem Kirchturm, über die Felder gesehen."
+  ],
+  "st-peter": [
+   "St. Peter am Ottersbach",
+   "Ort und Pfarrkirche im Abendlicht, von oben gesehen."
+  ],
+  "dietersdorf": [
+   "Dietersdorf am Gnasbach",
+   "Eine gelbe Wegkapelle am Feldrand."
+  ],
+  "deutsch-goritz": [
+   "Pfarrkirche Deutsch Goritz",
+   "Die gelbe Kirche zwischen grünen Bäumen."
+  ],
+  "bierbaum": [
+   "Bierbaum am Auersbach",
+   "Ein altes, strohgedecktes Presshaus im Ort."
+  ],
+  "maribor": [
+   "Maribor, Lent",
+   "Das Drauufer Lent mit dem Haus der Alten Rebe, dahinter die Altstadt."
+  ],
+  "sentilj": [
+   "Šentilj",
+   "Die Pfarrkirche des Grenzorts."
+  ],
+  "ptuj": [
+   "Ptuj",
+   "Die Altstadt mit der Burg über der Drau."
+  ],
+  "benedikt": [
+   "Benedikt",
+   "Ein überdachter Mineralwasserbrunnen am Ortsrand."
+  ],
+  "verzej": [
+   "Schiffsmühle bei Veržej",
+   "Die schwimmende Babič-Mühle auf der Mur."
+  ],
+  "radenci": [
+   "Kurpark Radenci",
+   "Der Kurpark mit seiner Brunnenfigur."
+  ],
+  "moravske-toplice": [
+   "Moravske Toplice",
+   "Die evangelische Kirche des Guten Hirten."
+  ],
+  "murska-sobota": [
+   "Schloss Murska Sobota",
+   "Der Südflügel des Schlosses im Stadtpark."
   ]
  }
 }

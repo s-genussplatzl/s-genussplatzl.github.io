@@ -8,6 +8,7 @@
    "murauen"
   ],
   "nord": [
+   "feldbach",
    "gleichenberg-kurpark",
    "gleichenberg",
    "trautmannsdorf"
@@ -26,6 +27,38 @@
    "apace",
    "bruecke",
    "murauen"
+  ],
+  "nordwest": [
+   "st-stefan",
+   "mettersdorf",
+   "st-peter",
+   "deutsch-goritz"
+  ],
+  "gnasbach": [
+   "bierbaum",
+   "dietersdorf",
+   "deutsch-goritz"
+  ],
+  "maribor": [
+   "maribor",
+   "sentilj",
+   "mureck-muehle"
+  ],
+  "ptuj": [
+   "ptuj",
+   "benedikt",
+   "apace",
+   "bruecke"
+  ],
+  "banovci": [
+   "verzej",
+   "radenci",
+   "radkersburg-platz"
+  ],
+  "moravske": [
+   "moravske-toplice",
+   "murska-sobota",
+   "radkersburg-mur"
   ]
  },
  "photos": {
@@ -177,6 +210,156 @@
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "alt": {
     "de": "Die Südseite von Schloss Halbenrain mit Freitreppe und Rasenböschung."
+   }
+  },
+  "feldbach": {
+   "file": "File:Feldbach - Kirche mit Turm und Villa Hold.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Feldbach_-_Kirche_mit_Turm_und_Villa_Hold.jpg",
+   "author": "Haeferl",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "de": "Blick über Feldbach auf die Stadtpfarrkirche hl. Leonhard mit dem freistehenden bunten Glockenturm und die Villa Hold."
+   }
+  },
+  "st-stefan": {
+   "file": "File:St. Stefan im Rosental - Kirche (a).JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:St._Stefan_im_Rosental_-_Kirche_(a).JPG",
+   "author": "C.Stadler/Bwag",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "de": "Die Pfarrkirche hl. Stefan in St. Stefan im Rosental mit Kirchhofmauer und Kriegerdenkmal bei blauem Himmel."
+   }
+  },
+  "mettersdorf": {
+   "file": "File:Mettersdorf am Saßbach 5797 Styria.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mettersdorf_am_Sa%C3%9Fbach_5797_Styria.jpg",
+   "author": "Christian Pirkl",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "de": "Blick über ein Maisfeld auf den Ort Mettersdorf am Saßbach mit dem Kirchturm."
+   }
+  },
+  "st-peter": {
+   "file": "File:Sankt Peter am Ottersbach Übersicht.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Sankt_Peter_am_Ottersbach_%C3%9Cbersicht.JPG",
+   "author": "Nxr-at",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "de": "Blick von oben auf St. Peter am Ottersbach mit der Pfarrkirche im Abendlicht."
+   }
+  },
+  "dietersdorf": {
+   "file": "File:Dietersdorf am Gnasbach Wegkapelle Hott Weg.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Dietersdorf_am_Gnasbach_Wegkapelle_Hott_Weg.JPG",
+   "author": "Nxr-at",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "de": "Eine gelbe Wegkapelle am Feldrand in Dietersdorf am Gnasbach im Vorfrühling."
+   }
+  },
+  "deutsch-goritz": {
+   "file": "File:Kath Pfarrkirche Unbefleckte Empfängnis Kalasantiner Deutsch Goritz 06.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kath_Pfarrkirche_Unbefleckte_Empf%C3%A4ngnis_Kalasantiner_Deutsch_Goritz_06.jpg",
+   "author": "Nxr-at",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "de": "Die gelbe Pfarrkirche von Deutsch Goritz mit spitzem Turm zwischen grünen Bäumen."
+   }
+  },
+  "bierbaum": {
+   "file": "File:Presshaus vulgo Lipp Bierbaum Sankt Peter am Ottersbach.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Presshaus_vulgo_Lipp_Bierbaum_Sankt_Peter_am_Ottersbach.JPG",
+   "author": "Nxr-at",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "de": "Das alte strohgedeckte Presshaus vulgo Lipp unter einem Baum in Bierbaum am Auersbach."
+   }
+  },
+  "maribor": {
+   "file": "File:Drava river and Lent in Maribor Slovenia (50547812083).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Drava_river_and_Lent_in_Maribor_Slovenia_(50547812083).jpg",
+   "author": "Jernej Furman",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "de": "Das Lent-Ufer in Maribor über die Drau gesehen, mit dem langen Haus der Alten Rebe und der Altstadt dahinter."
+   }
+  },
+  "sentilj": {
+   "file": "File:Cerkev Sv. Ilja v Šentilju1.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Cerkev_Sv._Ilja_v_%C5%A0entilju1.JPG",
+   "author": "KocmutD",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "alt": {
+    "de": "Die Pfarrkirche des hl. Ägidius in Šentilj v Slovenskih goricah."
+   }
+  },
+  "ptuj": {
+   "file": "File:Ptuj Castle and Old Town.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ptuj_Castle_and_Old_Town.jpg",
+   "author": "Jernej Furman (focusonmore.com)",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "de": "Die Altstadt von Ptuj mit dem Schloss auf dem Hügel, gesehen über die Drau."
+   }
+  },
+  "benedikt": {
+   "file": "File:Benedikt 02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Benedikt_02.jpg",
+   "author": "Dibko",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "de": "Der überdachte Mineralwasserbrunnen am Ortsrand von Benedikt in den Slovenske gorice."
+   }
+  },
+  "verzej": {
+   "file": "File:EŠD 00809 Veržej mlin na Muri IMG 0246.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:E%C5%A0D_00809_Ver%C5%BEej_mlin_na_Muri_IMG_0246.jpg",
+   "author": "XJaM",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "de": "Die schwimmende Babič-Mühle auf der Mur bei Veržej."
+   }
+  },
+  "radenci": {
+   "file": "File:Kurpark Radenci (52751874602).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kurpark_Radenci_(52751874602).jpg",
+   "author": "domjisch",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "alt": {
+    "de": "Der Kurpark von Radenci mit Brunnenfigur an einem sonnigen Vorfrühlingstag."
+   }
+  },
+  "moravske-toplice": {
+   "file": "File:Good Shepherd Lutheran Church Moravske Toplice.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Good_Shepherd_Lutheran_Church_Moravske_Toplice.jpg",
+   "author": "Zello",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "alt": {
+    "de": "Die evangelische Kirche des Guten Hirten in Moravske Toplice mit herbstlich gefärbten Bäumen."
+   }
+  },
+  "murska-sobota": {
+   "file": "File:Murska Sobota Castle from the south, 2017-05-25.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Murska_Sobota_Castle_from_the_south,_2017-05-25.jpg",
+   "author": "Szilas",
+   "license": "Public domain",
+   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+   "alt": {
+    "de": "Der Südflügel des Schlosses von Murska Sobota im Stadtpark."
    }
   }
  }

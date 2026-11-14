@@ -51,7 +51,7 @@
   "goal_slot_alt": "Genussplatzl v večernem mraku",
   "goal_alt": "Genussplatzl v večernem mraku, osvetljen od znotraj",
   "goal_title": "Na cilju: počitek pod orehom.",
-  "goal_text_html": "Na koncu poti Vas pričakajo senca pod orehom, regionalna vina in špricerji, WC, brezplačno <a href=\"{ebike}\">polnjenje e-koles</a> in v vročih dneh klimatiziran prostor. Od marca do oktobra, vsak dan od 9. do 22. ure.",
+  "goal_text_html": "Na koncu poti Vas pričakajo senca pod orehom, regionalne pijače, WC, brezplačno <a href=\"{ebike}\">polnjenje e-koles</a> in v vročih dneh klimatiziran prostor. Od marca do oktobra, vsak dan od 9. do 22. ure.",
   "goal_btn": "Dostop in delovni čas",
   "more_title": "Druge poti do Genussplatzla",
   "overview_title": "Zemljevid: enajst kolesarskih poti do Genussplatzla iz vseh smeri, od St. Stefana im Rosental na severu do Ptuja na jugu in Moravskih Toplic na vzhodu",
@@ -74,12 +74,12 @@
   "ebike_slot_alt": "Kolo ob polnilnem stebričku",
   "ebike_alt": "Kolo ob polnilnem stebričku na Genussplatzlu",
   "ebike_how_title": "Napolnite in si oddahnite.",
-  "ebike_how_text": "Postavite kolo k polnilnemu stebričku, priključite svoj polnilnik in si privoščite odmor. Medtem ko se baterija polni, Vas pričakajo senca pod orehom, regionalna vina in špricerji, hladne pijače, WC in v vročih dneh klimatiziran prostor.",
+  "ebike_how_text": "Postavite kolo k polnilnemu stebričku, priključite svoj polnilnik in si privoščite odmor. Medtem ko se baterija polni, Vas pričakajo senca pod orehom, regionalne pijače, WC in v vročih dneh klimatiziran prostor.",
   "ebike_charger": "Prosimo, prinesite s seboj svoj polnilnik.",
   "ebike_routes_title": "S kolesom do nas",
   "index_title": "s’Genussplatz’l, počitek pod orehom v Unterpurkli ob kolesarski poti R45 (Gleichenberger Radweg)",
-  "index_desc": "Počitek pod orehom v Unterpurkli: oaza sprostitve v Toskani Štajerske, z regionalnimi vini, umetnostjo in naravno senco ob kolesarski poti R45 (Gleichenberger Radweg).",
-  "ld_desc": "Počivališče pod orehom ob kolesarski poti R45 (Gleichenberger Radweg) v Unterpurkli: regionalna vina, umetnost in naravna senca v regiji Thermen- & Vulkanland (dežela term in vulkanov), Toskani Štajerske.",
+  "index_desc": "Počitek pod orehom v Unterpurkli: oaza sprostitve v Toskani Štajerske, z regionalnimi pijačami, umetnostjo in naravno senco ob kolesarski poti R45 (Gleichenberger Radweg).",
+  "ld_desc": "Počivališče pod orehom ob kolesarski poti R45 (Gleichenberger Radweg) v Unterpurkli: regionalne pijače, umetnost in naravna senca v regiji Thermen- & Vulkanland (dežela term in vulkanov), Toskani Štajerske.",
   "ld_amenities": [
    "Polnilnica za e-kolesa",
    "WC",
@@ -111,7 +111,14 @@
   "region_wine": "Vinorodno območje Vulkanland Steiermark",
   "region_kloech": "Vinska cesta Klöch",
   "region_traminer": "Traminčeva pot Klöch",
-  "nav_menu": "Meni"
+  "nav_menu": "Meni",
+  "footer_contact_html": "s’Genussplatz’l, Unterpurkla 28, 8484 Halbenrain. E-pošta <a href=\"mailto:info@s-genussplatzl.at\">info@s-genussplatzl.at</a>, telefon <a href=\"tel:+436645785026\">0664 5785026</a>.",
+  "footer_imprint": "Pravno obvestilo",
+  "crumb_imprint": "Pravno obvestilo",
+  "imprint_title": "Pravno obvestilo | s’Genussplatz’l",
+  "imprint_desc": "Pravno obvestilo spletne strani s’Genussplatz’l v Unterpurkli, Halbenrain: lastnik, kontakt in pravni podatki.",
+  "imprint_h1": "Pravno obvestilo.",
+  "imprint_lead": "Podatki po 5. členu avstrijskega zakona o elektronskem poslovanju (ECG) in 25. členu zakona o medijih (MedienG)."
  },
  "routes": {
   "west": {
@@ -139,21 +146,25 @@
     ],
     [
      "s’Genussplatz’l",
-     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+     "Počitek pod orehom z regionalnimi pijačami, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
     ]
    ]
   },
   "nord": {
-   "name": "Kolesarska pot R45 (Gleichenberger Radweg) iz Bad Gleichenberga",
-   "short": "Kolesarska pot R45 (Gleichenberger Radweg) iz Bad Gleichenberga",
-   "h1": "Iz Bad Gleichenberga skozi Vulkanland.",
-   "lead": "Po kolesarski poti R45 (Gleichenberger Radweg) iz zdraviliškega kraja rahlo navzdol do Mure, skozi vasi, polja in griče Vulkanlanda.",
+   "name": "Kolesarska pot R45 (Gleichenberger Radweg) iz Feldbacha",
+   "short": "Kolesarska pot R45 (Gleichenberger Radweg) iz Feldbacha",
+   "h1": "Iz Feldbacha skozi Vulkanland.",
+   "lead": "Kolesarska pot R45 (Gleichenberger Radweg) v celotni dolžini: iz Feldbacha prek zdraviliškega kraja Bad Gleichenberg do nas, skozi vasi, polja in griče Vulkanlanda.",
    "ways": "kolesarska pot R45 (Gleichenberger Radweg)",
-   "title": "Kolesarska pot R45 (Gleichenberger Radweg) iz Bad Gleichenberga do Unterpurkle z GPX",
-   "desc": "Kolesarska pot R45 (Gleichenberger Radweg) iz Bad Gleichenberga skozi Trautmannsdorf in Radochen do s’Genussplatz’l v Unterpurkli: pribl. 20 km, rahlo navzdol, z GPX.",
-   "index_text": "S severa iz zdraviliškega kraja sredi Vulkanlanda; kolesarska pot Gleichenberger Radweg pelje neposredno mimo nas.",
+   "title": "Kolesarska pot R45 (Gleichenberger Radweg) iz Feldbacha do Unterpurkle z GPX",
+   "desc": "Kolesarska pot R45 (Gleichenberger Radweg) iz Feldbacha prek krajev Bad Gleichenberg, Trautmannsdorf in Radochen do s’Genussplatz’l v Unterpurkli: pribl. 32 km, okoli 130 višinskih metrov, z zemljevidom, višinskim profilom in GPX.",
+   "index_text": "S severa iz Feldbacha prek zdraviliškega kraja Bad Gleichenberg: kolesarska pot R45 (Gleichenberger Radweg) vodi neposredno mimo nas.",
    "sky": "Sever",
    "stops": [
+    [
+     "Feldbach",
+     "Okrajno središče ob reki Rabi. Na vzhodnem robu mesta se začne kolesarska pot R45 (Gleichenberger Radweg)."
+    ],
     [
      "Bad Gleichenberg",
      "Zdraviliški kraj sredi Vulkanlanda in etapni kraj krožne poti Bike & Spa, katere etapa iz Murecka po kolesarski poti R45 (Gleichenberger Radweg) vodi mimo nas."
@@ -168,7 +179,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+     "Počitek pod orehom z regionalnimi pijačami, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
     ]
    ]
   },
@@ -193,7 +204,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+     "Počitek pod orehom z regionalnimi pijačami, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
     ]
    ]
   },
@@ -218,7 +229,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+     "Počitek pod orehom z regionalnimi pijačami, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
     ]
    ]
   },
@@ -243,7 +254,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+     "Počitek pod orehom z regionalnimi pijačami, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
     ]
    ]
   },
@@ -280,7 +291,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+     "Počitek pod orehom z regionalnimi pijačami, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
     ]
    ]
   },
@@ -309,7 +320,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+     "Počitek pod orehom z regionalnimi pijačami, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
     ]
    ]
   },
@@ -338,7 +349,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+     "Počitek pod orehom z regionalnimi pijačami, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
     ]
    ]
   },
@@ -371,7 +382,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+     "Počitek pod orehom z regionalnimi pijačami, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
     ]
    ]
   },
@@ -400,7 +411,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+     "Počitek pod orehom z regionalnimi pijačami, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
     ]
    ]
   },
@@ -429,7 +440,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+     "Počitek pod orehom z regionalnimi pijačami, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
     ]
    ]
   }
@@ -494,6 +505,66 @@
   "bruecke": [
    "Most Steirerbrücke",
    "Od leta 2006 se viseči most v dolžini 82,5 metra pne čez Muro."
+  ],
+  "feldbach": [
+   "Feldbach",
+   "Okrajno središče ob Rabi z župnijsko cerkvijo in njenim pisanim zvonikom."
+  ],
+  "st-stefan": [
+   "Župnijska cerkev St. Stefan im Rosental",
+   "Cerkev v središču kraja, na začetku poti."
+  ],
+  "mettersdorf": [
+   "Mettersdorf am Saßbach",
+   "Vas s cerkvenim stolpom, videna čez polja."
+  ],
+  "st-peter": [
+   "St. Peter am Ottersbach",
+   "Kraj in župnijska cerkev v večerni svetlobi, videna od zgoraj."
+  ],
+  "dietersdorf": [
+   "Dietersdorf am Gnasbach",
+   "Rumena kapelica ob robu polja."
+  ],
+  "deutsch-goritz": [
+   "Župnijska cerkev Deutsch Goritz",
+   "Rumena cerkev med zelenimi drevesi."
+  ],
+  "bierbaum": [
+   "Bierbaum am Auersbach",
+   "Stara, s slamo krita preša v vasi."
+  ],
+  "maribor": [
+   "Maribor, Lent",
+   "Lent ob Dravi s Hišo Stare trte, zadaj staro mestno jedro."
+  ],
+  "sentilj": [
+   "Šentilj",
+   "Župnijska cerkev obmejnega kraja."
+  ],
+  "ptuj": [
+   "Ptuj",
+   "Staro mestno jedro z gradom nad Dravo."
+  ],
+  "benedikt": [
+   "Benedikt",
+   "Pokrit vrelec mineralne vode na robu kraja."
+  ],
+  "verzej": [
+   "Plavajoči mlin pri Veržeju",
+   "Babičev mlin na Muri."
+  ],
+  "radenci": [
+   "Zdraviliški park Radenci",
+   "Zdraviliški park s kipom ob vodnjaku."
+  ],
+  "moravske-toplice": [
+   "Moravske Toplice",
+   "Evangeličanska cerkev Dobrega pastirja."
+  ],
+  "murska-sobota": [
+   "Grad Murska Sobota",
+   "Južno krilo gradu v mestnem parku."
   ]
  }
 }

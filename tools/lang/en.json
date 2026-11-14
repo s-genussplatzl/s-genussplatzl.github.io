@@ -50,7 +50,7 @@
   "goal_slot_alt": "The Genussplatzl at dusk",
   "goal_alt": "The Genussplatzl at dusk, lit from within",
   "goal_title": "Journey’s end: a rest beneath the walnut tree.",
-  "goal_text_html": "At the end of the route you will find shade beneath the walnut tree, regional wines and spritzers, a toilet, free <a href=\"{ebike}\">e-bike charging</a> and, on hot days, an air-conditioned room. From March to October, daily from 9 am to 10 pm.",
+  "goal_text_html": "At the end of the route you will find shade beneath the walnut tree, regional drinks, a toilet, free <a href=\"{ebike}\">e-bike charging</a> and, on hot days, an air-conditioned room. From March to October, daily from 9 am to 10 pm.",
   "goal_btn": "Directions and opening hours",
   "more_title": "More routes to the Genussplatzl",
   "overview_title": "Map: eleven cycle routes to the Genussplatzl from all directions, from St. Stefan im Rosental in the north to Ptuj in the south and Moravske Toplice in the east",
@@ -74,12 +74,12 @@
   "ebike_slot_alt": "Bicycle at the charging point",
   "ebike_alt": "Bicycle next to the charging point at the Genussplatzl",
   "ebike_how_title": "Charge up and unwind.",
-  "ebike_how_text": "Park your bike at the charging point, plug in your charger and treat yourself to a break. While the battery charges, you can enjoy shade beneath the walnut tree, regional wines and spritzers, cool drinks, a toilet and, on hot days, an air-conditioned room.",
+  "ebike_how_text": "Park your bike at the charging point, plug in your charger and treat yourself to a break. While the battery charges, you can enjoy shade beneath the walnut tree, regional drinks, a toilet and, on hot days, an air-conditioned room.",
   "ebike_charger": "Please bring your own charger.",
   "ebike_routes_title": "Cycling to us",
   "index_title": "s’Genussplatz’l, a rest beneath the walnut tree in Unterpurkla on the Gleichenberg cycle route R45",
-  "index_desc": "A rest beneath the walnut tree in Unterpurkla: an oasis of calm in the Tuscany of Styria, with regional wines, art and natural shade on the Gleichenberg cycle route R45.",
-  "ld_desc": "Rest stop beneath the walnut tree on the Gleichenberg cycle route R45 in Unterpurkla: regional wines, art and natural shade in the Thermen- & Vulkanland, the Tuscany of Styria.",
+  "index_desc": "A rest beneath the walnut tree in Unterpurkla: an oasis of calm in the Tuscany of Styria, with regional drinks, art and natural shade on the Gleichenberg cycle route R45.",
+  "ld_desc": "Rest stop beneath the walnut tree on the Gleichenberg cycle route R45 in Unterpurkla: regional drinks, art and natural shade in the Thermen- & Vulkanland, the Tuscany of Styria.",
   "ld_amenities": [
    "E-bike charging point",
    "Toilet",
@@ -111,7 +111,14 @@
   "region_wine": "Vulkanland Steiermark wine region",
   "region_kloech": "Klöch Wine Road",
   "region_traminer": "Traminer Trail, Klöch",
-  "nav_menu": "Menu"
+  "nav_menu": "Menu",
+  "footer_contact_html": "s’Genussplatz’l, Unterpurkla 28, 8484 Halbenrain, Austria. Email <a href=\"mailto:info@s-genussplatzl.at\">info@s-genussplatzl.at</a>, phone <a href=\"tel:+436645785026\">0664 5785026</a>.",
+  "footer_imprint": "Legal notice",
+  "crumb_imprint": "Legal notice",
+  "imprint_title": "Legal notice | s’Genussplatz’l",
+  "imprint_desc": "Legal notice for the website of s’Genussplatz’l in Unterpurkla, Halbenrain: owner, contact and legal information.",
+  "imprint_h1": "Legal notice.",
+  "imprint_lead": "Information required under Section 5 of the Austrian E-Commerce Act and Section 25 of the Media Act."
  },
  "routes": {
   "west": {
@@ -139,21 +146,25 @@
     ],
     [
      "s’Genussplatz’l",
-     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+     "A rest beneath the walnut tree with regional drinks, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
     ]
    ]
   },
   "nord": {
-   "name": "Gleichenberg cycle route R45 from Bad Gleichenberg",
-   "short": "Gleichenberg cycle route R45 from Bad Gleichenberg",
-   "h1": "From Bad Gleichenberg through the Vulkanland.",
-   "lead": "Along the Gleichenberg cycle route R45 from the spa town gently downhill to the Mur, through the villages, fields and hills of the Vulkanland.",
+   "name": "Gleichenberg cycle route R45 from Feldbach",
+   "short": "Gleichenberg cycle route R45 from Feldbach",
+   "h1": "From Feldbach through the Vulkanland.",
+   "lead": "The Gleichenberg cycle route R45 in full: from Feldbach via the spa town of Bad Gleichenberg down to us, through villages, fields and the hills of the Vulkanland.",
    "ways": "Gleichenberg cycle route R45",
-   "title": "Gleichenberg cycle route R45 from Bad Gleichenberg to Unterpurkla, with GPX",
-   "desc": "Gleichenberg cycle route R45 from Bad Gleichenberg via Trautmannsdorf and Radochen to s’Genussplatz’l in Unterpurkla: approx. 20 km, gently downhill, with GPX.",
-   "index_text": "From the north, from the spa town in the heart of the Vulkanland; the Gleichenberg cycle route runs right past our door.",
+   "title": "Gleichenberg cycle route R45 from Feldbach to Unterpurkla, with GPX",
+   "desc": "Gleichenberg cycle route R45 from Feldbach via Bad Gleichenberg, Trautmannsdorf and Radochen to s’Genussplatz’l in Unterpurkla: approx. 32 km, around 130 m of climbing, with map, elevation profile and GPX.",
+   "index_text": "From the north, from Feldbach via the spa town of Bad Gleichenberg: the Gleichenberg cycle route R45 runs right past us.",
    "sky": "North",
    "stops": [
+    [
+     "Feldbach",
+     "District capital on the River Raab. The Gleichenberg cycle route R45 starts on the eastern edge of town."
+    ],
     [
      "Bad Gleichenberg",
      "Spa town in the heart of the Vulkanland and a stage town of the Bike & Spa loop, whose stage from Mureck runs past us on the Gleichenberg cycle route R45."
@@ -168,7 +179,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+     "A rest beneath the walnut tree with regional drinks, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
     ]
    ]
   },
@@ -193,7 +204,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+     "A rest beneath the walnut tree with regional drinks, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
     ]
    ]
   },
@@ -218,7 +229,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+     "A rest beneath the walnut tree with regional drinks, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
     ]
    ]
   },
@@ -243,7 +254,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+     "A rest beneath the walnut tree with regional drinks, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
     ]
    ]
   },
@@ -280,7 +291,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+     "A rest beneath the walnut tree with regional drinks, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
     ]
    ]
   },
@@ -309,7 +320,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+     "A rest beneath the walnut tree with regional drinks, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
     ]
    ]
   },
@@ -338,7 +349,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+     "A rest beneath the walnut tree with regional drinks, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
     ]
    ]
   },
@@ -371,7 +382,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+     "A rest beneath the walnut tree with regional drinks, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
     ]
    ]
   },
@@ -400,7 +411,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+     "A rest beneath the walnut tree with regional drinks, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
     ]
    ]
   },
@@ -429,7 +440,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+     "A rest beneath the walnut tree with regional drinks, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
     ]
    ]
   }
@@ -494,6 +505,66 @@
   "bruecke": [
    "Steirerbrücke",
    "Since 2006 the suspension bridge has spanned 82.5 metres across the Mur."
+  ],
+  "feldbach": [
+   "Feldbach",
+   "The district capital on the Raab, with its parish church and colourful bell tower."
+  ],
+  "st-stefan": [
+   "St. Stefan im Rosental parish church",
+   "The church in the village centre, at the start of the route."
+  ],
+  "mettersdorf": [
+   "Mettersdorf am Saßbach",
+   "The village and its church tower, seen across the fields."
+  ],
+  "st-peter": [
+   "St. Peter am Ottersbach",
+   "Village and parish church in evening light, seen from above."
+  ],
+  "dietersdorf": [
+   "Dietersdorf am Gnasbach",
+   "A yellow wayside chapel at the edge of a field."
+  ],
+  "deutsch-goritz": [
+   "Deutsch Goritz parish church",
+   "The yellow church among green trees."
+  ],
+  "bierbaum": [
+   "Bierbaum am Auersbach",
+   "An old thatched press house in the village."
+  ],
+  "maribor": [
+   "Maribor, Lent",
+   "The Lent riverside on the Drava with the Old Vine House, the old town behind."
+  ],
+  "sentilj": [
+   "Šentilj",
+   "The parish church of the border village."
+  ],
+  "ptuj": [
+   "Ptuj",
+   "The old town with the castle above the Drava."
+  ],
+  "benedikt": [
+   "Benedikt",
+   "A roofed mineral-water fountain on the edge of the village."
+  ],
+  "verzej": [
+   "Floating mill near Veržej",
+   "The floating Babič mill on the Mur."
+  ],
+  "radenci": [
+   "Radenci spa park",
+   "The spa park with its fountain statue."
+  ],
+  "moravske-toplice": [
+   "Moravske Toplice",
+   "The Lutheran Church of the Good Shepherd."
+  ],
+  "murska-sobota": [
+   "Murska Sobota Castle",
+   "The south wing of the castle in the town park."
   ]
  }
 }

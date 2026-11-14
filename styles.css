@@ -365,3 +365,11 @@ html { -webkit-tap-highlight-color: color-mix(in oklab, var(--color-accent) 22%,
   .partners { gap: var(--space-xl); }
   .partner__logo { height: 110px; }
 }
+/* Google-Bewertungen */
+.rating { margin-top: var(--space-xl); padding-top: var(--space-lg); border-top: var(--rule-hair) solid var(--color-rule); display: grid; gap: var(--space-sm); }
+.band--visit .rating .rating__stars { margin: 0; display: flex; gap: var(--space-2xs); color: var(--color-foil); }
+.rating__stars svg { width: 26px; height: 26px; fill: currentColor; }
+.rating__text { color: var(--color-ink-2); }
+.rating__text strong { color: var(--color-ink); font-weight: 500; }
+.rating .actions { align-items: center; gap: var(--space-sm) var(--space-lg); margin-top: var(--space-xs); }
+.rating__read { font-size: var(--text-sm); min-height: 44px; display: inline-flex; align-items: center; }

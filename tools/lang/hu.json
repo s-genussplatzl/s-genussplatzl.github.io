@@ -50,7 +50,7 @@
   "goal_slot_alt": "A Genussplatzl esti szürkületben",
   "goal_alt": "A Genussplatzl esti szürkületben, kivilágított belső térrel",
   "goal_title": "A célban: pihenő a diófa alatt.",
-  "goal_text_html": "Az útvonal végén árnyék a diófa alatt, regionális borok és fröccsök, mosdó, ingyenes <a href=\"{ebike}\">e-bike töltés</a>, a forró napokon pedig klimatizált helyiség várja Önt. Márciustól októberig, naponta 9–22 óra között.",
+  "goal_text_html": "Az útvonal végén árnyék a diófa alatt, regionális italok, mosdó, ingyenes <a href=\"{ebike}\">e-bike töltés</a>, a forró napokon pedig klimatizált helyiség várja Önt. Márciustól októberig, naponta 9–22 óra között.",
   "goal_btn": "Megközelítés és nyitvatartás",
   "more_title": "További útvonalak a Genussplatzl felé",
   "overview_title": "Térkép: tizenegy kerékpáros útvonal a Genussplatzl felé minden irányból – az északi St. Stefan im Rosentaltól a déli Ptujig és a keleti Moravske Toplicéig",
@@ -73,12 +73,12 @@
   "ebike_slot_alt": "Kerékpár a töltőoszlopnál",
   "ebike_alt": "Kerékpár a Genussplatzl töltőoszlopa mellett",
   "ebike_how_title": "Töltés és egy jó szusszanás.",
-  "ebike_how_text": "Állítsa kerékpárját a töltőoszlophoz, csatlakoztassa a töltőjét, és tartson egy kis pihenőt. Amíg az akkumulátor töltődik, árnyék a diófa alatt, regionális borok és fröccsök, hűsítő italok, mosdó, a forró napokon pedig klimatizált helyiség várja Önt.",
+  "ebike_how_text": "Állítsa kerékpárját a töltőoszlophoz, csatlakoztassa a töltőjét, és tartson egy kis pihenőt. Amíg az akkumulátor töltődik, árnyék a diófa alatt, regionális italok, mosdó, a forró napokon pedig klimatizált helyiség várja Önt.",
   "ebike_charger": "Kérjük, hozza magával saját töltőjét.",
   "ebike_routes_title": "Kerékpárral hozzánk",
   "index_title": "s’Genussplatz’l – pihenő a diófa alatt Unterpurklában, a Gleichenbergi kerékpárút (R45) mentén",
-  "index_desc": "Pihenő a diófa alatt Unterpurklában: a kikapcsolódás oázisa Stájerország Toszkánájában, regionális borokkal, művészettel és természetes árnyékkal a Gleichenbergi kerékpárút (R45) mentén.",
-  "ld_desc": "Pihenőhely a diófa alatt a Gleichenbergi kerékpárút (R45) mentén, Unterpurklában: regionális borok, művészet és természetes árnyék a Termál- és Vulkánvidéken, Stájerország Toszkánájában.",
+  "index_desc": "Pihenő a diófa alatt Unterpurklában: a kikapcsolódás oázisa Stájerország Toszkánájában, regionális italokkal, művészettel és természetes árnyékkal a Gleichenbergi kerékpárút (R45) mentén.",
+  "ld_desc": "Pihenőhely a diófa alatt a Gleichenbergi kerékpárút (R45) mentén, Unterpurklában: regionális italok, művészet és természetes árnyék a Termál- és Vulkánvidéken, Stájerország Toszkánájában.",
   "ld_amenities": [
    "E-bike töltőállomás",
    "Mosdó",
@@ -111,7 +111,14 @@
   "region_kloech": "Klöchi borút",
   "region_traminer": "Tramini-tanösvény, Klöch",
   "take_text_gpx": "Töltse le az útvonalat GPX-fájlként navigációs készülékéhez, Garmin vagy Wahoo eszközéhez, a Komoothoz, illetve kerékpáros alkalmazásához.",
-  "nav_menu": "Menü"
+  "nav_menu": "Menü",
+  "footer_contact_html": "s’Genussplatz’l, Unterpurkla 28, 8484 Halbenrain. E-mail: <a href=\"mailto:info@s-genussplatzl.at\">info@s-genussplatzl.at</a>, telefon: <a href=\"tel:+436645785026\">0664 5785026</a>.",
+  "footer_imprint": "Impresszum",
+  "crumb_imprint": "Impresszum",
+  "imprint_title": "Impresszum | s’Genussplatz’l",
+  "imprint_desc": "A s’Genussplatz’l (Unterpurkla, Halbenrain) weboldalának impresszuma: tulajdonos, elérhetőség és jogi adatok.",
+  "imprint_h1": "Impresszum.",
+  "imprint_lead": "Az osztrák e-kereskedelmi törvény (ECG) 5. §-a és a médiatörvény (MedienG) 25. §-a szerinti adatok."
  },
  "routes": {
   "west": {
@@ -139,21 +146,25 @@
     ],
     [
      "s’Genussplatz’l",
-     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+     "Pihenő a diófa alatt regionális italokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
     ]
    ]
   },
   "nord": {
-   "name": "Gleichenbergi kerékpárút (R45) Bad Gleichenbergtől",
-   "short": "Gleichenbergi kerékpárút (R45) Bad Gleichenbergtől",
-   "h1": "Bad Gleichenbergtől a Vulkánvidéken át.",
-   "lead": "A Gleichenbergi kerékpárúton (R45) a fürdővárosból enyhén lejtve egészen a Muráig, a Vulkánvidék falvain, mezőin és dombjain át.",
+   "name": "Gleichenbergi kerékpárút (R45) Feldbachtól",
+   "short": "Gleichenbergi kerékpárút (R45) Feldbachtól",
+   "h1": "Feldbachtól a Vulkánvidéken át.",
+   "lead": "A Gleichenbergi kerékpárút (R45) teljes hosszában: Feldbachtól Bad Gleichenberg fürdővároson át hozzánk, falvak, szántók és a Vulkánvidék dombjai között.",
    "ways": "Gleichenbergi kerékpárút (R45)",
-   "title": "Gleichenbergi kerékpárút (R45) Bad Gleichenbergtől Unterpurkláig – kerékpáros útvonal GPX-szel",
-   "desc": "Gleichenbergi kerékpárút (R45) Bad Gleichenbergtől Trautmannsdorfon és Radochenen át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 20 km, enyhén lejtős, GPX-szel.",
-   "index_text": "Észak felől, a Vulkánvidék szívében fekvő fürdővárosból: a Gleichenbergi kerékpárút közvetlenül mellettünk halad el.",
+   "title": "Gleichenbergi kerékpárút (R45) Feldbachtól Unterpurkláig – kerékpáros útvonal GPX-szel",
+   "desc": "A Gleichenbergi kerékpárút (R45) Feldbachtól Bad Gleichenbergen, Trautmannsdorfon és Radochenen át az unterpurklai s’Genussplatz’l-ig: kb. 32 km, mintegy 130 m szintemelkedés, térképpel, magassági profillal és GPX-szel.",
+   "index_text": "Észak felől Feldbachtól Bad Gleichenberg fürdővároson át: a Gleichenbergi kerékpárút (R45) közvetlenül mellettünk halad el.",
    "sky": "Észak",
    "stops": [
+    [
+     "Feldbach",
+     "Járási székhely a Rába partján. A város keleti szélén kezdődik a Gleichenbergi kerékpárút (R45)."
+    ],
     [
      "Bad Gleichenberg",
      "Fürdőváros a Vulkánvidék szívében és a Bike & Spa kör szakaszállomása; a kör Mureckből induló szakasza a Gleichenbergi kerékpárúton (R45) halad el mellettünk."
@@ -168,7 +179,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+     "Pihenő a diófa alatt regionális italokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
     ]
    ]
   },
@@ -193,7 +204,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+     "Pihenő a diófa alatt regionális italokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
     ]
    ]
   },
@@ -218,7 +229,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+     "Pihenő a diófa alatt regionális italokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
     ]
    ]
   },
@@ -243,7 +254,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+     "Pihenő a diófa alatt regionális italokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
     ]
    ]
   },
@@ -280,7 +291,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+     "Pihenő a diófa alatt regionális italokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
     ]
    ]
   },
@@ -309,7 +320,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+     "Pihenő a diófa alatt regionális italokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
     ]
    ]
   },
@@ -338,7 +349,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+     "Pihenő a diófa alatt regionális italokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
     ]
    ]
   },
@@ -371,7 +382,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+     "Pihenő a diófa alatt regionális italokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
     ]
    ]
   },
@@ -400,7 +411,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+     "Pihenő a diófa alatt regionális italokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
     ]
    ]
   },
@@ -429,7 +440,7 @@
     ],
     [
      "s’Genussplatz’l",
-     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+     "Pihenő a diófa alatt regionális italokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
     ]
    ]
   }
@@ -494,6 +505,66 @@
   "bruecke": [
    "Steirerbrücke",
    "2006 óta ível át a Murán ez a 82,5 méteres függőhíd."
+  ],
+  "feldbach": [
+   "Feldbach",
+   "A járási székhely a Rába partján, plébániatemplomával és színes harangtornyával."
+  ],
+  "st-stefan": [
+   "St. Stefan im Rosental, plébániatemplom",
+   "A templom a település központjában, az útvonal kezdetén."
+  ],
+  "mettersdorf": [
+   "Mettersdorf am Saßbach",
+   "A falu a templomtoronnyal, a szántók felől nézve."
+  ],
+  "st-peter": [
+   "St. Peter am Ottersbach",
+   "A település és a plébániatemplom esti fényben, felülről nézve."
+  ],
+  "dietersdorf": [
+   "Dietersdorf am Gnasbach",
+   "Sárga út menti kápolna a szántó szélén."
+  ],
+  "deutsch-goritz": [
+   "Deutsch Goritz, plébániatemplom",
+   "A sárga templom zöld fák között."
+  ],
+  "bierbaum": [
+   "Bierbaum am Auersbach",
+   "Régi, szalmatetős présház a faluban."
+  ],
+  "maribor": [
+   "Maribor, Lent",
+   "A Dráva-parti Lent az Öreg Szőlőtőke házával, mögötte az óváros."
+  ],
+  "sentilj": [
+   "Šentilj",
+   "A határ menti település plébániatemploma."
+  ],
+  "ptuj": [
+   "Ptuj",
+   "Az óváros a Dráva fölé magasodó várral."
+  ],
+  "benedikt": [
+   "Benedikt",
+   "Fedett ásványvízkút a település szélén."
+  ],
+  "verzej": [
+   "Hajómalom Veržej mellett",
+   "Az úszó Babič-malom a Murán."
+  ],
+  "radenci": [
+   "Radenci, gyógypark",
+   "A gyógypark a kút szobrával."
+  ],
+  "moravske-toplice": [
+   "Moravske Toplice",
+   "A Jó Pásztor evangélikus templom."
+  ],
+  "murska-sobota": [
+   "A muraszombati kastély",
+   "A kastély déli szárnya a városi parkban."
   ]
  }
 }

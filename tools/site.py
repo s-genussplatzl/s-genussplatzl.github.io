@@ -113,8 +113,9 @@ GENUSS = ("s’Genussplatz’l", HOME[0], HOME[1])
 ROUTES = {
     "west": dict(slug="murradweg-ab-spielfeld", komoot="3392769165", start=("Spielfeld", 15.6360, 46.7085),
                  stops=[("Spielfeld", 15.6360, 46.7085), ("Mureck", 15.7695, 46.7076), ("Gosdorf", 15.80911, 46.72221), GENUSS]),
-    "nord": dict(slug="r45-ab-bad-gleichenberg", komoot="3392769397", start=("Bad Gleichenberg", 15.9050, 46.8745),
-                 stops=[("Bad Gleichenberg", 15.9050, 46.8745), ("Trautmannsdorf", 15.88906, 46.85782), ("Radochen", 15.88857, 46.76614), GENUSS]),
+    "nord": dict(slug="gleichenberger-radweg-r45-ab-feldbach", komoot=None, start=("Feldbach", 15.91137, 46.95558),
+                 stops=[("Feldbach", 15.91137, 46.95558), ("Bad Gleichenberg", 15.9050, 46.8745), ("Trautmannsdorf", 15.88906, 46.85782),
+                        ("Radochen", 15.88857, 46.76614), GENUSS]),
     "nordost": dict(slug="ab-st-anna-ueber-kloech", komoot="3392769506", start=("St. Anna am Aigen", 15.9610, 46.8355),
                     stops=[("St. Anna am Aigen", 15.9610, 46.8355), ("Klöch", 15.9656, 46.7642), GENUSS]),
     "ost": dict(slug="ab-bad-radkersburg", komoot="3392769623", start=("Bad Radkersburg", 15.9867, 46.6875),
@@ -136,7 +137,7 @@ ROUTES = {
                      stops=[("Moravske Toplice", 16.22169, 46.6858), ("Murska Sobota", 16.16553, 46.66246), ("Bad Radkersburg", 15.9867, 46.6875), GENUSS]),
 }
 WAYPOINT_LABELS = {  # Kartenbeschriftung: dx, dy, anchor (Schlüssel: deutscher Ortsname)
-    "Spielfeld": (0, -20, "start"), "Bad Gleichenberg": (-16, -6, "end"), "St. Anna am Aigen": (16, 6, "start"),
+    "Spielfeld": (0, -20, "start"), "Feldbach": (16, 6, "start"), "Bad Gleichenberg": (-16, -6, "end"), "St. Anna am Aigen": (16, 6, "start"),
     "Bad Radkersburg": (-4, 34, "middle"), "Apače": (-16, 30, "end"), "Mureck": (0, 34, "middle"),
     "Steirerbrücke": (-16, 6, "end"), "Klöch": (16, 6, "start"), "Gosdorf": (0, 34, "middle"),
     "Trautmannsdorf": (16, 6, "start"), "Radochen": (16, 6, "start"), "Dietzen": (0, -18, "middle"),
@@ -186,7 +187,7 @@ def home_marker(P):
 
 
 def overview_map():
-    P = Proj(15.52, 16.31, 46.945, 46.385)
+    P = Proj(15.52, 16.31, 46.975, 46.385)
     o = [f'<svg viewBox="0 0 {P.w} {P.h}" role="img" aria-labelledby="ride-title">',
          f'<title id="ride-title">{escape(t("overview_title"))}</title>']
     o += [f'<path class="river" d="{P.path(w)}"/>' for w in D["river"] + D.get("drava", [])]
@@ -202,7 +203,7 @@ def overview_map():
         x, y = P.xy(lon, lat)
         shown = stop_name(key, 0).split(" am ")[0] if key == "gnasbach" else stop_name(key, 0)  # kurze Beschriftung auf der Übersicht
         o.append(f'<g class="start" data-route="{key}"><circle cx="{x}" cy="{y}" r="9"/>{label(P, name, lon, lat, shown)}</g>')
-    for key, name in (("west", "Mureck"), ("nordost", "Klöch"), ("nordwest", "St. Peter am Ottersbach"), ("moravske", "Murska Sobota")):
+    for key, name in (("west", "Mureck"), ("nord", "Bad Gleichenberg"), ("nordost", "Klöch"), ("nordwest", "St. Peter am Ottersbach"), ("moravske", "Murska Sobota")):
         s = next(s for s in ROUTES[key]["stops"] if s[0] == name)
         x, y = P.xy(s[1], s[2])
         o.append(f'<g class="stop" data-route="{key}"><circle cx="{x}" cy="{y}" r="6"/>{label(P, name, s[1], s[2], stop_name_by_de(key, name))}</g>')
@@ -618,6 +619,27 @@ def legal_page():
                   crumbs([(t("crumb_home"), ""), (t("crumb_privacy"), "datenschutz.html")]))
 
 
+def imprint_page():
+    content = f'''
+  <section class="page-head" aria-labelledby="page-title">
+    <div class="container">
+      <p class="crumbs"><a href="index.html">{escape(t("crumb_home"))}</a></p>
+      <h1 id="page-title">{escape(t("imprint_h1"))}</h1>
+      <p class="lead">{escape(t("imprint_lead"))}</p>
+    </div>
+  </section>
+
+  <section class="section section--last" aria-labelledby="imprint-title">
+    <div class="container legal">
+      <h2 id="imprint-title" class="visually-hidden">{escape(t("footer_imprint"))}</h2>
+      <p>{U["colophon_html"]}</p>
+    </div>
+  </section>
+'''
+    return render("impressum.html", t("imprint_title"), t("imprint_desc"), content,
+                  crumbs([(t("crumb_home"), ""), (t("crumb_imprint"), "impressum.html")]))
+
+
 def bikespa_page():
     base = ROOT / "pages" / ("" if L == "de" else L)
     if not (base / "bike-and-spa.html").exists():
@@ -628,9 +650,25 @@ def bikespa_page():
                   crumbs([(t("crumb_home"), ""), (t("crumb_bikespa"), "bike-and-spa.html")]))
 
 
+MOVED = {"radrouten/r45-ab-bad-gleichenberg.html": "radrouten/gleichenberger-radweg-r45-ab-feldbach.html"}
+
+
+def moved_pages():
+    """Alte Adressen leiten auf die neue Seite weiter (GitHub Pages kennt keine Server-Weiterleitung)."""
+    for old, new in MOVED.items():
+        target = page_url(L, new)
+        html = (f'<!doctype html><html lang="{HREFLANG[L]}"><head><meta charset="utf-8"><title>s’Genussplatz’l</title>'
+                f'<link rel="canonical" href="{target}"><meta http-equiv="refresh" content="0; url={new.split("/")[-1]}">'
+                f'<meta name="robots" content="noindex"></head><body><p><a href="{new.split("/")[-1]}">{escape(TR["nord"]["name"])}</a></p></body></html>')
+        out = ROOT / (prefix(L) + old)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(html, encoding="utf-8")
+
+
 def build_lang(l):
     set_lang(l)
-    pages = [index_page()] + [route_page(k) for k in KEYS] + [ebike_page(), legal_page()]
+    pages = [index_page()] + [route_page(k) for k in KEYS] + [ebike_page(), legal_page(), imprint_page()]
+    moved_pages()
     bs = bikespa_page()
     if bs:
         pages.append(bs)
@@ -650,7 +688,7 @@ if __name__ == "__main__":
     # Sitemap immer vollständig: jede Seite in jeder Sprache, mit Verweisen auf die anderen Sprachfassungen und Änderungsdatum
     from datetime import date
     today = date.today().isoformat()
-    base_pages = ["index.html", *[f"radrouten/{ROUTES[k]['slug']}.html" for k in KEYS], "e-bike-laden.html", "datenschutz.html", "bike-and-spa.html"]
+    base_pages = ["index.html", *[f"radrouten/{ROUTES[k]['slug']}.html" for k in KEYS], "e-bike-laden.html", "datenschutz.html", "impressum.html", "bike-and-spa.html"]
     entries = []
     for p in base_pages:
         alts = "".join(f'<xhtml:link rel="alternate" hreflang="{HREFLANG[a]}" href="{page_url(a, p)}"/>' for a in AVAIL)

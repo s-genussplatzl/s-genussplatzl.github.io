@@ -178,7 +178,7 @@ a6 = f"""
 <section class="sheet a6 light">
   <div class="safe a6-back">
     <h2>Ihr Ausflug mit dem Rad.</h2>
-    <p>Rast unterm Nussbaum, regionale Weine und Kunst im Garten, am Gleichenberger Radweg R45 in Unterpurkla.</p>
+    <p>Rast unterm Nussbaum, regionale Getränke und Kunst im Garten, am Gleichenberger Radweg R45 in Unterpurkla.</p>
     <ul class="a6-dist">
       <li><span>Bad Radkersburg</span><b>12 km</b></li>
       <li><span>Bad Gleichenberg</span><b>20 km</b></li>
