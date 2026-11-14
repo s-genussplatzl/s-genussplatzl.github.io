@@ -647,12 +647,17 @@ if __name__ == "__main__":
         if not only or l in only:
             pages += build_lang(l)
     set_lang("de")
-    all_pages = []
-    for l in AVAIL:  # Sitemap immer vollständig
-        if True:
-            all_pages += [prefix(l) + p for p in ["index.html", *[f"radrouten/{ROUTES[k]['slug']}.html" for k in KEYS],
-                                                    "e-bike-laden.html", "datenschutz.html", "bike-and-spa.html"]]
-    urls = "\n".join(f"  <url><loc>{SITE}{p[:-10] if p.endswith('index.html') else p}</loc></url>" for p in all_pages)
-    (ROOT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}\n</urlset>\n', encoding="utf-8")
+    # Sitemap immer vollständig: jede Seite in jeder Sprache, mit Verweisen auf die anderen Sprachfassungen und Änderungsdatum
+    from datetime import date
+    today = date.today().isoformat()
+    base_pages = ["index.html", *[f"radrouten/{ROUTES[k]['slug']}.html" for k in KEYS], "e-bike-laden.html", "datenschutz.html", "bike-and-spa.html"]
+    entries = []
+    for p in base_pages:
+        alts = "".join(f'<xhtml:link rel="alternate" hreflang="{HREFLANG[a]}" href="{page_url(a, p)}"/>' for a in AVAIL)
+        alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{page_url("de", p)}"/>'
+        for l in AVAIL:
+            entries.append(f"  <url><loc>{page_url(l, p)}</loc><lastmod>{today}</lastmod>{alts}</url>")
+    urls = "\n".join(entries)
+    (ROOT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n{urls}\n</urlset>\n', encoding="utf-8")
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}sitemap.xml\n", encoding="utf-8")
     print("gebaut:", ", ".join(pages))
