@@ -219,10 +219,9 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 .sign__icon--radeln { --icon: url("images/icons/radeln.png"); }
 .sign__icon--relaxen { --icon: url("images/icons/relaxen.png"); }
 .sign h3 { margin: 0; display: grid; align-content: start; min-height: 2.1em; font-family: var(--font-display); font-weight: 400; font-size: var(--text-3xl); line-height: 1.05; color: inherit; overflow-wrap: break-word; min-width: 0; }
-.sign p { margin: var(--space-lg) 0 0; font-size: var(--text-md); line-height: 1.45; color: inherit; text-align: center; text-wrap: balance; }
+.sign p { margin: var(--space-lg) 0 0; font-size: var(--text-md); line-height: 1.45; color: inherit; }
 .sign strong { font-weight: 700; }
-.sign__brand { margin-top: auto; padding-top: var(--space-xl); display: grid; gap: var(--space-2xs); font-family: var(--font-display); font-size: var(--text-lg); }
-.sign__slogan { font-family: var(--font-body); font-size: var(--text-xs); }
+.sign__brand { margin-top: auto; align-self: center; width: min(100%, 13.5rem); aspect-ratio: 1000 / 344; background-color: currentColor; -webkit-mask: url("images/logo-schriftzug-mask.png") center / contain no-repeat; mask: url("images/logo-schriftzug-mask.png") center / contain no-repeat; }
 @media (max-width: 60rem) { .signs__grid { grid-template-columns: minmax(0, 1fr); gap: var(--space-xl); } }
 @media (max-width: 40rem) { .signs { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 68%; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; padding-bottom: var(--space-sm); } .signs li { scroll-snap-align: start; } .sign { min-height: 27rem; } .sign h3 { font-size: var(--text-2xl); } }
 .band--visit { margin-top: var(--section-gap); padding-block: var(--section-gap-s); background: var(--color-paper-2); color: var(--color-ink); }
