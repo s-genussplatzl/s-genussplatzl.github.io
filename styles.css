@@ -123,17 +123,17 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 /* Wine: cream band, field-guide index */
 .band--cream { margin-top: var(--section-gap); padding-block: var(--section-gap-s); background: var(--color-paper-2) var(--stone); color: var(--color-ink); }
 .band--cream .lead { color: var(--color-ink); }
-.wine__grid { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: var(--space-3xl); align-items: center; }
-.partners { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap-columns); }
+.wine__grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 17fr); gap: var(--space-2xl); align-items: center; }
+.partners { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 8fr) minmax(0, 8fr); gap: clamp(var(--space-lg), 4vw, var(--space-2xl)); }
 .partners { align-items: end; }
 .partners li { display: grid; gap: var(--space-md); justify-items: center; text-align: center; }
-.partner__logo { width: 100%; height: 190px; display: grid; place-items: center; background: transparent; }
+.partner__logo { width: 100%; height: 240px; display: grid; place-items: center; background: transparent; }
 .partners .partner__logo > img { object-fit: contain; object-position: 50% 100%; filter: none; padding: 0; outline: 0; }
 .partner__stand-in { font-family: var(--font-display); font-size: var(--text-2xl); line-height: 1.15; text-align: center; color: var(--color-ink); }
 .partner__place { font-size: var(--text-sm); color: var(--color-ink-2); display: grid; gap: var(--space-3xs); }
 .partner__place a { font-weight: 500; }
 @media (max-width: 60rem) { .wine__grid { grid-template-columns: minmax(0, 1fr); gap: var(--space-xl); } }
-@media (max-width: 40rem) { .partners { grid-template-columns: minmax(0, 1fr); gap: var(--space-2xl); } .partner__logo { height: 150px; } }
+@media (max-width: 40rem) { .partners { grid-template-columns: minmax(0, 1fr); gap: var(--space-2xl); } .partner__logo { height: 180px; } }
 
 /* Art: rail of portrait frames */
 .art__rail { grid-auto-columns: minmax(280px, 30%); gap: var(--gap-columns); padding-bottom: var(--space-sm); }
@@ -363,7 +363,7 @@ html { -webkit-tap-highlight-color: color-mix(in oklab, var(--color-accent) 22%,
   .profile .tick { font-size: 26px; }
   .profile .tick--alt { display: none; }
   .partners { gap: var(--space-xl); }
-  .partner__logo { height: 110px; }
+  .partner__logo { height: 150px; }
 }
 /* Google-Bewertungen */
 .rating { margin-top: var(--space-xl); padding-top: var(--space-lg); border-top: var(--rule-hair) solid var(--color-rule); display: grid; gap: var(--space-sm); }
