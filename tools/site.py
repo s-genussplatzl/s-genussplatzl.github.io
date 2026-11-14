@@ -20,7 +20,7 @@ HOME = (15.9061, 46.7324)
 KEYS = ("west", "nord", "nordost", "ost", "sued")
 # Besucherstatistik (Umami, ohne Cookies). Website-ID aus dem Umami-Konto eintragen; leer = kein Skript.
 UMAMI_SRC = "https://cloud.umami.is/script.js"
-UMAMI_ID = ""
+UMAMI_ID = "0a0fc72a-b9eb-4cef-9d81-b69e85b1510c"
 
 
 def hav(a, b):
@@ -302,7 +302,7 @@ def render(path, title, desc, content, root="", jsonld=None, bodyclass="page"):
     canonical = SITE + ("" if path == "index.html" else path)
     out = (LAYOUT.replace("{{title}}", escape(title, quote=True)).replace("{{description}}", escape(desc, quote=True))
            .replace("{{canonical}}", canonical).replace("{{jsonld}}", ld).replace("{{bodyclass}}", bodyclass)
-           .replace("{{analytics}}", f'<script defer src="{UMAMI_SRC}" data-website-id="{UMAMI_ID}" data-domains="s-genussplatzl.at,www.s-genussplatzl.at"></script>' if UMAMI_ID else "")
+           .replace("{{analytics}}", f'<script defer src="{UMAMI_SRC}" data-website-id="{UMAMI_ID}" data-domains="s-genussplatzl.at,www.s-genussplatzl.at,s-genussplatzl.github.io"></script>' if UMAMI_ID else "")
            .replace("{{content}}", content).replace("{{root}}", root))
     (ROOT / path).parent.mkdir(parents=True, exist_ok=True)
     (ROOT / path).write_text(out, encoding="utf-8")
