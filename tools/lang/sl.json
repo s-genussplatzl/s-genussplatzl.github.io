@@ -36,7 +36,7 @@
   "fact_start": "Začetek",
   "fact_goal": "Cilj",
   "fact_goal_value": "s’Genussplatz’l, Unterpurkla",
-  "map_caption": "Pot izračunana z BRouter, tok Mure po OpenStreetMap, © sodelavci OpenStreetMap",
+  "map_caption": "Pot izračunana z BRouter, tok Mure in Drave po OpenStreetMap, © sodelavci OpenStreetMap",
   "map_title": "Zemljevid poti {name} do Genussplatzla v Unterpurkli",
   "way_title": "Na poti",
   "ways_prefix": "Poti:",
@@ -45,6 +45,7 @@
   "prof_svg_title": "Višinski profil, {name}: {km} km, od {a} do {b} m nadmorske višine, najnižja točka {lo} m, najvišja točka {hi} m",
   "take_title": "Vzemite pot s seboj.",
   "take_text": "Odprite pot neposredno v aplikaciji Komoot z navigacijo na telefonu ali pa prenesite traso kot datoteko GPX za Vašo navigacijsko napravo, Garmin, Wahoo ali kolesarsko aplikacijo.",
+  "take_text_gpx": "Prenesite traso kot datoteko GPX za Vašo navigacijsko napravo, Garmin, Wahoo, Komoot ali kolesarsko aplikacijo.",
   "gpx_btn": "Prenesi GPX",
   "komoot_btn": "Odpri v Komootu",
   "goal_slot_alt": "Genussplatzl v večernem mraku",
@@ -53,7 +54,7 @@
   "goal_text_html": "Na koncu poti Vas pričakajo senca pod orehom, regionalna vina in špricerji, WC, brezplačno <a href=\"{ebike}\">polnjenje e-koles</a> in v vročih dneh klimatiziran prostor. Od marca do oktobra, vsak dan od 9. do 22. ure.",
   "goal_btn": "Dostop in delovni čas",
   "more_title": "Druge poti do Genussplatzla",
-  "overview_title": "Zemljevid: pet kolesarskih poti do Genussplatzla, iz Spielfelda skozi Mureck, iz Bad Gleichenberga, iz kraja St. Anna am Aigen skozi Klöch, iz Bad Radkersburga in iz Apač čez most Steirerbrücke",
+  "overview_title": "Zemljevid: enajst kolesarskih poti do Genussplatzla iz vseh smeri, od St. Stefana im Rosental na severu do Ptuja na jugu in Moravskih Toplic na vzhodu",
   "map_slovenia": "Slovenija",
   "map_styria": "Štajerska",
   "map_halbenrain": "Halbenrain",
@@ -238,6 +239,192 @@
     [
      "Steirerbrücke",
      "Viseči most se od leta 2006 v dolžini 82,5 metra pne čez Muro, sredi biosfernega območja UNESCO Mura-Drava-Donava."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+    ]
+   ]
+  },
+  "nordwest": {
+   "name": "Iz St. Stefana im Rosental",
+   "short": "Iz St. Stefana im Rosental",
+   "sky": "Severozahod",
+   "h1": "Iz St. Stefana skozi štiri doline.",
+   "lead": "Dolga tura s severozahoda: iz doline Rosental skozi Mettersdorf, St. Peter am Ottersbach in Dietersdorf am Gnasbach navzdol do nas ob Muri.",
+   "ways": "kolesarske poti in stranske ceste skozi gričevje",
+   "title": "Kolesarska tura St. Stefan im Rosental, St. Peter am Ottersbach, Unterpurkla z GPX",
+   "desc": "Kolesarska tura iz kraja St. Stefan im Rosental skozi Mettersdorf am Saßbach, St. Peter am Ottersbach in Deutsch Goritz do s’Genussplatz’l v Unterpurkli: pribl. 37 km, blago gričevnata, z zemljevidom, višinskim profilom in GPX.",
+   "index_text": "S severozahoda iz doline Rosental skozi Mettersdorf am Saßbach, St. Peter am Ottersbach, Dietersdorf am Gnasbach in Deutsch Goritz. Blago gričevnato, okoli 150 višinskih metrov.",
+   "stops": [
+    [
+     "St. Stefan im Rosental",
+     "Trška občina v dolini Rosental, tu se tura začne v smeri juga."
+    ],
+    [
+     "Mettersdorf am Saßbach",
+     "Vas v dolini potoka Saßbach."
+    ],
+    [
+     "St. Peter am Ottersbach",
+     "Kraj v dolini potoka Ottersbach, približno na polovici poti."
+    ],
+    [
+     "Dietersdorf am Gnasbach",
+     "Vas v dolini potoka Gnasbach."
+    ],
+    [
+     "Deutsch Goritz",
+     "Od tu zadnji kilometri vodijo po ravnini do Mure."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+    ]
+   ]
+  },
+  "gnasbach": {
+   "name": "Iz Bierbauma am Auersbach",
+   "short": "Iz Bierbauma skozi Dietersdorf",
+   "sky": "Severozahod",
+   "h1": "Iz Bierbauma do Mure.",
+   "lead": "Kratka, ravninska tura s severozahoda: iz Bierbauma am Auersbach skozi Dietersdorf am Gnasbach in Deutsch Goritz do nas v Unterpurklo.",
+   "ways": "kolesarske poti in stranske ceste",
+   "title": "Kolesarska pot Bierbaum am Auersbach, Dietersdorf am Gnasbach, Unterpurkla z GPX",
+   "desc": "Kolesarska pot iz Bierbauma am Auersbach skozi Dietersdorf am Gnasbach in Deutsch Goritz do s’Genussplatz’l v Unterpurkli: pribl. 18 km, ravninska, z zemljevidom, višinskim profilom in prenosom GPX.",
+   "index_text": "S severozahoda iz Bierbauma am Auersbach skozi Dietersdorf am Gnasbach in Deutsch Goritz, kratko in ravninsko.",
+   "stops": [
+    [
+     "Bierbaum am Auersbach",
+     "Vas ob potoku Auersbach, začetek ture."
+    ],
+    [
+     "Dietersdorf am Gnasbach",
+     "Vas v dolini potoka Gnasbach."
+    ],
+    [
+     "Deutsch Goritz",
+     "Od tu zadnji kilometri vodijo po ravnini do Mure."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+    ]
+   ]
+  },
+  "maribor": {
+   "name": "Iz Maribora v Sloveniji",
+   "short": "Iz Maribora",
+   "sky": "Jugozahod",
+   "h1": "Iz Maribora k Muri.",
+   "lead": "Velika tura iz Slovenije: iz mesta ob Dravi skozi Šentilj do Mure in ob reki navzdol skozi Mureck (Cmurek) do nas.",
+   "ways": "kolesarske poti in stranske ceste do Šentilja, nato kolesarska pot ob Muri R2 (Murradweg), na koncu kolesarska pot R45 (Gleichenberger Radweg)",
+   "title": "Kolesarska tura Maribor, Šentilj, Mureck, Unterpurkla z GPX",
+   "desc": "Kolesarska tura iz Maribora v Sloveniji skozi Šentilj in Mureck do s’Genussplatz’l v Unterpurkli: pribl. 49 km, okoli 160 višinskih metrov, z zemljevidom, višinskim profilom in prenosom GPX.",
+   "index_text": "Z jugozahoda iz drugega največjega mesta Slovenije, etapnega kraja krožne poti Bike & Spa, skozi Šentilj in Mureck ob Muri.",
+   "stops": [
+    [
+     "Maribor",
+     "Drugo največje mesto Slovenije ob Dravi in etapni kraj krožne poti Bike & Spa."
+    ],
+    [
+     "Šentilj",
+     "Kraj ob meji z Avstrijo, tik pred Muro."
+    ],
+    [
+     "Mureck",
+     "Plavajoči mlin so leta 1997 po zgodovinskem vzoru znova postavili na Muro. Od tu pot vodi ravninsko ob reki."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+    ]
+   ]
+  },
+  "ptuj": {
+   "name": "Iz Ptuja v Sloveniji",
+   "short": "Iz Ptuja",
+   "sky": "Jug",
+   "h1": "Iz Ptuja čez griče.",
+   "lead": "Iz mesta ob Dravi skozi gričevje Slovenskih goric do Apač in čez most Steirerbrücke do nas.",
+   "ways": "kolesarske poti in stranske ceste skozi Slovenske gorice, most Steirerbrücke, na koncu kolesarska pot R45 (Gleichenberger Radweg)",
+   "title": "Kolesarska tura Ptuj, Apače, most Steirerbrücke, Unterpurkla z GPX",
+   "desc": "Kolesarska tura iz Ptuja v Sloveniji skozi Benedikt in Apače ter čez most Steirerbrücke do s’Genussplatz’l v Unterpurkli: pribl. 46 km, okoli 170 višinskih metrov, z zemljevidom, višinskim profilom in prenosom GPX.",
+   "index_text": "Z juga iz mesta ob Dravi, etapnega kraja krožne poti Bike & Spa, skozi Slovenske gorice do Apač in čez most Steirerbrücke.",
+   "stops": [
+    [
+     "Ptuj",
+     "Mesto ob Dravi z gradom nad starim mestnim jedrom, etapni kraj krožne poti Bike & Spa."
+    ],
+    [
+     "Benedikt",
+     "Kraj v Slovenskih goricah, gričevju med Dravo in Muro."
+    ],
+    [
+     "Apače",
+     "Vas na slovenskem bregu Mure, izhodišče za most v Avstrijo."
+    ],
+    [
+     "Steirerbrücke",
+     "Viseči most se od leta 2006 v dolžini 82,5 metra pne čez Muro."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+    ]
+   ]
+  },
+  "banovci": {
+   "name": "Iz Banovcev v Sloveniji",
+   "short": "Iz Banovcev",
+   "sky": "Jugovzhod",
+   "h1": "Iz Banovcev ob Muri navzgor.",
+   "lead": "Iz termalnega kraja pri Veržeju po ravnem čez ravnino skozi Radence in Bad Radkersburg do nas v Unterpurklo.",
+   "ways": "kolesarske poti in stranske ceste po ravnini ob Muri, na koncu kolesarska pot ob Muri R2 (Murradweg) in kolesarska pot R45 (Gleichenberger Radweg)",
+   "title": "Kolesarska tura Banovci, Radenci, Bad Radkersburg, Unterpurkla z GPX",
+   "desc": "Kolesarska tura iz termalnega kraja Banovci v Sloveniji skozi Radence in Bad Radkersburg (Radgona) do s’Genussplatz’l v Unterpurkli: pribl. 34 km, ravninska, z zemljevidom, višinskim profilom in prenosom GPX.",
+   "index_text": "Z jugovzhoda iz termalnega kraja pri Veržeju, etapnega kraja krožne poti Bike & Spa, ravninsko skozi Radence in Bad Radkersburg.",
+   "stops": [
+    [
+     "Banovci",
+     "Termalni kraj pri Veržeju in etapni kraj krožne poti Bike & Spa."
+    ],
+    [
+     "Radenci",
+     "Zdraviliški kraj ob Muri, znan po svoji mineralni vodi."
+    ],
+    [
+     "Bad Radkersburg",
+     "Staro mestno jedro in terme Parktherme ob Muri, tu tura preide na kolesarsko pot ob Muri."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+    ]
+   ]
+  },
+  "moravske": {
+   "name": "Iz Moravskih Toplic v Sloveniji",
+   "short": "Iz Moravskih Toplic",
+   "sky": "Vzhod",
+   "h1": "Iz Moravskih Toplic do Mure.",
+   "lead": "Iz termalnega kraja v Prekmurju ravninsko skozi Mursko Soboto in Bad Radkersburg do nas v Unterpurklo.",
+   "ways": "kolesarske poti in stranske ceste v Prekmurju, na koncu kolesarska pot ob Muri R2 (Murradweg) in kolesarska pot R45 (Gleichenberger Radweg)",
+   "title": "Kolesarska tura Moravske Toplice, Murska Sobota, Bad Radkersburg, Unterpurkla z GPX",
+   "desc": "Kolesarska tura iz termalnega kraja Moravske Toplice v Sloveniji skozi Mursko Soboto in Bad Radkersburg (Radgona) do s’Genussplatz’l v Unterpurkli: pribl. 33 km, ravninska, z zemljevidom, višinskim profilom in prenosom GPX.",
+   "index_text": "Z vzhoda iz termalnega kraja v Prekmurju, etapnega kraja krožne poti Bike & Spa, ravninsko skozi Mursko Soboto in Bad Radkersburg.",
+   "stops": [
+    [
+     "Moravske Toplice",
+     "Termalni kraj v Prekmurju in etapni kraj krožne poti Bike & Spa."
+    ],
+    [
+     "Murska Sobota",
+     "Največje mesto Prekmurja, pokrajine vzhodno od Mure."
+    ],
+    [
+     "Bad Radkersburg",
+     "Staro mestno jedro in terme Parktherme ob Muri, tu tura preide na kolesarsko pot ob Muri."
     ],
     [
      "s’Genussplatz’l",

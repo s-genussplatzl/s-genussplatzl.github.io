@@ -228,6 +228,25 @@
     </div>
   </section>
 
+  <section class="section" id="umgebung" aria-labelledby="around-title">
+    <div class="container">
+      <div class="head-block">
+        <h2 id="around-title">Rundherum, mit dem Rad.</h2>
+        <p class="lead">Aus allen Himmelsrichtungen führen Radwege zu uns. Zeigen Sie auf eine Route, und die Karte hebt sie hervor.</p>
+      </div>
+      <div class="ride" data-ride>
+        <figure class="map">
+          {{MAP}}
+          <figcaption>Routen berechnet mit BRouter, Verlauf von Mur und Drau nach OpenStreetMap, © OpenStreetMap-Mitwirkende</figcaption>
+        </figure>
+        <ul class="index ride__list">
+{{ROUTE_ITEMS}}
+        </ul>
+      </div>
+      <p class="around__source">Entfernungen per Rad bis zum Genussplatzl, gerundet. Unseren Platz und weitere Touren finden Sie auch <a href="https://www.komoot.com/de-de/highlight/8495359">auf Komoot</a>.</p>
+    </div>
+  </section>
+
   <section class="band--deep" id="bike-spa" aria-labelledby="bikespa-title">
     <div class="container bikespa__grid">
       <div class="bikespa__text">
@@ -243,25 +262,6 @@
         {{BIKESPA}}
         <figcaption>Schematische Darstellung der Runde, eigene Zeichnung nach Ortsdaten von OpenStreetMap</figcaption>
       </figure>
-    </div>
-  </section>
-
-  <section class="section" id="umgebung" aria-labelledby="around-title">
-    <div class="container">
-      <div class="head-block">
-        <h2 id="around-title">Rundherum, mit dem Rad.</h2>
-        <p class="lead">Aus allen Himmelsrichtungen führen Radwege zu uns. Zeigen Sie auf eine Route, und die Karte hebt sie hervor.</p>
-      </div>
-      <div class="ride" data-ride>
-        <figure class="map">
-          {{MAP}}
-          <figcaption>Routen berechnet mit BRouter, Verlauf der Mur nach OpenStreetMap, © OpenStreetMap-Mitwirkende</figcaption>
-        </figure>
-        <ul class="index ride__list">
-{{ROUTE_ITEMS}}
-        </ul>
-      </div>
-      <p class="around__source">Entfernungen per Rad bis zum Genussplatzl, gerundet. Unseren Platz und weitere Touren finden Sie auch <a href="https://www.komoot.com/de-de/highlight/8495359">auf Komoot</a>.</p>
     </div>
   </section>
 

@@ -228,6 +228,25 @@
     </div>
   </section>
 
+  <section class="section" id="umgebung" aria-labelledby="around-title">
+    <div class="container">
+      <div class="head-block">
+        <h2 id="around-title">All around, by bike.</h2>
+        <p class="lead">Cycle paths lead to us from every direction. Point to a route and the map will highlight it.</p>
+      </div>
+      <div class="ride" data-ride>
+        <figure class="map">
+          {{MAP}}
+          <figcaption>Routes calculated with BRouter, course of the Mur and Drava from OpenStreetMap, © OpenStreetMap contributors</figcaption>
+        </figure>
+        <ul class="index ride__list">
+{{ROUTE_ITEMS}}
+        </ul>
+      </div>
+      <p class="around__source">Cycling distances to the Genussplatzl, rounded. You can also find our place and more tours <a href="https://www.komoot.com/en-gb/highlight/8495359">on Komoot</a>.</p>
+    </div>
+  </section>
+
   <section class="band--deep" id="bike-spa" aria-labelledby="bikespa-title">
     <div class="container bikespa__grid">
       <div class="bikespa__text">
@@ -243,25 +262,6 @@
         {{BIKESPA}}
         <figcaption>Schematic view of the loop, our own drawing based on place data from OpenStreetMap</figcaption>
       </figure>
-    </div>
-  </section>
-
-  <section class="section" id="umgebung" aria-labelledby="around-title">
-    <div class="container">
-      <div class="head-block">
-        <h2 id="around-title">All around, by bike.</h2>
-        <p class="lead">Cycle paths lead to us from every direction. Point to a route and the map will highlight it.</p>
-      </div>
-      <div class="ride" data-ride>
-        <figure class="map">
-          {{MAP}}
-          <figcaption>Routes calculated with BRouter, course of the Mur from OpenStreetMap, © OpenStreetMap contributors</figcaption>
-        </figure>
-        <ul class="index ride__list">
-{{ROUTE_ITEMS}}
-        </ul>
-      </div>
-      <p class="around__source">Cycling distances to the Genussplatzl, rounded. You can also find our place and more tours <a href="https://www.komoot.com/en-gb/highlight/8495359">on Komoot</a>.</p>
     </div>
   </section>
 

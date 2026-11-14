@@ -37,7 +37,7 @@ Michael hat A gewählt.
 8. **Fußzeile:** Kontakt, Instagram, Impressum, Datenschutz (eigene Unterseiten).
 
 ## Gestaltung
-Farben aus Logo und Ort: Kupfer, Anthrazit, Weinlaub-Grün, warmes Creme. Serifenschrift passend zum Logo für Überschriften, klare Schrift für Text. Großzügige Fotos, ruhige Gliederung, mobil zuerst.
+Farben (Rebrand 14.11.2026, Entscheidung Michael): **Kupfer, Basalt, Kies**. Heller Grund wie der weiße Kies im Garten, Bänder in Anthrazit wie die Fassadenplatten (mit leichter Steinstruktur), Kupfer wie die Fassade als Akzent. Kein Grün mehr. Alle Farben stehen in tokens.css. Serifenschrift passend zum Logo für Überschriften, klare Schrift für Text. Großzügige Fotos, ruhige Gliederung, mobil zuerst.
 
 ## Technik (Claudes Entscheidungen)
 - Reines HTML/CSS, minimal JS, keine Frameworks, keine externen Skripte/Fonts zur Laufzeit (Schriften lokal) → schnell, datenschutzfreundlich.

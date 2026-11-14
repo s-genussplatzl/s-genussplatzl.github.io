@@ -36,7 +36,7 @@
   "fact_start": "Start",
   "fact_goal": "Finish",
   "fact_goal_value": "s’Genussplatz’l, Unterpurkla",
-  "map_caption": "Route calculated with BRouter, course of the Mur from OpenStreetMap, © OpenStreetMap contributors",
+  "map_caption": "Route calculated with BRouter, course of the Mur and Drava from OpenStreetMap, © OpenStreetMap contributors",
   "map_title": "Map of the route {name} to the Genussplatzl in Unterpurkla",
   "way_title": "Along the way",
   "ways_prefix": "Paths:",
@@ -53,7 +53,8 @@
   "goal_text_html": "At the end of the route you will find shade beneath the walnut tree, regional wines and spritzers, a toilet, free <a href=\"{ebike}\">e-bike charging</a> and, on hot days, an air-conditioned room. From March to October, daily from 9 am to 10 pm.",
   "goal_btn": "Directions and opening hours",
   "more_title": "More routes to the Genussplatzl",
-  "overview_title": "Map: five cycle routes to the Genussplatzl, from Spielfeld via Mureck, from Bad Gleichenberg, from St. Anna am Aigen via Klöch, from Bad Radkersburg and from Apače across the Steirerbrücke",
+  "overview_title": "Map: eleven cycle routes to the Genussplatzl from all directions, from St. Stefan im Rosental in the north to Ptuj in the south and Moravske Toplice in the east",
+  "take_text_gpx": "Download the route as a GPX file for your sat nav, Garmin, Wahoo, Komoot or cycling app.",
   "map_slovenia": "Slovenia",
   "map_styria": "Styria",
   "map_halbenrain": "Halbenrain",
@@ -238,6 +239,192 @@
     [
      "Steirerbrücke",
      "Since 2006 this suspension bridge has swung 82.5 metres across the Mur, right in the heart of the UNESCO Mura-Drava-Danube Biosphere Reserve."
+    ],
+    [
+     "s’Genussplatz’l",
+     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+    ]
+   ]
+  },
+  "nordwest": {
+   "name": "From St. Stefan im Rosental",
+   "short": "From St. Stefan im Rosental",
+   "sky": "North-west",
+   "h1": "From St. Stefan through four valleys.",
+   "lead": "The long tour from the north-west: from the Rosental via Mettersdorf, St. Peter am Ottersbach and Dietersdorf am Gnasbach down to us by the Mur.",
+   "ways": "Cycle paths and back roads through the hill country",
+   "title": "Cycle tour St. Stefan im Rosental, St. Peter am Ottersbach, Unterpurkla with GPX",
+   "desc": "Cycle tour from St. Stefan im Rosental via Mettersdorf am Saßbach, St. Peter am Ottersbach and Deutsch Goritz to s’Genussplatz’l in Unterpurkla: approx. 37 km, gently hilly, with map, elevation profile and GPX.",
+   "index_text": "From the north-west, from the Rosental via Mettersdorf am Saßbach, St. Peter am Ottersbach, Dietersdorf am Gnasbach and Deutsch Goritz. Gently hilly, around 150 m of climbing.",
+   "stops": [
+    [
+     "St. Stefan im Rosental",
+     "Market town in the Rosental; this is where the ride south begins."
+    ],
+    [
+     "Mettersdorf am Saßbach",
+     "Village in the Saßbach valley."
+    ],
+    [
+     "St. Peter am Ottersbach",
+     "In the Ottersbach valley, roughly halfway along the route."
+    ],
+    [
+     "Dietersdorf am Gnasbach",
+     "Village in the Gnasbach valley."
+    ],
+    [
+     "Deutsch Goritz",
+     "From here the last few kilometres run across the plain to the Mur."
+    ],
+    [
+     "s’Genussplatz’l",
+     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+    ]
+   ]
+  },
+  "gnasbach": {
+   "name": "From Bierbaum am Auersbach",
+   "short": "From Bierbaum via Dietersdorf",
+   "sky": "North-west",
+   "h1": "From Bierbaum to the Mur.",
+   "lead": "The short, flat tour from the north-west: from Bierbaum am Auersbach via Dietersdorf am Gnasbach and Deutsch Goritz to us in Unterpurkla.",
+   "ways": "Cycle paths and back roads",
+   "title": "Cycle route Bierbaum am Auersbach, Dietersdorf am Gnasbach, Unterpurkla with GPX",
+   "desc": "Cycle route from Bierbaum am Auersbach via Dietersdorf am Gnasbach and Deutsch Goritz to s’Genussplatz’l in Unterpurkla: approx. 18 km, flat, with map, elevation profile and GPX download.",
+   "index_text": "From the north-west, from Bierbaum am Auersbach via Dietersdorf am Gnasbach and Deutsch Goritz, short and flat.",
+   "stops": [
+    [
+     "Bierbaum am Auersbach",
+     "Village on the Auersbach, the start of the tour."
+    ],
+    [
+     "Dietersdorf am Gnasbach",
+     "Village in the Gnasbach valley."
+    ],
+    [
+     "Deutsch Goritz",
+     "From here the last few kilometres run across the plain to the Mur."
+    ],
+    [
+     "s’Genussplatz’l",
+     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+    ]
+   ]
+  },
+  "maribor": {
+   "name": "From Maribor in Slovenia",
+   "short": "From Maribor",
+   "sky": "South-west",
+   "h1": "From Maribor to the Mur.",
+   "lead": "The big tour from Slovenia: from the city on the Drava via Šentilj to the Mur and downstream via Mureck to us.",
+   "ways": "Cycle paths and back roads to Šentilj, then Mur Cycle Path R2, finally the Gleichenberg cycle route R45",
+   "title": "Cycle tour Maribor, Šentilj, Mureck, Unterpurkla with GPX",
+   "desc": "Cycle tour from Maribor in Slovenia via Šentilj and Mureck to s’Genussplatz’l in Unterpurkla: approx. 49 km, around 160 m of climbing, with map, elevation profile and GPX download.",
+   "index_text": "From the south-west, from Slovenia’s second-largest city, a stage town of the Bike & Spa loop, via Šentilj and Mureck along the Mur.",
+   "stops": [
+    [
+     "Maribor",
+     "Slovenia’s second-largest city, on the Drava, and a stage town of the Bike & Spa loop."
+    ],
+    [
+     "Šentilj",
+     "On the border with Austria, just before the Mur."
+    ],
+    [
+     "Mureck",
+     "The ship mill was set back on the Mur in 1997 after a historic model. From here the route runs flat along the river."
+    ],
+    [
+     "s’Genussplatz’l",
+     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+    ]
+   ]
+  },
+  "ptuj": {
+   "name": "From Ptuj in Slovenia",
+   "short": "From Ptuj",
+   "sky": "South",
+   "h1": "From Ptuj over the hills.",
+   "lead": "From the town on the Drava through the hill country of the Slovenske gorice to Apače and across the Steirerbrücke to us.",
+   "ways": "Cycle paths and back roads through the Slovenske gorice, Steirerbrücke, finally the Gleichenberg cycle route R45",
+   "title": "Cycle tour Ptuj, Apače, Steirerbrücke, Unterpurkla with GPX",
+   "desc": "Cycle tour from Ptuj in Slovenia via Benedikt and Apače and across the Steirerbrücke to s’Genussplatz’l in Unterpurkla: approx. 46 km, around 170 m of climbing, with map, elevation profile and GPX download.",
+   "index_text": "From the south, from the town on the Drava, a stage town of the Bike & Spa loop, through the Slovenske gorice to Apače and across the Steirerbrücke.",
+   "stops": [
+    [
+     "Ptuj",
+     "Town on the Drava with a castle above the old town, a stage town of the Bike & Spa loop."
+    ],
+    [
+     "Benedikt",
+     "Village in the Slovenske gorice, the hill country between the Drava and the Mur."
+    ],
+    [
+     "Apače",
+     "Village on the Slovenian bank of the Mur, the starting point for the bridge to Austria."
+    ],
+    [
+     "Steirerbrücke",
+     "Since 2006 this suspension bridge has swung 82.5 metres across the Mur."
+    ],
+    [
+     "s’Genussplatz’l",
+     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+    ]
+   ]
+  },
+  "banovci": {
+   "name": "From Banovci in Slovenia",
+   "short": "From Banovci",
+   "sky": "South-east",
+   "h1": "From Banovci up the Mur.",
+   "lead": "From the thermal spa resort near Veržej, flat across the plain via Radenci and Bad Radkersburg to us in Unterpurkla.",
+   "ways": "Cycle paths and back roads on the Mur plain, finally Mur Cycle Path R2 and the Gleichenberg cycle route R45",
+   "title": "Cycle tour Banovci, Radenci, Bad Radkersburg, Unterpurkla with GPX",
+   "desc": "Cycle tour from the thermal spa resort of Banovci in Slovenia via Radenci and Bad Radkersburg to s’Genussplatz’l in Unterpurkla: approx. 34 km, flat, with map, elevation profile and GPX download.",
+   "index_text": "From the south-east, from the thermal spa resort near Veržej, a stage town of the Bike & Spa loop, flat via Radenci and Bad Radkersburg.",
+   "stops": [
+    [
+     "Banovci",
+     "Thermal spa resort near Veržej and a stage town of the Bike & Spa loop."
+    ],
+    [
+     "Radenci",
+     "Spa town on the Mur, known for its mineral water."
+    ],
+    [
+     "Bad Radkersburg",
+     "Old town and Parktherme spa on the Mur; here the tour joins the Mur Cycle Path."
+    ],
+    [
+     "s’Genussplatz’l",
+     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+    ]
+   ]
+  },
+  "moravske": {
+   "name": "From Moravske Toplice in Slovenia",
+   "short": "From Moravske Toplice",
+   "sky": "East",
+   "h1": "From Moravske Toplice to the Mur.",
+   "lead": "From the thermal spa resort in Prekmurje, flat via Murska Sobota and Bad Radkersburg to us in Unterpurkla.",
+   "ways": "Cycle paths and back roads in Prekmurje, finally Mur Cycle Path R2 and the Gleichenberg cycle route R45",
+   "title": "Cycle tour Moravske Toplice, Murska Sobota, Bad Radkersburg, Unterpurkla with GPX",
+   "desc": "Cycle tour from the thermal spa resort of Moravske Toplice in Slovenia via Murska Sobota and Bad Radkersburg to s’Genussplatz’l in Unterpurkla: approx. 33 km, flat, with map, elevation profile and GPX download.",
+   "index_text": "From the east, from the thermal spa resort in Prekmurje, a stage town of the Bike & Spa loop, flat via Murska Sobota and Bad Radkersburg.",
+   "stops": [
+    [
+     "Moravske Toplice",
+     "Thermal spa resort in Prekmurje and a stage town of the Bike & Spa loop."
+    ],
+    [
+     "Murska Sobota",
+     "Largest town in Prekmurje, the region east of the Mur."
+    ],
+    [
+     "Bad Radkersburg",
+     "Old town and Parktherme spa on the Mur; here the tour joins the Mur Cycle Path."
     ],
     [
      "s’Genussplatz’l",

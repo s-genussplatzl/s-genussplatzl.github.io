@@ -36,7 +36,7 @@
   "fact_start": "Indulás",
   "fact_goal": "Cél",
   "fact_goal_value": "s’Genussplatz’l, Unterpurkla",
-  "map_caption": "Az útvonalat a BRouter számította ki, a Mura folyásvonala az OpenStreetMap alapján, © OpenStreetMap-közreműködők",
+  "map_caption": "Az útvonalat a BRouter számította ki, a Mura és a Dráva folyásvonala az OpenStreetMap alapján, © OpenStreetMap-közreműködők",
   "map_title": "Térkép – útvonal: {name}, cél: a Genussplatzl, Unterpurkla",
   "way_title": "Útközben",
   "ways_prefix": "Utak:",
@@ -53,7 +53,7 @@
   "goal_text_html": "Az útvonal végén árnyék a diófa alatt, regionális borok és fröccsök, mosdó, ingyenes <a href=\"{ebike}\">e-bike töltés</a>, a forró napokon pedig klimatizált helyiség várja Önt. Márciustól októberig, naponta 9–22 óra között.",
   "goal_btn": "Megközelítés és nyitvatartás",
   "more_title": "További útvonalak a Genussplatzl felé",
-  "overview_title": "Térkép: öt kerékpáros útvonal a Genussplatzl felé – Spielfeldből Mureckon át, Bad Gleichenbergből, St. Anna am Aigenből Klöchön át, Bad Radkersburgból, valamint Apačéból a Steirerbrücke hídon át",
+  "overview_title": "Térkép: tizenegy kerékpáros útvonal a Genussplatzl felé minden irányból – az északi St. Stefan im Rosentaltól a déli Ptujig és a keleti Moravske Toplicéig",
   "map_slovenia": "Szlovénia",
   "map_styria": "Stájerország",
   "map_halbenrain": "Halbenrain",
@@ -109,7 +109,8 @@
   "region_tv_url": "https://www.steiermark.com/en/Thermen-Vulkanland",
   "region_wine": "Vulkanland Steiermark borvidék",
   "region_kloech": "Klöchi borút",
-  "region_traminer": "Tramini-tanösvény, Klöch"
+  "region_traminer": "Tramini-tanösvény, Klöch",
+  "take_text_gpx": "Töltse le az útvonalat GPX-fájlként navigációs készülékéhez, Garmin vagy Wahoo eszközéhez, a Komoothoz, illetve kerékpáros alkalmazásához."
  },
  "routes": {
   "west": {
@@ -238,6 +239,192 @@
     [
      "Steirerbrücke",
      "A függőhíd 2006 óta ível 82,5 méter hosszan a Mura fölött, a Mura–Dráva–Duna UNESCO bioszféra-rezervátum közepén."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+    ]
+   ]
+  },
+  "nordwest": {
+   "name": "St. Stefan im Rosentaltól",
+   "short": "St. Stefan im Rosentaltól",
+   "sky": "Északnyugat",
+   "h1": "St. Stefantól négy völgyön át.",
+   "lead": "A hosszú túra északnyugat felől: a Rosental völgyéből Mettersdorfon, St. Peter am Ottersbachon és Dietersdorf am Gnasbachon át le hozzánk, a Murához.",
+   "ways": "Kerékpárutak és mellékutak a dombvidéken át",
+   "title": "Kerékpártúra: St. Stefan im Rosental, St. Peter am Ottersbach, Unterpurkla – GPX-szel",
+   "desc": "Kerékpártúra St. Stefan im Rosentaltól Mettersdorf am Saßbachon, St. Peter am Ottersbachon és Deutsch Goritzon át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 37 km, szelíden dombos, térképpel, magassági profillal és GPX-szel.",
+   "index_text": "Északnyugat felől, a Rosental völgyéből Mettersdorf am Saßbachon, St. Peter am Ottersbachon, Dietersdorf am Gnasbachon és Deutsch Goritzon át. Szelíden dombos, mintegy 150 m szintemelkedés.",
+   "stops": [
+    [
+     "St. Stefan im Rosental",
+     "Mezőváros a Rosental völgyében; innen indul a túra dél felé."
+    ],
+    [
+     "Mettersdorf am Saßbach",
+     "Falu a Saßbach völgyében."
+    ],
+    [
+     "St. Peter am Ottersbach",
+     "Település az Ottersbach völgyében, nagyjából félúton."
+    ],
+    [
+     "Dietersdorf am Gnasbach",
+     "Falu a Gnasbach völgyében."
+    ],
+    [
+     "Deutsch Goritz",
+     "Innen az utolsó kilométerek a síkságon át vezetnek a Murához."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+    ]
+   ]
+  },
+  "gnasbach": {
+   "name": "Bierbaum am Auersbachtól",
+   "short": "Bierbaumtól Dietersdorfon át",
+   "sky": "Északnyugat",
+   "h1": "Bierbaumtól a Murához.",
+   "lead": "A rövid, sík túra északnyugat felől: Bierbaum am Auersbachtól Dietersdorf am Gnasbachon és Deutsch Goritzon át hozzánk, Unterpurklába.",
+   "ways": "Kerékpárutak és mellékutak",
+   "title": "Kerékpáros útvonal: Bierbaum am Auersbach, Dietersdorf am Gnasbach, Unterpurkla – GPX-szel",
+   "desc": "Kerékpáros útvonal Bierbaum am Auersbachtól Dietersdorf am Gnasbachon és Deutsch Goritzon át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 18 km, sík, térképpel, magassági profillal és GPX-letöltéssel.",
+   "index_text": "Északnyugat felől, Bierbaum am Auersbachtól Dietersdorf am Gnasbachon és Deutsch Goritzon át, rövid és sík.",
+   "stops": [
+    [
+     "Bierbaum am Auersbach",
+     "Falu az Auersbach mentén, a túra kiindulópontja."
+    ],
+    [
+     "Dietersdorf am Gnasbach",
+     "Falu a Gnasbach völgyében."
+    ],
+    [
+     "Deutsch Goritz",
+     "Innen az utolsó kilométerek a síkságon át vezetnek a Murához."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+    ]
+   ]
+  },
+  "maribor": {
+   "name": "Maribortól, Szlovéniából",
+   "short": "Maribortól",
+   "sky": "Délnyugat",
+   "h1": "Maribortól a Murához.",
+   "lead": "A nagy túra Szlovéniából: a Dráva-parti városból Šentiljen át a Murához, majd a folyón lefelé, Mureckon át hozzánk.",
+   "ways": "Kerékpárutak és mellékutak Šentiljig, majd a Mura menti kerékpárút (R2), végül a Gleichenbergi kerékpárút (R45)",
+   "title": "Kerékpártúra: Maribor, Šentilj, Mureck, Unterpurkla – GPX-szel",
+   "desc": "Kerékpártúra a szlovéniai Maribortól Šentiljen és Mureckon át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 49 km, mintegy 160 m szintemelkedés, térképpel, magassági profillal és GPX-letöltéssel.",
+   "index_text": "Délnyugat felől, Szlovénia második legnagyobb városából, a Bike & Spa kör szakaszállomásáról, Šentiljen és Mureckon át a Mura mentén.",
+   "stops": [
+    [
+     "Maribor",
+     "Szlovénia második legnagyobb városa a Dráva partján és a Bike & Spa kör szakaszállomása."
+    ],
+    [
+     "Šentilj",
+     "Település az osztrák határon, nem sokkal a Mura előtt."
+    ],
+    [
+     "Mureck",
+     "A hajómalmot 1997-ben történelmi minta alapján újra a Murára helyezték. Innen síkon, a folyó mentén vezet az út."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+    ]
+   ]
+  },
+  "ptuj": {
+   "name": "Ptujtól, Szlovéniából",
+   "short": "Ptujtól",
+   "sky": "Dél",
+   "h1": "Ptujtól a dombokon át.",
+   "lead": "A Dráva-parti városból a Slovenske gorice dombvidékén át Apačéba, majd a Steirerbrücke hídon át hozzánk.",
+   "ways": "Kerékpárutak és mellékutak a Slovenske gorice dombvidékén át, Steirerbrücke, végül a Gleichenbergi kerékpárút (R45)",
+   "title": "Kerékpártúra: Ptuj, Apače, Steirerbrücke, Unterpurkla – GPX-szel",
+   "desc": "Kerékpártúra a szlovéniai Ptujtól Benedikten és Apačén, valamint a Steirerbrücke hídon át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 46 km, mintegy 170 m szintemelkedés, térképpel, magassági profillal és GPX-letöltéssel.",
+   "index_text": "Dél felől, a Dráva-parti városból, a Bike & Spa kör szakaszállomásáról, a Slovenske gorice dombvidékén át Apačéba, majd a Steirerbrücke hídon át.",
+   "stops": [
+    [
+     "Ptuj",
+     "Város a Dráva partján, az óváros fölé magasodó várral; a Bike & Spa kör szakaszállomása."
+    ],
+    [
+     "Benedikt",
+     "Település a Slovenske gorice vidékén, a Dráva és a Mura közötti dombvidéken."
+    ],
+    [
+     "Apače",
+     "Falu a Mura szlovén partján, a híd kiindulópontja Ausztria felé."
+    ],
+    [
+     "Steirerbrücke",
+     "A függőhíd 2006 óta ível 82,5 méter hosszan a Mura fölött."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+    ]
+   ]
+  },
+  "banovci": {
+   "name": "Banovcitól, Szlovéniából",
+   "short": "Banovcitól",
+   "sky": "Délkelet",
+   "h1": "Banovcitól fel a Mura mentén.",
+   "lead": "A Veržej melletti termálfürdőhelyről sík terepen, a síkságon át, Radencin és Bad Radkersburgon keresztül hozzánk, Unterpurklába.",
+   "ways": "Kerékpárutak és mellékutak a Mura síkságán, végül a Mura menti kerékpárút (R2) és a Gleichenbergi kerékpárút (R45)",
+   "title": "Kerékpártúra: Banovci, Radenci, Bad Radkersburg, Unterpurkla – GPX-szel",
+   "desc": "Kerékpártúra a szlovéniai Banovci termálfürdőhelytől Radencin és Bad Radkersburgon át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 34 km, sík, térképpel, magassági profillal és GPX-letöltéssel.",
+   "index_text": "Délkelet felől, a Veržej melletti termálfürdőhelyről, a Bike & Spa kör szakaszállomásáról, síkon, Radencin és Bad Radkersburgon át.",
+   "stops": [
+    [
+     "Banovci",
+     "Termálfürdőhely Veržej mellett és a Bike & Spa kör szakaszállomása."
+    ],
+    [
+     "Radenci",
+     "Gyógyhely a Mura mentén, ásványvizéről ismert."
+    ],
+    [
+     "Bad Radkersburg",
+     "Óváros és Parktherme a Mura partján; itt vált át a túra a Mura menti kerékpárútra."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+    ]
+   ]
+  },
+  "moravske": {
+   "name": "Moravske Toplicétől, Szlovéniából",
+   "short": "Moravske Toplicétől",
+   "sky": "Kelet",
+   "h1": "Moravske Toplicétől a Murához.",
+   "lead": "A Muravidék (Prekmurje) termálfürdőhelyéről síkon, Murska Sobotán (Muraszombaton) és Bad Radkersburgon át hozzánk, Unterpurklába.",
+   "ways": "Kerékpárutak és mellékutak a Muravidéken (Prekmurje), végül a Mura menti kerékpárút (R2) és a Gleichenbergi kerékpárút (R45)",
+   "title": "Kerékpártúra: Moravske Toplice, Murska Sobota, Bad Radkersburg, Unterpurkla – GPX-szel",
+   "desc": "Kerékpártúra a szlovéniai Moravske Toplice termálfürdőhelytől Murska Sobotán (Muraszombaton) és Bad Radkersburgon át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 33 km, sík, térképpel, magassági profillal és GPX-letöltéssel.",
+   "index_text": "Kelet felől, a Muravidék (Prekmurje) termálfürdőhelyéről, a Bike & Spa kör szakaszállomásáról, síkon, Murska Sobotán (Muraszombaton) és Bad Radkersburgon át.",
+   "stops": [
+    [
+     "Moravske Toplice",
+     "Termálfürdőhely a Muravidéken (Prekmurje) és a Bike & Spa kör szakaszállomása."
+    ],
+    [
+     "Murska Sobota (Muraszombat)",
+     "A Muravidék (Prekmurje), a Murától keletre fekvő régió legnagyobb városa."
+    ],
+    [
+     "Bad Radkersburg",
+     "Óváros és Parktherme a Mura partján; itt vált át a túra a Mura menti kerékpárútra."
     ],
     [
      "s’Genussplatz’l",

@@ -20,7 +20,7 @@ DATA = ROOT / "tools" / "data" / "rad.json"
 # Nach der DNS-Umstellung (CNAME-Datei + A-Records) hier wieder auf "https://s-genussplatzl.at/" stellen und neu bauen.
 SITE = "https://s-genussplatzl.github.io/"
 HOME = (15.9061, 46.7324)
-KEYS = ("west", "nord", "nordost", "ost", "sued")
+KEYS = ("west", "nordwest", "gnasbach", "nord", "nordost", "ost", "sued", "maribor", "ptuj", "banovci", "moravske")
 # Besucherstatistik (Umami, ohne Cookies). Website-ID aus dem Umami-Konto eintragen; leer = kein Skript.
 UMAMI_SRC = "https://cloud.umami.is/script.js"
 UMAMI_ID = "0a0fc72a-b9eb-4cef-9d81-b69e85b1510c"
@@ -121,12 +121,30 @@ ROUTES = {
                 stops=[("Bad Radkersburg", 15.9867, 46.6875), ("Dietzen", 15.94248, 46.71051), GENUSS]),
     "sued": dict(slug="ab-apace-ueber-die-steirerbruecke", komoot="3392769770", start=("Apače", 15.9100, 46.6965),
                  stops=[("Apače", 15.9100, 46.6965), ("Steirerbrücke", 15.8930, 46.7140), GENUSS]),
+    "nordwest": dict(slug="ab-st-stefan-im-rosental", komoot=None, start=("St. Stefan im Rosental", 15.71129, 46.90375),
+                     stops=[("St. Stefan im Rosental", 15.71129, 46.90375), ("Mettersdorf am Saßbach", 15.71069, 46.80434), ("St. Peter am Ottersbach", 15.75917, 46.79778),
+                            ("Dietersdorf am Gnasbach", 15.81158, 46.80906), ("Deutsch Goritz", 15.83043, 46.75173), GENUSS]),
+    "gnasbach": dict(slug="ab-bierbaum-ueber-dietersdorf", komoot=None, start=("Bierbaum am Auersbach", 15.79281, 46.82914),
+                     stops=[("Bierbaum am Auersbach", 15.79281, 46.82914), ("Dietersdorf am Gnasbach", 15.81158, 46.80906), ("Deutsch Goritz", 15.83043, 46.75173), GENUSS]),
+    "maribor": dict(slug="ab-maribor", komoot=None, start=("Maribor", 15.64559, 46.55764),
+                    stops=[("Maribor", 15.64559, 46.55764), ("Šentilj", 15.65289, 46.6804), ("Mureck", 15.7695, 46.7076), GENUSS]),
+    "ptuj": dict(slug="ab-ptuj", komoot=None, start=("Ptuj", 15.87174, 46.41981),
+                 stops=[("Ptuj", 15.87174, 46.41981), ("Benedikt", 15.88205, 46.61417), ("Apače", 15.9100, 46.6965), ("Steirerbrücke", 15.8930, 46.7140), GENUSS]),
+    "banovci": dict(slug="ab-banovci", komoot=None, start=("Banovci", 16.16582, 46.57064),
+                    stops=[("Banovci", 16.16582, 46.57064), ("Radenci", 16.03998, 46.6409), ("Bad Radkersburg", 15.9867, 46.6875), GENUSS]),
+    "moravske": dict(slug="ab-moravske-toplice", komoot=None, start=("Moravske Toplice", 16.22169, 46.6858),
+                     stops=[("Moravske Toplice", 16.22169, 46.6858), ("Murska Sobota", 16.16553, 46.66246), ("Bad Radkersburg", 15.9867, 46.6875), GENUSS]),
 }
 WAYPOINT_LABELS = {  # Kartenbeschriftung: dx, dy, anchor (Schlüssel: deutscher Ortsname)
     "Spielfeld": (0, -20, "start"), "Bad Gleichenberg": (-16, -6, "end"), "St. Anna am Aigen": (16, 6, "start"),
     "Bad Radkersburg": (-4, 34, "middle"), "Apače": (-16, 30, "end"), "Mureck": (0, 34, "middle"),
     "Steirerbrücke": (-16, 6, "end"), "Klöch": (16, 6, "start"), "Gosdorf": (0, 34, "middle"),
     "Trautmannsdorf": (16, 6, "start"), "Radochen": (16, 6, "start"), "Dietzen": (0, -18, "middle"),
+    "St. Stefan im Rosental": (16, 6, "start"), "Bierbaum am Auersbach": (16, -8, "start"), "Maribor": (16, 6, "start"),
+    "Ptuj": (16, 6, "start"), "Banovci": (-16, 6, "end"), "Moravske Toplice": (-16, -10, "end"),
+    "Mettersdorf am Saßbach": (-16, 6, "end"), "St. Peter am Ottersbach": (0, -18, "middle"), "Dietersdorf am Gnasbach": (16, 6, "start"),
+    "Deutsch Goritz": (-16, 6, "end"), "Šentilj": (16, 6, "start"), "Benedikt": (16, 6, "start"), "Radenci": (0, -18, "middle"),
+    "Murska Sobota": (0, 34, "middle"),
 }
 
 
@@ -168,24 +186,23 @@ def home_marker(P):
 
 
 def overview_map():
-    P = Proj(15.60, 16.09, 46.89, 46.66)
+    P = Proj(15.52, 16.31, 46.945, 46.385)
     o = [f'<svg viewBox="0 0 {P.w} {P.h}" role="img" aria-labelledby="ride-title">',
          f'<title id="ride-title">{escape(t("overview_title"))}</title>']
-    o += [f'<path class="river" d="{P.path(w)}"/>' for w in D["river"]]
-    x, y = P.xy(15.79, 46.672)
+    o += [f'<path class="river" d="{P.path(w)}"/>' for w in D["river"] + D.get("drava", [])]
+    x, y = P.xy(16.02, 46.50)
     o.append(f'<text class="label-country" x="{x}" y="{y}">{escape(t("map_slovenia"))}</text>')
-    x, y = P.xy(15.62, 46.885)
-    o.append(f'<text class="label-country" x="{x}" y="{y + 20}">{escape(t("map_styria"))}</text>')
+    x, y = P.xy(16.03, 46.905)
+    o.append(f'<text class="label-country" x="{x}" y="{y}">{escape(t("map_styria"))}</text>')
     for key in KEYS:
         p = P.path(D["routes"][key]["coords"])
         o.append(f'<g class="route" data-route="{key}"><path class="route__hit" d="{p}"/><path class="route__line" d="{p}"/></g>')
-    x, y = P.xy(15.9505, 46.7203)
-    o.append(f'<circle class="place" cx="{x}" cy="{y}" r="5"/><text x="{x + 14}" y="{y + 6}">{escape(t("map_halbenrain"))}</text>')
     for key in KEYS:
         name, lon, lat = ROUTES[key]["start"]
         x, y = P.xy(lon, lat)
-        o.append(f'<g class="start" data-route="{key}"><circle cx="{x}" cy="{y}" r="9"/>{label(P, name, lon, lat, stop_name(key, 0))}</g>')
-    for key, name in (("west", "Mureck"), ("sued", "Steirerbrücke"), ("nordost", "Klöch")):
+        shown = stop_name(key, 0).split(" am ")[0] if key == "gnasbach" else stop_name(key, 0)  # kurze Beschriftung auf der Übersicht
+        o.append(f'<g class="start" data-route="{key}"><circle cx="{x}" cy="{y}" r="9"/>{label(P, name, lon, lat, shown)}</g>')
+    for key, name in (("west", "Mureck"), ("nordost", "Klöch"), ("nordwest", "St. Peter am Ottersbach"), ("moravske", "Murska Sobota")):
         s = next(s for s in ROUTES[key]["stops"] if s[0] == name)
         x, y = P.xy(s[1], s[2])
         o.append(f'<g class="stop" data-route="{key}"><circle cx="{x}" cy="{y}" r="6"/>{label(P, name, s[1], s[2], stop_name_by_de(key, name))}</g>')
@@ -210,7 +227,7 @@ def route_map(key):
     R = ROUTES[key]
     o = [f'<svg viewBox="0 0 {P.w} {P.h}" role="img" aria-labelledby="map-{key}">',
          f'<title id="map-{key}">{escape(t("map_title", name=TR[key]["name"]))}</title>']
-    o += [f'<path class="river" d="{P.path(w)}"/>' for w in D["river"]]
+    o += [f'<path class="river" d="{P.path(w)}"/>' for w in D["river"] + D.get("drava", [])]
     for k in KEYS:
         if k != key:
             o.append(f'<path class="route-other" d="{P.path(D["routes"][k]["coords"])}"/>')
@@ -470,11 +487,11 @@ def route_page(key):
     <div class="container take__grid">
       <div>
         <h2 id="take-title">{escape(t("take_title"))}</h2>
-        <p>{escape(t("take_text"))}</p>
+        <p>{escape(t("take_text") if R.get("komoot") else t("take_text_gpx"))}</p>
       </div>
       <div class="actions take__actions">
         <a class="btn btn--primary" href="{root}gpx/{R["slug"]}.gpx" download>{escape(t("gpx_btn"))}</a>
-        <a class="btn btn--secondary" href="{komoot("tour", R["komoot"])}">{escape(t("komoot_btn"))}</a>
+        {f'<a class="btn btn--secondary" href="{komoot("tour", R["komoot"])}">{escape(t("komoot_btn"))}</a>' if R.get("komoot") else ""}
       </div>
     </div>
   </section>

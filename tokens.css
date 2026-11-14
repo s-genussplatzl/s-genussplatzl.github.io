@@ -1,5 +1,5 @@
 :root {
-  color-scheme: dark;
+  color-scheme: light;
   --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px; --space-4xl: 144px;
   --text-xs: 0.8125rem; --text-sm: 0.875rem; --text-md: 1rem; --text-lg: 1.25rem; --text-xl: 1.5625rem; --text-2xl: 1.953rem; --text-3xl: 2.441rem;
   --text-display-s: clamp(2.25rem, 4vw + 0.5rem, 3.75rem); --text-display: clamp(2.75rem, 5vw + 1rem, 5.25rem);
@@ -9,14 +9,26 @@
   --color-error: oklch(72% 0.15 27); --color-success: oklch(76% 0.13 150);
   --container: 1440px; --gutter: 64px; --gap-columns: 32px; --section-gap-s: 120px; --section-gap: 144px; --section-gap-l: 176px;
   --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
-  --color-paper: oklch(24% 0.052 158); --color-paper-2: oklch(19.5% 0.045 158); --color-paper-3: oklch(29.5% 0.05 158);
-  --color-ink: oklch(93% 0.022 88); --color-ink-2: oklch(81% 0.035 150); --color-muted: oklch(69% 0.045 150);
-  --color-rule: oklch(35% 0.05 158);
+  /* Kupfer, Basalt, Kies: heller Grund wie der weiße Kies, Kupfer wie die Fassade */
+  --color-paper: oklch(98.2% 0.004 90); --color-paper-2: oklch(95.6% 0.005 90); --color-paper-3: oklch(92.5% 0.006 90);
+  --color-ink: oklch(27% 0.006 255); --color-ink-2: oklch(38% 0.008 255); --color-muted: oklch(50% 0.01 255);
+  --color-rule: oklch(87% 0.006 90);
   --color-slate: oklch(33% 0.008 255); --color-slate-2: oklch(37% 0.008 255); --color-foil: oklch(78% 0.12 68);
-  --color-accent: oklch(74% 0.115 58); --color-accent-2: oklch(81% 0.09 62); --color-accent-deep: oklch(50% 0.11 48); --color-accent-ink: oklch(22% 0.05 158); --color-focus: oklch(80% 0.13 60);
+  --color-accent: oklch(53% 0.115 50); --color-accent-2: oklch(46% 0.11 48); --color-accent-deep: oklch(46% 0.11 48); --color-accent-ink: oklch(98.5% 0.004 90); --color-focus: oklch(53% 0.13 50);
+  --stone: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.09 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
   --font-display: "Prata", Georgia, serif; --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
   --font-outlier: "IBM Plex Mono", ui-monospace, monospace;
   --radius-card: 0; --radius-pill: 999px; --rule-hair: 1px;
   --shadow-card: none;
   --tracking-display: -0.005em; --display-weight: 400;
+}
+
+/* Basalt: die dunklen Flächen in Anthrazit wie die Fassadenplatten (Titelbild, Kopf der Unterseiten, Bike & Spa, Anfahrt, Fußzeile) */
+.hero, .site-nav, .page-head, .band--deep, .band--visit, .site-footer {
+  color-scheme: dark;
+  --color-paper: oklch(27% 0.006 255); --color-paper-2: oklch(22.5% 0.006 255); --color-paper-3: oklch(32% 0.007 255);
+  --color-ink: oklch(96% 0.006 90); --color-ink-2: oklch(85% 0.008 90); --color-muted: oklch(71% 0.008 90);
+  --color-rule: oklch(40% 0.008 255);
+  --color-accent: oklch(74% 0.115 58); --color-accent-2: oklch(81% 0.09 62); --color-accent-ink: oklch(22% 0.006 255); --color-focus: oklch(80% 0.13 60);
+  color: var(--color-ink);
 }
