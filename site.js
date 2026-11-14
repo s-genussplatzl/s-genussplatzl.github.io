@@ -73,3 +73,41 @@ if (menu) {
   document.addEventListener('click', (e) => { if (menu.open && !menu.contains(e.target)) menu.removeAttribute('open'); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && menu.open) { menu.removeAttribute('open'); menu.querySelector('summary').focus(); } });
 }
+
+// Sprachhinweis: richtet sich nach der zuletzt gewählten Sprache, sonst nach der Browser-Sprache. Leitet nie von selbst um.
+(() => {
+  const T = {
+    de: ['Sprache', 'Diese Seite gibt es auch auf Deutsch.', 'Auf Deutsch lesen', 'Hinweis schließen'],
+    sl: ['Jezik', 'Ta stran je na voljo tudi v slovenščini.', 'Preberite v slovenščini', 'Zapri obvestilo'],
+    en: ['Language', 'This page is also available in English.', 'Read in English', 'Close notice'],
+    hu: ['Nyelv', 'Ez az oldal magyarul is elérhető.', 'Olvasás magyarul', 'Értesítés bezárása'],
+  };
+  const KEY = 'gp-lang';
+  const here = document.documentElement.lang;
+  const keep = (l) => { try { localStorage.setItem(KEY, l); } catch (e) { /* privater Modus: dann eben ohne Merken */ } };
+  let saved = '';
+  try { saved = localStorage.getItem(KEY) || ''; } catch (e) { /* ohne Speicher weiter */ }
+  // Wer selbst eine Sprache anklickt, hat gewählt
+  document.querySelectorAll('a[hreflang]').forEach((a) => a.addEventListener('click', () => keep(a.hreflang)));
+  if (/bot|crawl|spider|lighthouse|headless/i.test(navigator.userAgent)) return;
+  const list = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+  const browser = list.map((l) => l.slice(0, 2).toLowerCase()).find((l) => T[l]);
+  const want = T[saved] ? saved : browser || 'en';
+  const target = want !== here && document.querySelector(`.lang-switch a[hreflang="${want}"]`);
+  if (!target) return;
+  const [label, text, go, close] = T[want];
+  const bar = document.createElement('div');
+  bar.className = 'lang-hint'; bar.lang = want; bar.setAttribute('role', 'region'); bar.setAttribute('aria-label', label);
+  const box = document.createElement('div'); box.className = 'container';
+  const p = document.createElement('p'); p.textContent = text;
+  const a = document.createElement('a'); a.className = 'btn btn--primary btn--small'; a.href = target.href; a.hreflang = want; a.textContent = go;
+  a.addEventListener('click', () => keep(want));
+  const x = document.createElement('button'); x.type = 'button'; x.className = 'lang-hint__close'; x.setAttribute('aria-label', close);
+  x.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+  box.append(p, a, x); bar.append(box); document.body.prepend(bar);
+  // Die Kopfzeile liegt über dem Titelbild; sie rückt um die Höhe des Hinweises nach unten
+  const root = document.documentElement;
+  const fit = () => root.style.setProperty('--hint-h', `${bar.offsetHeight}px`);
+  const watch = new ResizeObserver(fit); watch.observe(bar); fit();
+  x.addEventListener('click', () => { watch.disconnect(); bar.remove(); root.style.removeProperty('--hint-h'); keep(here); });
+})();

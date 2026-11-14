@@ -24,7 +24,7 @@
 }
 
 /* Basalt: die dunklen Flächen in Anthrazit wie die Fassadenplatten (Titelbild, Kopf der Unterseiten, Wein, Bike & Spa, Anfahrt, Fußzeile) */
-.hero, .site-nav, .page-head, .band--cream, .band--deep, .band--visit, .site-footer {
+.lang-hint, .hero, .site-nav, .page-head, .band--cream, .band--deep, .band--visit, .site-footer {
   color-scheme: dark;
   --color-paper: oklch(30% 0.006 255); --color-paper-2: oklch(26.5% 0.006 255); --color-paper-3: oklch(35% 0.007 255);
   --color-ink: oklch(96% 0.006 90); --color-ink-2: oklch(85% 0.008 90); --color-muted: oklch(71% 0.008 90);

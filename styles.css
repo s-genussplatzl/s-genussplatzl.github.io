@@ -373,3 +373,14 @@ html { -webkit-tap-highlight-color: color-mix(in oklab, var(--color-accent) 22%,
 .rating__text strong { color: var(--color-ink); font-weight: 500; }
 .rating .actions { align-items: center; gap: var(--space-sm) var(--space-lg); margin-top: var(--space-xs); }
 .rating__read { font-size: var(--text-sm); min-height: 44px; display: inline-flex; align-items: center; }
+
+/* ---------- Sprachhinweis (setzt site.js ein, wenn Browser-Sprache und Seitensprache nicht zusammenpassen) ---------- */
+.lang-hint { background: var(--color-paper-2); border-bottom: 1px solid var(--color-rule); font-size: var(--text-sm); }
+.lang-hint .container { display: flex; align-items: center; flex-wrap: wrap; gap: var(--space-xs) var(--space-md); padding-block: var(--space-xs); min-height: 60px; }
+.lang-hint p { flex: 1 1 12rem; max-width: none; margin: 0; color: var(--color-ink); }
+.lang-hint__close { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; margin-right: calc(var(--space-xs) * -1); border: 0; border-radius: var(--radius-pill); background: transparent; color: var(--color-ink-2); cursor: pointer; transition: color var(--dur-short) var(--ease-out); }
+.lang-hint__close svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.lang-hint__close:hover { color: var(--color-ink); }
+.lang-hint__close:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+.site-nav { top: var(--hint-h, 0px); }
+@media (max-width: 30rem) { .lang-hint p { flex-basis: 100%; } .lang-hint__close { margin-left: auto; } }
