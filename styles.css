@@ -7,9 +7,9 @@
 /* Hallmark · waive 77 · the Wegweiser section carries three sign panels 540px tall · the linter does not count linked panels without images as mass */
 /* Hallmark · waive 77 · the Unterwegs section on route pages carries the sticky route map, 600px tall · the linter does not count an inline SVG map as mass */
 /* Rebrand 14.11.2026 (Wunsch des Inhabers): Palette Kupfer, Basalt, Kies. Heller Grund, Anthrazit-Bänder mit Steinstruktur, Kupfer als Akzent; die Farben stehen in tokens.css */
-@import url("./fonts.css");
-@import url("./tokens.css");
-@import url("./base.css");
+@import url("./fonts.css?v=105094af");
+@import url("./tokens.css?v=bf16e8c7");
+@import url("./base.css?v=37cb67b8");
 
 /* ---------- Slots holding a <picture> ---------- */
 [data-slot] > picture { position: absolute; inset: 0; z-index: 1; }

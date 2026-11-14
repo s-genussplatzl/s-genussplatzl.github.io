@@ -309,6 +309,24 @@ def gpx(key):
 LAYOUT = (ROOT / "layout.html").read_text(encoding="utf-8")
 
 
+def asset_version():
+    """Kurze Prüfsumme über Stil und Skript. Sie hängt als ?v= an den Dateien, damit Browser nach einer Änderung
+    nie eine neue Seite mit einer alten Stil-Datei aus dem Zwischenspeicher zeigen."""
+    import hashlib
+    css = ROOT / "styles.css"
+    text = css.read_text(encoding="utf-8")
+    for name in ("fonts.css", "tokens.css", "base.css"):
+        h = hashlib.sha1((ROOT / name).read_bytes()).hexdigest()[:8]
+        text, n = re.subn(r'@import url\("\./%s(\?v=[0-9a-f]+)?"\);' % re.escape(name), f'@import url("./{name}?v={h}");', text)
+        assert n == 1, name
+    if text != css.read_text(encoding="utf-8"):
+        css.write_text(text, encoding="utf-8", newline=chr(10))
+    return hashlib.sha1(text.encode("utf-8") + (ROOT / "site.js").read_bytes()).hexdigest()[:8]
+
+
+ASSET_VER = asset_version()
+
+
 def page_url(l, path):
     return SITE + prefix(l) + ("" if path == "index.html" else path)
 
@@ -385,6 +403,7 @@ def render(path, title, desc, content, jsonld=None, bodyclass="page"):
            .replace("{{canonical}}", page_url(L, path)).replace("{{site}}", SITE).replace("{{jsonld}}", ld).replace("{{bodyclass}}", bodyclass)
            .replace("{{lang}}", HREFLANG[L]).replace("{{locale}}", U["locale"]).replace("{{alternates}}", alt)
            .replace("{{langswitch}}", switch).replace("{{langfoot}}", foot)
+           .replace("{{ver}}", ASSET_VER)
            .replace("{{maker}}", maker_band() if path == "index.html" else "").replace("{{credit}}", "" if path == "index.html" else credit_line())
            .replace("{{analytics}}", f'<script defer src="{UMAMI_SRC}" data-website-id="{UMAMI_ID}" data-domains="s-genussplatzl.at,www.s-genussplatzl.at,s-genussplatzl.github.io"></script>' if UMAMI_ID else "")
            .replace("{{content}}", content).replace("{{root}}", root).replace("{{home}}", home))
