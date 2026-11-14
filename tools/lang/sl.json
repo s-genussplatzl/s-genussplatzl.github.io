@@ -1,0 +1,237 @@
+{
+ "ui": {
+  "_hinweis": "Besedila spletne strani v slovenščini. Ključi s končnico _html vsebujejo HTML. {označb} ne prevajajte.",
+  "lang_name": "Slovenščina",
+  "lang_short": "SL",
+  "locale": "sl_SI",
+  "komoot_locale": "",
+  "decimal": ",",
+  "nav_label": "Glavna navigacija",
+  "home_label": "s’Genussplatz’l, na domačo stran",
+  "nav_story": "Zgodba",
+  "nav_art": "Umetnost",
+  "nav_bikespa": "Bike & Spa",
+  "nav_routes": "Kolesarske poti",
+  "nav_visit": "Dostop",
+  "lang_label": "Izberite jezik",
+  "logo_label": "Logotip s’Genussplatz’l: regionalno, kolesarjenje, sprostitev",
+  "colophon_html": "s’Genussplatz’l, Wohlfühlgarten, Unterpurkla 28, 8484 Halbenrain. Lastnik Michael Ruckenstuhl. Gostinska dejavnost v obliki bifeja (Buffet), član WKO Steiermark, pristojni obrtni organ BH Südoststeiermark. ID za DDV ATU79026956. E-pošta <a href=\"mailto:info@s-genussplatzl.at\">info@s-genussplatzl.at</a>, telefon <a href=\"tel:+436645785026\">0664 5785026</a>.",
+  "footer_ebike": "Polnjenje e-koles",
+  "footer_bikespa": "Bike & Spa",
+  "footer_privacy": "Varstvo podatkov",
+  "crumb_home": "Domov",
+  "crumb_routes": "Kolesarske poti",
+  "crumb_ebike": "Polnjenje e-koles",
+  "crumb_privacy": "Varstvo podatkov",
+  "crumb_bikespa": "Bike & Spa",
+  "approx": "pribl.",
+  "km": "km",
+  "stop_start": "Začetek",
+  "stop_goal": "Cilj",
+  "stop_km": "km {km}",
+  "fact_length": "Dolžina",
+  "fact_up": "Vzpon",
+  "fact_up_value": "pribl. {m} m",
+  "fact_up_flat": "skoraj brez vzponov",
+  "fact_start": "Začetek",
+  "fact_goal": "Cilj",
+  "fact_goal_value": "s’Genussplatz’l, Unterpurkla",
+  "map_caption": "Pot izračunana z BRouter, tok Mure po OpenStreetMap, © sodelavci OpenStreetMap",
+  "map_title": "Zemljevid poti {name} do Genussplatzla v Unterpurkli",
+  "way_title": "Na poti",
+  "ways_prefix": "Poti:",
+  "prof_title": "Višinski profil",
+  "prof_resting": "Najnižja točka {lo} m, najvišja točka {hi} m nadmorske višine.",
+  "prof_svg_title": "Višinski profil, {name}: {km} km, od {a} do {b} m nadmorske višine, najnižja točka {lo} m, najvišja točka {hi} m",
+  "take_title": "Vzemite pot s seboj.",
+  "take_text": "Odprite pot neposredno v aplikaciji Komoot z navigacijo na telefonu ali pa prenesite traso kot datoteko GPX za Vašo navigacijsko napravo, Garmin, Wahoo ali kolesarsko aplikacijo.",
+  "gpx_btn": "Prenesi GPX",
+  "komoot_btn": "Odpri v Komootu",
+  "goal_slot_alt": "Genussplatzl v večernem mraku",
+  "goal_alt": "Genussplatzl v večernem mraku, osvetljen od znotraj",
+  "goal_title": "Na cilju: počitek pod orehom.",
+  "goal_text_html": "Na koncu poti Vas pričakajo senca pod orehom, regionalna vina in špricerji, WC, brezplačno <a href=\"{ebike}\">polnjenje e-koles</a> in v vročih dneh klimatiziran prostor. Od marca do oktobra, vsak dan od 9. do 22. ure.",
+  "goal_btn": "Dostop in delovni čas",
+  "more_title": "Druge poti do Genussplatzla",
+  "overview_title": "Zemljevid: pet kolesarskih poti do Genussplatzla, iz Spielfelda skozi Mureck, iz Bad Gleichenberga, iz kraja St. Anna am Aigen skozi Klöch, iz Bad Radkersburga in iz Apač čez most Steirerbrücke",
+  "map_slovenia": "Slovenija",
+  "map_styria": "Štajerska",
+  "map_halbenrain": "Halbenrain",
+  "ride_more": "Pot, višinski profil in GPX",
+  "ebike_title": "Polnjenje e-koles ob kolesarski poti ob Muri in R45 v Halbenrainu | s’Genussplatz’l",
+  "ebike_desc": "Brezplačna polnilnica za e-kolesa ob kolesarski poti R45 (Gleichenberger Radweg) v Unterpurkli, Halbenrain, tik pred kolesarsko potjo ob Muri R2. Polnjenje v senci pod orehom, od marca do oktobra.",
+  "ebike_h1": "Polnjenje e-koles ob kolesarski poti.",
+  "ebike_lead": "Baterijo napolnite brezplačno, medtem ko počivate pod orehom: neposredno ob kolesarski poti R45 (Gleichenberger Radweg), tik pred kolesarsko potjo ob Muri.",
+  "ebike_cost": "Cena",
+  "ebike_cost_value": "brezplačno",
+  "ebike_where": "Kje",
+  "ebike_where_value": "Unterpurkla 28, ob R45",
+  "ebike_when": "Kdaj",
+  "ebike_when_value": "od marca do oktobra, od 9. do 22. ure",
+  "ebike_mur": "Kolesarska pot ob Muri",
+  "ebike_mur_value": "le nekaj minut stran",
+  "ebike_slot_alt": "Kolo ob polnilnem stebričku",
+  "ebike_alt": "Kolo ob polnilnem stebričku na Genussplatzlu",
+  "ebike_how_title": "Napolnite in si oddahnite.",
+  "ebike_how_text": "Postavite kolo k polnilnemu stebričku, priključite svoj polnilnik in si privoščite odmor. Medtem ko se baterija polni, Vas pričakajo senca pod orehom, regionalna vina in špricerji, hladne pijače, WC in v vročih dneh klimatiziran prostor.",
+  "ebike_charger": "Prosimo, prinesite s seboj svoj polnilnik.",
+  "ebike_routes_title": "S kolesom do nas",
+  "index_title": "s’Genussplatz’l, počitek pod orehom v Unterpurkli ob kolesarski poti R45",
+  "index_desc": "Počitek pod orehom v Unterpurkli: oaza sprostitve v Toskani Štajerske, z regionalnimi vini, umetnostjo in naravno senco ob kolesarski poti R45 (Gleichenberger Radweg).",
+  "ld_desc": "Počivališče pod orehom ob kolesarski poti R45 (Gleichenberger Radweg) v Unterpurkli: regionalna vina, umetnost in naravna senca v regiji Thermen- & Vulkanland (dežela term in vulkanov), Toskani Štajerske.",
+  "ld_amenities": [
+   "Polnilnica za e-kolesa",
+   "WC",
+   "Senca pod orehom",
+   "Klimatiziran prostor"
+  ],
+  "ld_tourist": [
+   "Kolesarji",
+   "Pohodniki",
+   "Izletniki"
+  ],
+  "privacy_title": "Varstvo podatkov | s’Genussplatz’l",
+  "privacy_desc": "Izjava o varstvu podatkov spletne strani s’Genussplatz’l v Unterpurkli: gostovanje, statistika obiskov brez piškotkov, Vaše pravice.",
+  "bs_title": "Shematski zemljevid krožne poti Bike & Spa z etapnimi kraji {names}; etapa od Murecka do Bad Gleichenberga vodi po kolesarski poti R45 mimo Genussplatzla",
+  "bs_austria": "Avstrija",
+  "bs_hungary": "Madžarska",
+  "bs_slovenia": "Slovenija",
+  "js_of": "{i} od {n}",
+  "js_elevation": "{m} m nadmorske višine pri km {km}"
+ },
+ "routes": {
+  "west": {
+   "name": "Ob Muri iz Spielfelda",
+   "short": "Ob Muri iz Spielfelda",
+   "h1": "Iz Spielfelda ob Muri.",
+   "lead": "Klasika ob Muri: ravninsko ob reki, skozi Mureck (Cmurek) do nas v Unterpurklo.",
+   "ways": "kolesarska pot ob Muri R2 (Murradweg), na koncu kolesarska pot R45 (Gleichenberger Radweg)",
+   "title": "Ob Muri iz Spielfelda do Unterpurkle, kolesarska pot z GPX",
+   "desc": "Kolesarska pot ob Muri R2 iz Spielfelda (Špilje) skozi Mureck do s’Genussplatz’l v Unterpurkli: pribl. 27 km, ravninska, z zemljevidom, višinskim profilom in prenosom GPX.",
+   "index_text": "Klasika ob Muri, z zahoda skozi Mureck in mimo njegovega plavajočega mlina, ki so ga leta 1997 po zgodovinskem vzoru znova spustili na vodo.",
+   "sky": "Zahod",
+   "stops": [
+    [
+     "Spielfeld",
+     "Obmejni kraj ob Muri, tik ob Južnoštajerski vinski cesti. Tu se tura začne v smeri toka reke."
+    ],
+    [
+     "Mureck",
+     "Plavajoči mlin so leta 1997 po zgodovinskem vzoru znova postavili na Muro; je eden zadnjih plavajočih mlinov v Srednji Evropi."
+    ],
+    [
+     "Gosdorf",
+     "Skozi loke ob Muri, naokoli biosferno območje UNESCO Mura-Drava-Donava."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+    ]
+   ]
+  },
+  "nord": {
+   "name": "R45 iz Bad Gleichenberga",
+   "short": "R45 iz Bad Gleichenberga",
+   "h1": "Iz Bad Gleichenberga skozi Vulkanland.",
+   "lead": "Po kolesarski poti R45 (Gleichenberger Radweg) iz zdraviliškega kraja rahlo navzdol do Mure, skozi vasi, polja in griče Vulkanlanda.",
+   "ways": "kolesarska pot R45 (Gleichenberger Radweg)",
+   "title": "R45 iz Bad Gleichenberga do Unterpurkle, kolesarska pot z GPX",
+   "desc": "Kolesarska pot R45 (Gleichenberger Radweg) iz Bad Gleichenberga skozi Trautmannsdorf in Radochen do s’Genussplatz’l v Unterpurkli: pribl. 20 km, rahlo navzdol, z GPX.",
+   "index_text": "S severa iz zdraviliškega kraja sredi Vulkanlanda; kolesarska pot Gleichenberger Radweg pelje neposredno mimo nas.",
+   "sky": "Sever",
+   "stops": [
+    [
+     "Bad Gleichenberg",
+     "Zdraviliški kraj sredi Vulkanlanda in etapni kraj krožne poti Bike & Spa, katere etapa iz Murecka po R45 vodi mimo nas."
+    ],
+    [
+     "Trautmannsdorf",
+     "R45 zapusti zdraviliški kraj v smeri juga, skozi blago gričevje."
+    ],
+    [
+     "Radochen",
+     "Zadnji kilometri skozi polja in vasi, dokler se ne pokaže Mura."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+    ]
+   ]
+  },
+  "nordost": {
+   "name": "Iz St. Anne am Aigen skozi Klöch",
+   "short": "Iz St. Anne skozi Klöch",
+   "h1": "Iz St. Anne skozi vinograde.",
+   "lead": "Razgibana pot skozi vinorodno pokrajino: iz kraja St. Anna am Aigen skozi Klöch, domovino traminca, navzdol do nas ob Muri.",
+   "ways": "kolesarske poti in stranske ceste skozi vinorodni okoliš Klöcha",
+   "title": "Kolesarska tura St. Anna am Aigen, Klöch, Unterpurkla z GPX",
+   "desc": "Kolesarska tura iz kraja St. Anna am Aigen skozi Klöch do s’Genussplatz’l v Unterpurkli: pribl. 19 km, gričevnata, okoli 150 višinskih metrov, z zemljevidom in prenosom GPX.",
+   "index_text": "S severovzhoda skozi vinograde Vulkanlanda, mimo Klöcha, ki je kot vinorodni kraj v listinah izpričan od leta 1444 in je domovina traminca. Rahlo gričevnato, okoli 150 višinskih metrov.",
+   "sky": "Severovzhod",
+   "stops": [
+    [
+     "St. Anna am Aigen",
+     "Vinorodni kraj v Vulkanlandu. Od tu pot vodi skozi vinograde proti jugu."
+    ],
+    [
+     "Klöch",
+     "Vinorodni kraj, v listinah izpričan od leta 1444. Vulkanska tla dajejo tramincu njegov vonj po vrtnicah, tu so še vinoteka, vinogradniški muzej in grajske razvaline."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+    ]
+   ]
+  },
+  "ost": {
+   "name": "Iz Bad Radkersburga",
+   "short": "Iz Bad Radkersburga",
+   "h1": "Iz Bad Radkersburga ob Muri navzgor.",
+   "lead": "Kratko in ravninsko: iz starega mestnega jedra ob Muri skozi Dietzen do nas v Unterpurklo, idealno za izlet iz term.",
+   "ways": "kolesarska pot ob Muri R2 (Murradweg), na koncu kolesarska pot R45 (Gleichenberger Radweg)",
+   "title": "Kolesarska pot iz Bad Radkersburga do Unterpurkle z GPX",
+   "desc": "Kolesarska pot iz Bad Radkersburga (Radgona) ob Muri do s’Genussplatz’l v Unterpurkli: pribl. 12 km, ravninska, z zemljevidom, višinskim profilom in prenosom GPX.",
+   "index_text": "Z vzhoda, iz starega mestnega jedra in term Parktherme ob Muri, izhodišča kolesarske poti med termami R12 (Thermenradweg).",
+   "sky": "Vzhod",
+   "stops": [
+    [
+     "Bad Radkersburg",
+     "Staro mestno jedro in terme Parktherme ob Muri, izhodišče kolesarske poti med termami R12 in etapni kraj krožne poti Bike & Spa."
+    ],
+    [
+     "Dietzen",
+     "Ravninsko skozi polja na robu murskih lok."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+    ]
+   ]
+  },
+  "sued": {
+   "name": "Iz Apač v Sloveniji",
+   "short": "Iz Apač čez most Steirerbrücke",
+   "h1": "Iz Apač čez most Steirerbrücke.",
+   "lead": "Najkrajša pot pripelje iz Slovenije: čez viseči most in skozi loke ob Muri ste v pol ure pri nas.",
+   "ways": "kolesarske poti na obeh bregovih Mure, most Steirerbrücke, na koncu kolesarska pot R45 (Gleichenberger Radweg)",
+   "title": "Kolesarska pot Apače, most Steirerbrücke, Unterpurkla z GPX",
+   "desc": "Kolesarska pot iz Apač v Sloveniji čez most Steirerbrücke do s’Genussplatz’l v Unterpurkli: pribl. 7 km, ravninska, z zemljevidom in prenosom GPX.",
+   "index_text": "Z juga čez most Steirerbrücke, ki se od leta 2006 v dolžini 82,5 metra pne čez Muro, sredi lok biosfernega območja Mura-Drava-Donava.",
+   "sky": "Jug",
+   "stops": [
+    [
+     "Apače",
+     "Vas na slovenskem bregu Mure, izhodišče za most v Avstrijo."
+    ],
+    [
+     "Steirerbrücke",
+     "Viseči most se od leta 2006 v dolžini 82,5 metra pne čez Muro, sredi biosfernega območja UNESCO Mura-Drava-Donava."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Počitek pod orehom z regionalnimi vini, senco, WC-jem, brezplačno polnilnico za e-kolesa in klimatiziranim prostorom za vroče dni."
+    ]
+   ]
+  }
+ }
+}

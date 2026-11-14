@@ -1,13 +1,14 @@
 <!doctype html>
-<html lang="de">
+<html lang="{{lang}}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{title}}</title>
 <meta name="description" content="{{description}}">
 <link rel="canonical" href="{{canonical}}">
+{{alternates}}
 <meta property="og:type" content="website">
-<meta property="og:locale" content="de_AT">
+<meta property="og:locale" content="{{locale}}">
 <meta property="og:site_name" content="s’Genussplatz’l">
 <meta property="og:title" content="{{title}}">
 <meta property="og:description" content="{{description}}">
@@ -24,18 +25,19 @@
 {{jsonld}}
 {{analytics}}
 </head>
-<body class="{{bodyclass}}">
+<body class="{{bodyclass}}" data-of="{{t.js_of}}" data-elev="{{t.js_elevation}}" data-dec="{{t.decimal}}">
 
 <header class="site-nav">
-  <nav class="container" aria-label="Hauptnavigation">
-    <a class="wordmark" href="{{root}}index.html" aria-label="s’Genussplatz’l, zur Startseite">s’Genussplatz’l</a>
+  <nav class="container" aria-label="{{t.nav_label}}">
+    <a class="wordmark" href="{{home}}index.html" aria-label="{{t.home_label}}">s’Genussplatz’l</a>
     <ul class="nav-links">
-      <li><a href="{{root}}index.html#geschichte">Geschichte</a></li>
-      <li><a href="{{root}}index.html#kunst">Kunst</a></li>
-      <li><a href="{{root}}bike-and-spa.html">Bike &amp; Spa</a></li>
-      <li><a href="{{root}}index.html#umgebung">Radrouten</a></li>
-      <li><a class="btn btn--secondary btn--small" href="{{root}}index.html#anfahrt">Anfahrt</a></li>
+      <li><a href="{{home}}index.html#geschichte">{{t.nav_story}}</a></li>
+      <li><a href="{{home}}index.html#kunst">{{t.nav_art}}</a></li>
+      <li><a href="{{home}}bike-and-spa.html">{{t.nav_bikespa}}</a></li>
+      <li><a href="{{home}}index.html#umgebung">{{t.nav_routes}}</a></li>
+      <li><a class="btn btn--secondary btn--small" href="{{home}}index.html#anfahrt">{{t.nav_visit}}</a></li>
     </ul>
+    {{langswitch}}
   </nav>
 </header>
 
@@ -45,16 +47,17 @@
 
 <footer class="site-footer" id="impressum">
   <div class="container footer__grid">
-    <div class="footer__logo" role="img" aria-label="Logo s’Genussplatz’l: Regional, Radeln, Relaxen"></div>
+    <div class="footer__logo" role="img" aria-label="{{t.logo_label}}"></div>
     <div>
-      <p class="footer__colophon">s’Genussplatz’l, Wohlfühlgarten, Unterpurkla 28, 8484 Halbenrain. Inhaber Michael Ruckenstuhl. Gastgewerbe in der Betriebsart Buffet, Mitglied der WKO Steiermark, Gewerbebehörde BH Südoststeiermark. UID ATU79026956. E-Mail <a href="mailto:info@s-genussplatzl.at">info@s-genussplatzl.at</a>, Telefon <a href="tel:+436645785026">0664 5785026</a>.</p>
+      <p class="footer__colophon">{{t.colophon_html}}</p>
       <ul class="footer__links">
-        <li><a href="{{root}}e-bike-laden.html">E-Bike laden</a></li>
-        <li><a href="{{root}}bike-and-spa.html">Bike &amp; Spa</a></li>
+        <li><a href="{{home}}e-bike-laden.html">{{t.footer_ebike}}</a></li>
+        <li><a href="{{home}}bike-and-spa.html">{{t.footer_bikespa}}</a></li>
         <li><a href="https://www.instagram.com/s_genussplatz_l_/">Instagram</a></li>
-        <li><a href="https://www.komoot.com/de-de/highlight/8495359">Komoot</a></li>
+        <li><a href="https://www.komoot.com/highlight/8495359">Komoot</a></li>
         <li><a href="https://maps.google.com/?cid=5193859400819937139">Google Maps</a></li>
-        <li><a href="{{root}}datenschutz.html">Datenschutz</a></li>
+        <li><a href="{{home}}datenschutz.html">{{t.footer_privacy}}</a></li>
+        {{langfoot}}
       </ul>
     </div>
   </div>

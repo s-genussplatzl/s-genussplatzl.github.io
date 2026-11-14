@@ -5,6 +5,7 @@ offiziellen Karte. Ergebnis: bikespa.svg.part (wird von build.py eingesetzt).
 """
 import json
 import math
+from html import escape
 from pathlib import Path
 
 LAT_N, LAT_S = 47.20, 46.38
@@ -48,33 +49,46 @@ for i, p in enumerate(pts):
 d = "M" + " L".join(f"{x} {y}" for x, y in route) + " Z"
 
 names = ", ".join(s[0] for s in STAGES)
-out = [
-    f'<svg viewBox="0 0 {W} {H}" role="img" aria-labelledby="bs-title">',
-    f'<title id="bs-title">Schematische Karte der Bike-&amp;-Spa-Runde mit den Etappenorten {names}; '
-    'die Etappe von Mureck nach Bad Gleichenberg führt am Radweg R45 am Genussplatzl vorbei</title>',
-    '<text class="bs-country" x="{}" y="{}">Österreich</text>'.format(*xy(47.13, 15.60)),
-    '<text class="bs-country" x="{}" y="{}">Ungarn</text>'.format(*xy(46.80, 16.40)),
-    '<text class="bs-country" x="{}" y="{}">Slowenien</text>'.format(*xy(46.47, 16.18)),
-    f'<path class="bs-route" d="{d}"/>',
-]
+LANG_DIR = Path(__file__).resolve().parent / "lang"
 BORDERS = json.loads((Path(__file__).resolve().parent / 'data' / 'borders.json').read_text(encoding='utf-8'))
+LANDS = json.loads((Path(__file__).resolve().parent / 'data' / 'countries.json').read_text(encoding='utf-8'))
+
+
 def _bpath(w, cls):
     return f'<path class="{cls}" d="M' + ' L'.join('{} {}'.format(*xy(lat, lon)) for lon, lat in w) + '"/>'
-LANDS = json.loads((Path(__file__).resolve().parent / 'data' / 'countries.json').read_text(encoding='utf-8'))
+
+
 def _land(k):
     d = ''.join('M' + ' L'.join('{} {}'.format(*xy(lat, lon)) for lon, lat in ring) + 'Z' for poly in LANDS[k] for ring in poly)
     return f'<path class="bs-land bs-land--{k}" d="{d}" fill-rule="evenodd"/>'
-out[2:2] = [_land('si'), _land('hu')]
-out[7:7] = [_bpath(w, 'bs-border') for w in BORDERS['national']]
-out += [
-]
-for (name, lat, lon, dx, dy, anchor), (x, y) in zip(STAGES, pts):
-    out.append(f'<circle class="bs-stop" cx="{x}" cy="{y}" r="7"/>')
-    out.append(f'<text x="{x + dx}" y="{y + dy}" text-anchor="{anchor}">{name}</text>')
-out.append(f'<circle class="bs-home-ring" cx="{hx}" cy="{hy}" r="20"/>')
-out.append(f'<circle class="bs-home" cx="{hx}" cy="{hy}" r="10"/>')
-out.append(f'<text class="bs-home-label" x="{hx - 30}" y="{hy - 22}" text-anchor="end">s’Genussplatz’l</text>')
-out.append("</svg>")
 
-Path(__file__).resolve().parent.parent.joinpath("bikespa.svg.part").write_text("\n".join(out), encoding="utf-8")
+
+def build(ui):
+    out = [
+        f'<svg viewBox="0 0 {W} {H}" role="img" aria-labelledby="bs-title">',
+        f'<title id="bs-title">{escape(ui["bs_title"].format(names=names))}</title>',
+        _land('si'), _land('hu'),
+        '<text class="bs-country" x="{}" y="{}">{}</text>'.format(*xy(47.13, 15.60), escape(ui["bs_austria"])),
+        '<text class="bs-country" x="{}" y="{}">{}</text>'.format(*xy(46.80, 16.40), escape(ui["bs_hungary"])),
+        '<text class="bs-country" x="{}" y="{}">{}</text>'.format(*xy(46.47, 16.18), escape(ui["bs_slovenia"])),
+    ]
+    out += [_bpath(w, 'bs-border') for w in BORDERS['national']]
+    out.append(f'<path class="bs-route" d="{d}"/>')
+    for (name, lat, lon, dx, dy, anchor), (x, y) in zip(STAGES, pts):
+        out.append(f'<circle class="bs-stop" cx="{x}" cy="{y}" r="7"/>')
+        out.append(f'<text x="{x + dx}" y="{y + dy}" text-anchor="{anchor}">{name}</text>')
+    out.append(f'<circle class="bs-home-ring" cx="{hx}" cy="{hy}" r="20"/>')
+    out.append(f'<circle class="bs-home" cx="{hx}" cy="{hy}" r="10"/>')
+    out.append(f'<text class="bs-home-label" x="{hx - 30}" y="{hy - 22}" text-anchor="end">s’Genussplatz’l</text>')
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+ROOTDIR = Path(__file__).resolve().parent.parent
+for f in sorted(LANG_DIR.glob("*.json")):
+    l = f.stem
+    ui = json.loads(f.read_text(encoding="utf-8"))["ui"]
+    name = "bikespa.svg.part" if l == "de" else f"bikespa.{l}.svg.part"
+    (ROOTDIR / name).write_text(build(ui), encoding="utf-8")
+    print(name)
 print(W, H, "home", hx, hy)

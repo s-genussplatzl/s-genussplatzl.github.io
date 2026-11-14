@@ -8,7 +8,7 @@ document.querySelectorAll('[data-slider]').forEach((slider) => {
   const word = status.textContent.split(' ')[0];
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
   const current = () => { const x = track.scrollLeft; let best = 0; items.forEach((it, i) => { if (Math.abs(it.offsetLeft - track.offsetLeft - x) < Math.abs(items[best].offsetLeft - track.offsetLeft - x)) best = i; }); return best; };
-  const update = () => { const i = current(); status.textContent = `${word} ${i + 1} von ${items.length}`; controls.querySelector('[data-dir="-1"]').disabled = track.scrollLeft < 4; controls.querySelector('[data-dir="1"]').disabled = track.scrollLeft + track.clientWidth > track.scrollWidth - 4; };
+  const update = () => { const i = current(); status.textContent = `${word} ${(document.body.dataset.of || '{i} von {n}').replace('{i}', i + 1).replace('{n}', items.length)}`; controls.querySelector('[data-dir="-1"]').disabled = track.scrollLeft < 4; controls.querySelector('[data-dir="1"]').disabled = track.scrollLeft + track.clientWidth > track.scrollWidth - 4; };
   controls.addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return; const i = Math.min(Math.max(current() + Number(b.dataset.dir), 0), items.length - 1); track.scrollTo({ left: items[i].offsetLeft - track.offsetLeft, behavior: reduce.matches ? 'auto' : 'smooth' }); });
   track.addEventListener('scroll', () => requestAnimationFrame(update), { passive: true });
   controls.hidden = false; update();
@@ -34,7 +34,7 @@ document.querySelectorAll('[data-profile-figure]').forEach((fig) => {
   const dot = document.createElementNS(ns, 'circle'); dot.setAttribute('r', '6'); dot.setAttribute('class', 'prof-dot'); dot.setAttribute('visibility', 'hidden'); svg.appendChild(dot);
   const out = fig.querySelector('.profile__readout');
   const resting = out.textContent;
-  const fmt = (v, d) => v.toFixed(d).replace('.', ',');
+  const fmt = (v, d) => v.toFixed(d).replace('.', document.body.dataset.dec || ',');
   const show = (clientX) => {
     const r = svg.getBoundingClientRect();
     const vx = (clientX - r.left) / r.width * svg.viewBox.baseVal.width;
@@ -44,7 +44,7 @@ document.querySelectorAll('[data-profile-figure]').forEach((fig) => {
     const x = x0 + (x1 - x0) * best[0] / total, y = top + (bot - top) * (1 - (best[1] - e0) / (e1 - e0));
     cross.setAttribute('x1', x); cross.setAttribute('x2', x); cross.setAttribute('visibility', 'visible');
     dot.setAttribute('cx', x); dot.setAttribute('cy', y); dot.setAttribute('visibility', 'visible');
-    out.textContent = best[1] + ' m über dem Meer bei Kilometer ' + fmt(best[0], 1);
+    out.textContent = (document.body.dataset.elev || '{m} m über dem Meer bei Kilometer {km}').replace('{m}', best[1]).replace('{km}', fmt(best[0], 1));
   };
   const hide = () => { cross.setAttribute('visibility', 'hidden'); dot.setAttribute('visibility', 'hidden'); out.textContent = resting; };
   svg.addEventListener('pointermove', (e) => show(e.clientX));

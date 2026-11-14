@@ -1,0 +1,237 @@
+{
+ "ui": {
+  "_hinweis": "Website texts in English (British). Keys ending in _html contain HTML. Do not translate {placeholders}.",
+  "lang_name": "English",
+  "lang_short": "EN",
+  "locale": "en_GB",
+  "komoot_locale": "en-gb",
+  "decimal": ".",
+  "nav_label": "Main navigation",
+  "home_label": "s’Genussplatz’l, to the home page",
+  "nav_story": "Story",
+  "nav_art": "Art",
+  "nav_bikespa": "Bike & Spa",
+  "nav_routes": "Cycle routes",
+  "nav_visit": "Getting here",
+  "lang_label": "Choose language",
+  "logo_label": "s’Genussplatz’l logo: Regional, Ride, Relax",
+  "colophon_html": "s’Genussplatz’l, Wohlfühlgarten, Unterpurkla 28, 8484 Halbenrain, Austria. Owner: Michael Ruckenstuhl. Hospitality business, licensed as a buffet, member of WKO Steiermark, trade authority BH Südoststeiermark. VAT ID ATU79026956. Email <a href=\"mailto:info@s-genussplatzl.at\">info@s-genussplatzl.at</a>, phone <a href=\"tel:+436645785026\">0664 5785026</a>.",
+  "footer_ebike": "E-bike charging",
+  "footer_bikespa": "Bike & Spa",
+  "footer_privacy": "Privacy",
+  "crumb_home": "Home",
+  "crumb_routes": "Cycle routes",
+  "crumb_ebike": "E-bike charging",
+  "crumb_privacy": "Privacy",
+  "crumb_bikespa": "Bike & Spa",
+  "approx": "approx.",
+  "km": "km",
+  "stop_start": "Start",
+  "stop_goal": "Finish",
+  "stop_km": "km {km}",
+  "fact_length": "Distance",
+  "fact_up": "Climbing",
+  "fact_up_value": "approx. {m} m",
+  "fact_up_flat": "hardly any climbs",
+  "fact_start": "Start",
+  "fact_goal": "Finish",
+  "fact_goal_value": "s’Genussplatz’l, Unterpurkla",
+  "map_caption": "Route calculated with BRouter, course of the Mur from OpenStreetMap, © OpenStreetMap contributors",
+  "map_title": "Map of the route {name} to the Genussplatzl in Unterpurkla",
+  "way_title": "Along the way",
+  "ways_prefix": "Paths:",
+  "prof_title": "Elevation profile",
+  "prof_resting": "Lowest point {lo} m, highest point {hi} m above sea level.",
+  "prof_svg_title": "Elevation profile {name}: {km} kilometres, from {a} to {b} metres, lowest point {lo} metres, highest point {hi} metres",
+  "take_title": "Take the route with you.",
+  "take_text": "Open the route directly in Komoot, with navigation on your phone, or download it as a GPX file for your sat nav, Garmin, Wahoo or cycling app.",
+  "gpx_btn": "Download GPX",
+  "komoot_btn": "Open in Komoot",
+  "goal_slot_alt": "The Genussplatzl at dusk",
+  "goal_alt": "The Genussplatzl at dusk, lit from within",
+  "goal_title": "Journey’s end: a rest beneath the walnut tree.",
+  "goal_text_html": "At the end of the route you will find shade beneath the walnut tree, regional wines and spritzers, a toilet, free <a href=\"{ebike}\">e-bike charging</a> and, on hot days, an air-conditioned room. From March to October, daily from 9 am to 10 pm.",
+  "goal_btn": "Directions and opening hours",
+  "more_title": "More routes to the Genussplatzl",
+  "overview_title": "Map: five cycle routes to the Genussplatzl, from Spielfeld via Mureck, from Bad Gleichenberg, from St. Anna am Aigen via Klöch, from Bad Radkersburg and from Apače across the Steirerbrücke",
+  "map_slovenia": "Slovenia",
+  "map_styria": "Styria",
+  "map_halbenrain": "Halbenrain",
+  "ride_more": "Route, elevation profile and GPX",
+  "ebike_title": "E-bike charging on the Mur Cycle Path and R45 in Halbenrain | s’Genussplatz’l",
+  "ebike_desc": "Free e-bike charging point on the Gleichenberg cycle route R45 in Unterpurkla, Halbenrain, just before the Mur Cycle Path R2. Charge in the shade beneath the walnut tree, March to October.",
+  "ebike_h1": "E-bike charging by the cycle path.",
+  "ebike_lead": "Charge your battery free of charge while you rest beneath the walnut tree: right on the Gleichenberg cycle route R45, just before the Mur Cycle Path.",
+  "ebike_cost": "Cost",
+  "ebike_cost_value": "free",
+  "ebike_where": "Where",
+  "ebike_where_value": "Unterpurkla 28, on the R45",
+  "ebike_when": "When",
+  "ebike_when_value": "March to October, 9 am to 10 pm",
+  "ebike_mur": "Mur Cycle Path",
+  "ebike_mur_value": "a few minutes away",
+  "ebike_slot_alt": "Bicycle at the charging point",
+  "ebike_alt": "Bicycle next to the charging point at the Genussplatzl",
+  "ebike_how_title": "Charge up and unwind.",
+  "ebike_how_text": "Park your bike at the charging point, plug in your charger and treat yourself to a break. While the battery charges, you can enjoy shade beneath the walnut tree, regional wines and spritzers, cool drinks, a toilet and, on hot days, an air-conditioned room.",
+  "ebike_charger": "Please bring your own charger.",
+  "ebike_routes_title": "Cycling to us",
+  "index_title": "s’Genussplatz’l, a rest beneath the walnut tree in Unterpurkla on cycle route R45",
+  "index_desc": "A rest beneath the walnut tree in Unterpurkla: an oasis of calm in the Tuscany of Styria, with regional wines, art and natural shade on the Gleichenberg cycle route R45.",
+  "ld_desc": "Rest stop beneath the walnut tree on the Gleichenberg cycle route R45 in Unterpurkla: regional wines, art and natural shade in the Thermen- & Vulkanland, the Tuscany of Styria.",
+  "ld_amenities": [
+   "E-bike charging point",
+   "Toilet",
+   "Shade beneath the walnut tree",
+   "Air-conditioned room"
+  ],
+  "ld_tourist": [
+   "Cyclists",
+   "Hikers",
+   "Day-trippers"
+  ],
+  "privacy_title": "Privacy | s’Genussplatz’l",
+  "privacy_desc": "Privacy policy for the s’Genussplatz’l website in Unterpurkla: hosting, cookie-free visitor statistics, your rights.",
+  "bs_title": "Schematic map of the Bike & Spa loop with the stage towns {names}; the stage from Mureck to Bad Gleichenberg passes the Genussplatzl on cycle route R45",
+  "bs_austria": "Austria",
+  "bs_hungary": "Hungary",
+  "bs_slovenia": "Slovenia",
+  "js_of": "{i} of {n}",
+  "js_elevation": "{m} m above sea level at km {km}"
+ },
+ "routes": {
+  "west": {
+   "name": "Mur Cycle Path from Spielfeld",
+   "short": "Mur Cycle Path from Spielfeld",
+   "h1": "From Spielfeld along the Mur.",
+   "lead": "The classic route on the Mur: flat along the river, via Mureck, all the way to us in Unterpurkla.",
+   "ways": "Mur Cycle Path R2, finally the Gleichenberg cycle route R45",
+   "title": "Mur Cycle Path from Spielfeld to Unterpurkla, cycle route with GPX",
+   "desc": "Cycle route on the Mur Cycle Path R2 from Spielfeld via Mureck to s’Genussplatz’l in Unterpurkla: approx. 27 km, flat, with map, elevation profile and GPX download.",
+   "index_text": "The classic route on the Mur, from the west via Mureck and its ship mill, set back on the water in 1997 after a historic model.",
+   "sky": "West",
+   "stops": [
+    [
+     "Spielfeld",
+     "Border town on the Mur, right by the South Styrian Wine Road. This is where the ride downstream begins."
+    ],
+    [
+     "Mureck",
+     "The ship mill was set back on the Mur in 1997 after a historic model, one of the last floating ship mills in Central Europe."
+    ],
+    [
+     "Gosdorf",
+     "Through the Mur’s riverside meadows, surrounded by the UNESCO Mura-Drava-Danube Biosphere Reserve."
+    ],
+    [
+     "s’Genussplatz’l",
+     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+    ]
+   ]
+  },
+  "nord": {
+   "name": "R45 from Bad Gleichenberg",
+   "short": "R45 from Bad Gleichenberg",
+   "h1": "From Bad Gleichenberg through the Vulkanland.",
+   "lead": "Along the Gleichenberg cycle route R45 from the spa town gently downhill to the Mur, through the villages, fields and hills of the Vulkanland.",
+   "ways": "Gleichenberg cycle route R45",
+   "title": "R45 from Bad Gleichenberg to Unterpurkla, cycle route with GPX",
+   "desc": "Gleichenberg cycle route R45 from Bad Gleichenberg via Trautmannsdorf and Radochen to s’Genussplatz’l in Unterpurkla: approx. 20 km, gently downhill, with GPX.",
+   "index_text": "From the north, from the spa town in the heart of the Vulkanland; the Gleichenberg cycle route runs right past our door.",
+   "sky": "North",
+   "stops": [
+    [
+     "Bad Gleichenberg",
+     "Spa town in the heart of the Vulkanland and a stage town of the Bike & Spa loop, whose stage from Mureck runs past us on the R45."
+    ],
+    [
+     "Trautmannsdorf",
+     "The R45 leaves the spa town heading south, through the gently rolling hills."
+    ],
+    [
+     "Radochen",
+     "The last few kilometres through fields and villages, until the Mur comes into view."
+    ],
+    [
+     "s’Genussplatz’l",
+     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+    ]
+   ]
+  },
+  "nordost": {
+   "name": "From St. Anna am Aigen via Klöch",
+   "short": "From St. Anna via Klöch",
+   "h1": "From St. Anna through the vineyards.",
+   "lead": "The hilly route through wine country: from St. Anna am Aigen via Klöch, home of the Traminer, down to us by the Mur.",
+   "ways": "Cycle paths and back roads through the Klöch wine country",
+   "title": "Cycle tour St. Anna am Aigen, Klöch, Unterpurkla with GPX",
+   "desc": "Cycle tour from St. Anna am Aigen via Klöch to s’Genussplatz’l in Unterpurkla: approx. 19 km, hilly, around 150 m of climbing, with map and GPX download.",
+   "index_text": "From the north-east through the vineyards of the Vulkanland, via Klöch, wine country on record since 1444 and home of the Traminer. Gently hilly, around 150 m of climbing.",
+   "sky": "North-east",
+   "stops": [
+    [
+     "St. Anna am Aigen",
+     "Wine village in the Vulkanland. From here the route heads south through the vineyards."
+    ],
+    [
+     "Klöch",
+     "Wine country on record since 1444. Volcanic soils give the Traminer its scent of roses; there is also a vinotheque, a wine-growing museum and a castle ruin."
+    ],
+    [
+     "s’Genussplatz’l",
+     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+    ]
+   ]
+  },
+  "ost": {
+   "name": "From Bad Radkersburg",
+   "short": "From Bad Radkersburg",
+   "h1": "From Bad Radkersburg up the Mur.",
+   "lead": "Short and flat: from the old town on the Mur via Dietzen to us in Unterpurkla, ideal as an outing from the thermal spa.",
+   "ways": "Mur Cycle Path R2, finally the Gleichenberg cycle route R45",
+   "title": "Cycle route Bad Radkersburg to Unterpurkla with GPX",
+   "desc": "Cycle route from Bad Radkersburg on the Mur to s’Genussplatz’l in Unterpurkla: approx. 12 km, flat, with map, elevation profile and GPX download.",
+   "index_text": "From the east, from the old town and Parktherme spa on the Mur, the starting point of the Thermal Spa Cycle Path R12.",
+   "sky": "East",
+   "stops": [
+    [
+     "Bad Radkersburg",
+     "Old town and Parktherme spa on the Mur, starting point of the Thermal Spa Cycle Path R12 and a stage town of the Bike & Spa loop."
+    ],
+    [
+     "Dietzen",
+     "Flat through the fields on the edge of the Mur’s riverside meadows."
+    ],
+    [
+     "s’Genussplatz’l",
+     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+    ]
+   ]
+  },
+  "sued": {
+   "name": "From Apače in Slovenia",
+   "short": "From Apače across the Steirerbrücke",
+   "h1": "From Apače across the Steirerbrücke.",
+   "lead": "The shortest route comes from Slovenia: across the suspension bridge and through the Mur’s riverside meadows, and you are with us in half an hour.",
+   "ways": "Cycle paths on both banks of the Mur, Steirerbrücke, finally the Gleichenberg cycle route R45",
+   "title": "Cycle route Apače, Steirerbrücke, Unterpurkla with GPX",
+   "desc": "Cycle route from Apače in Slovenia across the Steirerbrücke to s’Genussplatz’l in Unterpurkla: approx. 7 km, flat, with map and GPX download.",
+   "index_text": "From the south across the Steirerbrücke, a suspension footbridge that has spanned 82.5 metres over the Mur since 2006, right through the riverside meadows of the Mura-Drava-Danube Biosphere Reserve.",
+   "sky": "South",
+   "stops": [
+    [
+     "Apače",
+     "Village on the Slovenian bank of the Mur, the starting point for the bridge to Austria."
+    ],
+    [
+     "Steirerbrücke",
+     "Since 2006 this suspension bridge has swung 82.5 metres across the Mur, right in the heart of the UNESCO Mura-Drava-Danube Biosphere Reserve."
+    ],
+    [
+     "s’Genussplatz’l",
+     "A rest beneath the walnut tree with regional wines, shade, a toilet, a free e-bike charging point and an air-conditioned room for hot days."
+    ]
+   ]
+  }
+ }
+}

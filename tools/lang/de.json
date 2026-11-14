@@ -1,0 +1,237 @@
+{
+ "ui": {
+  "_hinweis": "Texte der Website auf Deutsch. Schlüssel mit _html enthalten HTML. {platzhalter} nicht übersetzen.",
+  "lang_name": "Deutsch",
+  "lang_short": "DE",
+  "locale": "de_AT",
+  "komoot_locale": "de-de",
+  "decimal": ",",
+  "nav_label": "Hauptnavigation",
+  "home_label": "s’Genussplatz’l, zur Startseite",
+  "nav_story": "Geschichte",
+  "nav_art": "Kunst",
+  "nav_bikespa": "Bike & Spa",
+  "nav_routes": "Radrouten",
+  "nav_visit": "Anfahrt",
+  "lang_label": "Sprache wählen",
+  "logo_label": "Logo s’Genussplatz’l: Regional, Radeln, Relaxen",
+  "colophon_html": "s’Genussplatz’l, Wohlfühlgarten, Unterpurkla 28, 8484 Halbenrain. Inhaber Michael Ruckenstuhl. Gastgewerbe in der Betriebsart Buffet, Mitglied der WKO Steiermark, Gewerbebehörde BH Südoststeiermark. UID ATU79026956. E-Mail <a href=\"mailto:info@s-genussplatzl.at\">info@s-genussplatzl.at</a>, Telefon <a href=\"tel:+436645785026\">0664 5785026</a>.",
+  "footer_ebike": "E-Bike laden",
+  "footer_bikespa": "Bike & Spa",
+  "footer_privacy": "Datenschutz",
+  "crumb_home": "Startseite",
+  "crumb_routes": "Radrouten",
+  "crumb_ebike": "E-Bike laden",
+  "crumb_privacy": "Datenschutz",
+  "crumb_bikespa": "Bike & Spa",
+  "approx": "ca.",
+  "km": "km",
+  "stop_start": "Start",
+  "stop_goal": "Ziel",
+  "stop_km": "km {km}",
+  "fact_length": "Länge",
+  "fact_up": "Bergauf",
+  "fact_up_value": "ca. {m} m",
+  "fact_up_flat": "kaum Steigungen",
+  "fact_start": "Start",
+  "fact_goal": "Ziel",
+  "fact_goal_value": "s’Genussplatz’l, Unterpurkla",
+  "map_caption": "Route berechnet mit BRouter, Verlauf der Mur nach OpenStreetMap, © OpenStreetMap-Mitwirkende",
+  "map_title": "Karte der Route {name} zum Genussplatzl in Unterpurkla",
+  "way_title": "Unterwegs",
+  "ways_prefix": "Wege:",
+  "prof_title": "Höhenprofil",
+  "prof_resting": "Tiefster Punkt {lo} m, höchster Punkt {hi} m über dem Meer.",
+  "prof_svg_title": "Höhenprofil {name}: {km} Kilometer, von {a} auf {b} Meter, tiefster Punkt {lo} Meter, höchster Punkt {hi} Meter",
+  "take_title": "Route mitnehmen.",
+  "take_text": "Öffnen Sie die Route direkt in Komoot, mit Navigation auf dem Handy, oder laden Sie die Strecke als GPX-Datei für Ihr Navi, Garmin, Wahoo oder Ihre Rad-App.",
+  "gpx_btn": "GPX herunterladen",
+  "komoot_btn": "In Komoot öffnen",
+  "goal_slot_alt": "Das Genussplatzl in der Abenddämmerung",
+  "goal_alt": "Das Genussplatzl in der Abenddämmerung, innen beleuchtet",
+  "goal_title": "Am Ziel: Rast unterm Nussbaum.",
+  "goal_text_html": "Am Ende der Route warten Schatten unterm Nussbaum, regionale Weine und Spritzer, ein WC, kostenloses <a href=\"{ebike}\">E-Bike-Laden</a> und an heißen Tagen ein klimatisierter Raum. Von März bis Oktober, täglich 9 bis 22 Uhr.",
+  "goal_btn": "Anfahrt und Öffnungszeiten",
+  "more_title": "Weitere Routen zum Genussplatzl",
+  "overview_title": "Karte: fünf Radrouten zum Genussplatzl, ab Spielfeld über Mureck, ab Bad Gleichenberg, ab St. Anna am Aigen über Klöch, ab Bad Radkersburg und ab Apače über die Steirerbrücke",
+  "map_slovenia": "Slowenien",
+  "map_styria": "Steiermark",
+  "map_halbenrain": "Halbenrain",
+  "ride_more": "Route, Höhenprofil und GPX",
+  "ebike_title": "E-Bike laden am Murradweg und R45 in Halbenrain | s’Genussplatz’l",
+  "ebike_desc": "Kostenlose E-Bike-Ladestation am Gleichenberger Radweg R45 in Unterpurkla, Halbenrain, kurz vor dem Murradweg R2. Laden im Schatten unterm Nussbaum, März bis Oktober.",
+  "ebike_h1": "E-Bike laden am Radweg.",
+  "ebike_lead": "Kostenlos Akku laden, während Sie unterm Nussbaum rasten: direkt am Gleichenberger Radweg R45, kurz vor dem Murradweg.",
+  "ebike_cost": "Kosten",
+  "ebike_cost_value": "kostenlos",
+  "ebike_where": "Wo",
+  "ebike_where_value": "Unterpurkla 28, am R45",
+  "ebike_when": "Wann",
+  "ebike_when_value": "März bis Oktober, 9 bis 22 Uhr",
+  "ebike_mur": "Murradweg",
+  "ebike_mur_value": "wenige Minuten entfernt",
+  "ebike_slot_alt": "Fahrrad an der Ladesäule",
+  "ebike_alt": "Fahrrad neben der Ladesäule am Genussplatzl",
+  "ebike_how_title": "Laden und durchatmen.",
+  "ebike_how_text": "Stellen Sie Ihr Rad an die Ladesäule, schließen Sie Ihr Ladegerät an und gönnen Sie sich eine Pause. Während der Akku lädt, warten Schatten unterm Nussbaum, regionale Weine und Spritzer, kühle Getränke, ein WC und an heißen Tagen ein klimatisierter Raum.",
+  "ebike_charger": "Bitte nehmen Sie Ihr eigenes Ladegerät mit.",
+  "ebike_routes_title": "Mit dem Rad zu uns",
+  "index_title": "s’Genussplatz’l, Rasten unterm Nussbaum in Unterpurkla am Radweg R45",
+  "index_desc": "Rasten unterm Nussbaum in Unterpurkla: eine Oase der Entspannung in der Toskana der Steiermark, mit regionalen Weinen, Kunst und Naturschatten am Gleichenberger Radweg R45.",
+  "ld_desc": "Rastplatz unterm Nussbaum am Gleichenberger Radweg R45 in Unterpurkla: regionale Weine, Kunst und Naturschatten im Thermen- & Vulkanland, der Toskana der Steiermark.",
+  "ld_amenities": [
+   "E-Bike-Ladestation",
+   "WC",
+   "Schatten unterm Nussbaum",
+   "Klimatisierter Raum"
+  ],
+  "ld_tourist": [
+   "Radfahrer",
+   "Wanderer",
+   "Ausflügler"
+  ],
+  "privacy_title": "Datenschutz | s’Genussplatz’l",
+  "privacy_desc": "Datenschutzerklärung der Website des s’Genussplatz’l in Unterpurkla: Hosting, Besucherstatistik ohne Cookies, Ihre Rechte.",
+  "bs_title": "Schematische Karte der Bike-&-Spa-Runde mit den Etappenorten {names}; die Etappe von Mureck nach Bad Gleichenberg führt am Radweg R45 am Genussplatzl vorbei",
+  "bs_austria": "Österreich",
+  "bs_hungary": "Ungarn",
+  "bs_slovenia": "Slowenien",
+  "js_of": "{i} von {n}",
+  "js_elevation": "{m} m über dem Meer bei Kilometer {km}"
+ },
+ "routes": {
+  "west": {
+   "name": "Murradweg ab Spielfeld",
+   "short": "Murradweg ab Spielfeld",
+   "h1": "Von Spielfeld die Mur entlang.",
+   "lead": "Der Klassiker an der Mur: flach am Fluss entlang, über Mureck bis zu uns nach Unterpurkla.",
+   "ways": "Murradweg R2, zuletzt Gleichenberger Radweg R45",
+   "title": "Murradweg ab Spielfeld nach Unterpurkla, Radroute mit GPX",
+   "desc": "Radroute am Murradweg R2 von Spielfeld über Mureck zum s’Genussplatz’l in Unterpurkla: ca. 27 km, flach, mit Karte, Höhenprofil und GPX-Download.",
+   "index_text": "Der Klassiker an der Mur, aus dem Westen über Mureck mit seiner Schiffsmühle, 1997 nach historischem Vorbild wieder aufs Wasser gesetzt.",
+   "sky": "Westen",
+   "stops": [
+    [
+     "Spielfeld",
+     "Grenzort an der Mur, gleich bei der Südsteirischen Weinstraße. Hier beginnt die Tour flussabwärts."
+    ],
+    [
+     "Mureck",
+     "Die Schiffsmühle wurde 1997 nach historischem Vorbild wieder auf die Mur gesetzt, eine der letzten schwimmenden Schiffsmühlen Mitteleuropas."
+    ],
+    [
+     "Gosdorf",
+     "Durch die Auen der Mur, ringsum der UNESCO-Biosphärenpark Mur-Drau-Donau."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+    ]
+   ]
+  },
+  "nord": {
+   "name": "R45 ab Bad Gleichenberg",
+   "short": "R45 ab Bad Gleichenberg",
+   "h1": "Von Bad Gleichenberg durchs Vulkanland.",
+   "lead": "Am Gleichenberger Radweg R45 vom Kurort sanft bergab bis zur Mur, durch Dörfer, Felder und Hügel des Vulkanlands.",
+   "ways": "Gleichenberger Radweg R45",
+   "title": "R45 ab Bad Gleichenberg nach Unterpurkla, Radroute mit GPX",
+   "desc": "Gleichenberger Radweg R45 von Bad Gleichenberg über Trautmannsdorf und Radochen zum s’Genussplatz’l in Unterpurkla: ca. 20 km, leicht fallend, mit GPX.",
+   "index_text": "Aus dem Norden vom Kurort mitten im Vulkanland, der Gleichenberger Radweg führt direkt bei uns vorbei.",
+   "sky": "Norden",
+   "stops": [
+    [
+     "Bad Gleichenberg",
+     "Kurort mitten im Vulkanland und Etappenort der Bike-&-Spa-Runde, deren Etappe ab Mureck auf dem R45 bei uns vorbeiführt."
+    ],
+    [
+     "Trautmannsdorf",
+     "Der R45 verlässt den Kurort Richtung Süden, durch das sanfte Hügelland."
+    ],
+    [
+     "Radochen",
+     "Die letzten Kilometer durch Felder und Dörfer, bis die Mur in Sichtweite ist."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+    ]
+   ]
+  },
+  "nordost": {
+   "name": "Ab St. Anna am Aigen über Klöch",
+   "short": "Ab St. Anna über Klöch",
+   "h1": "Von St. Anna durch die Weinberge.",
+   "lead": "Die hügelige Route durch das Weinland: von St. Anna am Aigen über Klöch, die Heimat des Traminers, hinunter zu uns an die Mur.",
+   "ways": "Radwege und Nebenstraßen durch das Klöcher Weinland",
+   "title": "Radtour St. Anna am Aigen, Klöch, Unterpurkla mit GPX",
+   "desc": "Radtour von St. Anna am Aigen über Klöch zum s’Genussplatz’l in Unterpurkla: ca. 19 km, hügelig, rund 150 Höhenmeter, mit Karte und GPX-Download.",
+   "index_text": "Aus dem Nordosten durch die Weinberge des Vulkanlands, über Klöch, seit 1444 urkundlich Weinland und Heimat des Traminers. Leicht hügelig, rund 150 Höhenmeter.",
+   "sky": "Nordosten",
+   "stops": [
+    [
+     "St. Anna am Aigen",
+     "Weinort im Vulkanland. Von hier geht es durch die Weingärten Richtung Süden."
+    ],
+    [
+     "Klöch",
+     "Seit 1444 urkundlich Weinland. Vulkanböden geben dem Traminer seinen Duft nach Rosen, dazu Vinothek, Weinbaumuseum und Burgruine."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+    ]
+   ]
+  },
+  "ost": {
+   "name": "Ab Bad Radkersburg",
+   "short": "Ab Bad Radkersburg",
+   "h1": "Von Bad Radkersburg die Mur hinauf.",
+   "lead": "Kurz und flach: von der Altstadt an der Mur über Dietzen zu uns nach Unterpurkla, ideal als Ausflug von der Therme.",
+   "ways": "Murradweg R2, zuletzt Gleichenberger Radweg R45",
+   "title": "Radroute Bad Radkersburg nach Unterpurkla mit GPX",
+   "desc": "Radroute von Bad Radkersburg an der Mur zum s’Genussplatz’l in Unterpurkla: ca. 12 km, flach, mit Karte, Höhenprofil und GPX-Download.",
+   "index_text": "Aus dem Osten von Altstadt und Parktherme an der Mur, dem Startpunkt des Thermenradwegs R12.",
+   "sky": "Osten",
+   "stops": [
+    [
+     "Bad Radkersburg",
+     "Altstadt und Parktherme an der Mur, Startpunkt des Thermenradwegs R12 und Etappenort der Bike-&-Spa-Runde."
+    ],
+    [
+     "Dietzen",
+     "Flach durch die Felder am Rand der Murauen."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+    ]
+   ]
+  },
+  "sued": {
+   "name": "Ab Apače in Slowenien",
+   "short": "Ab Apače über die Steirerbrücke",
+   "h1": "Von Apače über die Steirerbrücke.",
+   "lead": "Die kürzeste Route kommt aus Slowenien: über die Hängebrücke und durch die Auen der Mur, in einer halben Stunde bei uns.",
+   "ways": "Radwege beidseits der Mur, Steirerbrücke, zuletzt Gleichenberger Radweg R45",
+   "title": "Radroute Apače, Steirerbrücke, Unterpurkla mit GPX",
+   "desc": "Radroute von Apače in Slowenien über die Steirerbrücke zum s’Genussplatz’l in Unterpurkla: ca. 7 km, flach, mit Karte und GPX-Download.",
+   "index_text": "Aus dem Süden über die Steirerbrücke, die seit 2006 auf 82,5 Metern über die Mur schwingt, mitten durch die Auen des Biosphärenparks Mur-Drau-Donau.",
+   "sky": "Süden",
+   "stops": [
+    [
+     "Apače",
+     "Dorf am slowenischen Ufer der Mur, Ausgangspunkt für die Brücke nach Österreich."
+    ],
+    [
+     "Steirerbrücke",
+     "Seit 2006 schwingt die Hängebrücke auf 82,5 Metern über die Mur, mitten im UNESCO-Biosphärenpark Mur-Drau-Donau."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Rast unterm Nussbaum mit regionalen Weinen, Schatten, WC, kostenloser E-Bike-Ladestation und einem klimatisierten Raum für heiße Tage."
+    ]
+   ]
+  }
+ }
+}

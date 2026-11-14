@@ -1,0 +1,237 @@
+{
+ "ui": {
+  "_hinweis": "A weboldal szövegei magyarul. A _html végű kulcsok HTML-t tartalmaznak. A {helykitöltőket} ne fordítsa le.",
+  "lang_name": "Magyar",
+  "lang_short": "HU",
+  "locale": "hu_HU",
+  "komoot_locale": "",
+  "decimal": ",",
+  "nav_label": "Főmenü",
+  "home_label": "s’Genussplatz’l, vissza a kezdőlapra",
+  "nav_story": "Történet",
+  "nav_art": "Művészet",
+  "nav_bikespa": "Bike & Spa",
+  "nav_routes": "Kerékpárutak",
+  "nav_visit": "Megközelítés",
+  "lang_label": "Nyelv kiválasztása",
+  "logo_label": "A s’Genussplatz’l logója: Regionális, Kerekezés, Kikapcsolódás",
+  "colophon_html": "s’Genussplatz’l, Wohlfühlgarten, Unterpurkla 28, 8484 Halbenrain. Tulajdonos: Michael Ruckenstuhl. Vendéglátóipari vállalkozás büfé üzemtípusban, a WKO Steiermark tagja, illetékes iparhatóság: BH Südoststeiermark. Közösségi adószám (UID): ATU79026956. E-mail: <a href=\"mailto:info@s-genussplatzl.at\">info@s-genussplatzl.at</a>, telefon: <a href=\"tel:+436645785026\">0664 5785026</a>.",
+  "footer_ebike": "E-bike töltés",
+  "footer_bikespa": "Bike & Spa",
+  "footer_privacy": "Adatvédelem",
+  "crumb_home": "Kezdőlap",
+  "crumb_routes": "Kerékpárutak",
+  "crumb_ebike": "E-bike töltés",
+  "crumb_privacy": "Adatvédelem",
+  "crumb_bikespa": "Bike & Spa",
+  "approx": "kb.",
+  "km": "km",
+  "stop_start": "Indulás",
+  "stop_goal": "Cél",
+  "stop_km": "{km}. km",
+  "fact_length": "Hossz",
+  "fact_up": "Szintemelkedés",
+  "fact_up_value": "kb. {m} m",
+  "fact_up_flat": "alig van emelkedő",
+  "fact_start": "Indulás",
+  "fact_goal": "Cél",
+  "fact_goal_value": "s’Genussplatz’l, Unterpurkla",
+  "map_caption": "Az útvonalat a BRouter számította ki, a Mura folyásvonala az OpenStreetMap alapján, © OpenStreetMap-közreműködők",
+  "map_title": "Térkép – útvonal: {name}, cél: a Genussplatzl, Unterpurkla",
+  "way_title": "Útközben",
+  "ways_prefix": "Utak:",
+  "prof_title": "Magassági profil",
+  "prof_resting": "Legalacsonyabb pont: {lo} m, legmagasabb pont: {hi} m tengerszint feletti magasság.",
+  "prof_svg_title": "Magassági profil – {name}: {km} kilométer, kiindulási magasság: {a} méter, érkezési magasság: {b} méter, legalacsonyabb pont: {lo} méter, legmagasabb pont: {hi} méter",
+  "take_title": "Vigye magával az útvonalat.",
+  "take_text": "Nyissa meg az útvonalat közvetlenül a Komootban, navigációval a mobiltelefonján, vagy töltse le GPX-fájlként navigációs készülékéhez, Garmin vagy Wahoo eszközéhez, illetve kerékpáros alkalmazásához.",
+  "gpx_btn": "GPX letöltése",
+  "komoot_btn": "Megnyitás a Komootban",
+  "goal_slot_alt": "A Genussplatzl esti szürkületben",
+  "goal_alt": "A Genussplatzl esti szürkületben, kivilágított belső térrel",
+  "goal_title": "A célban: pihenő a diófa alatt.",
+  "goal_text_html": "Az útvonal végén árnyék a diófa alatt, regionális borok és fröccsök, mosdó, ingyenes <a href=\"{ebike}\">e-bike töltés</a>, a forró napokon pedig klimatizált helyiség várja Önt. Márciustól októberig, naponta 9–22 óra között.",
+  "goal_btn": "Megközelítés és nyitvatartás",
+  "more_title": "További útvonalak a Genussplatzl felé",
+  "overview_title": "Térkép: öt kerékpáros útvonal a Genussplatzl felé – Spielfeldből Mureckon át, Bad Gleichenbergből, St. Anna am Aigenből Klöchön át, Bad Radkersburgból, valamint Apačéból a Steirerbrücke hídon át",
+  "map_slovenia": "Szlovénia",
+  "map_styria": "Stájerország",
+  "map_halbenrain": "Halbenrain",
+  "ride_more": "Útvonal, magassági profil és GPX",
+  "ebike_title": "E-bike töltés a Mura menti kerékpárút és az R45 mentén, Halbenrainban | s’Genussplatz’l",
+  "ebike_desc": "Ingyenes e-bike töltőállomás a Gleichenbergi kerékpárút (R45) mentén Unterpurklában, Halbenrain községben, nem sokkal a Mura menti kerékpárút (R2) előtt. Töltés a diófa árnyékában, márciustól októberig.",
+  "ebike_h1": "E-bike töltés a kerékpárút mentén.",
+  "ebike_lead": "Töltse fel akkumulátorát ingyen, amíg a diófa alatt pihen: közvetlenül a Gleichenbergi kerékpárút (R45) mentén, nem sokkal a Mura menti kerékpárút előtt.",
+  "ebike_cost": "Díj",
+  "ebike_cost_value": "ingyenes",
+  "ebike_where": "Hol",
+  "ebike_where_value": "Unterpurkla 28, az R45 mentén",
+  "ebike_when": "Mikor",
+  "ebike_when_value": "márciustól októberig, 9–22 óra között",
+  "ebike_mur": "Mura menti kerékpárút",
+  "ebike_mur_value": "néhány percre",
+  "ebike_slot_alt": "Kerékpár a töltőoszlopnál",
+  "ebike_alt": "Kerékpár a Genussplatzl töltőoszlopa mellett",
+  "ebike_how_title": "Töltés és egy jó szusszanás.",
+  "ebike_how_text": "Állítsa kerékpárját a töltőoszlophoz, csatlakoztassa a töltőjét, és tartson egy kis pihenőt. Amíg az akkumulátor töltődik, árnyék a diófa alatt, regionális borok és fröccsök, hűsítő italok, mosdó, a forró napokon pedig klimatizált helyiség várja Önt.",
+  "ebike_charger": "Kérjük, hozza magával saját töltőjét.",
+  "ebike_routes_title": "Kerékpárral hozzánk",
+  "index_title": "s’Genussplatz’l – pihenő a diófa alatt Unterpurklában, az R45-ös kerékpárút mentén",
+  "index_desc": "Pihenő a diófa alatt Unterpurklában: a kikapcsolódás oázisa Stájerország Toszkánájában, regionális borokkal, művészettel és természetes árnyékkal a Gleichenbergi kerékpárút (R45) mentén.",
+  "ld_desc": "Pihenőhely a diófa alatt a Gleichenbergi kerékpárút (R45) mentén, Unterpurklában: regionális borok, művészet és természetes árnyék a Termál- és Vulkánvidéken, Stájerország Toszkánájában.",
+  "ld_amenities": [
+   "E-bike töltőállomás",
+   "Mosdó",
+   "Árnyék a diófa alatt",
+   "Klimatizált helyiség"
+  ],
+  "ld_tourist": [
+   "Kerékpárosok",
+   "Túrázók",
+   "Kirándulók"
+  ],
+  "privacy_title": "Adatvédelem | s’Genussplatz’l",
+  "privacy_desc": "Az unterpurklai s’Genussplatz’l weboldalának adatvédelmi tájékoztatója: tárhely, sütik nélküli látogatottsági statisztika, az Ön jogai.",
+  "bs_title": "A Bike & Spa kör sematikus térképe a következő szakaszállomásokkal: {names}; a Mureck és Bad Gleichenberg közötti szakasz az R45-ös kerékpárúton a Genussplatzl mellett halad el",
+  "bs_austria": "Ausztria",
+  "bs_hungary": "Magyarország",
+  "bs_slovenia": "Szlovénia",
+  "js_of": "{i}/{n}",
+  "js_elevation": "{km} km után: {m} m tengerszint feletti magasság"
+ },
+ "routes": {
+  "west": {
+   "name": "Mura menti kerékpárút Spielfeldtől",
+   "short": "Mura menti kerékpárút Spielfeldtől",
+   "h1": "Spielfeldtől a Mura mentén.",
+   "lead": "A Mura menti klasszikus: síkon, a folyó mentén, Mureckon át egészen hozzánk, Unterpurklába.",
+   "ways": "Mura menti kerékpárút (R2), végül a Gleichenbergi kerékpárút (R45)",
+   "title": "Mura menti kerékpárút Spielfeldtől Unterpurkláig – kerékpáros útvonal GPX-szel",
+   "desc": "Kerékpáros útvonal a Mura menti kerékpárúton (R2) Spielfeldtől Mureckon át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 27 km, sík, térképpel, magassági profillal és GPX-letöltéssel.",
+   "index_text": "A Mura menti klasszikus nyugat felől, Mureckon át, amelynek hajómalmát 1997-ben történelmi minta alapján újra vízre bocsátották.",
+   "sky": "Nyugat",
+   "stops": [
+    [
+     "Spielfeld",
+     "Határ menti település a Mura partján, közvetlenül a Dél-stájer borút (Südsteirische Weinstraße) szomszédságában. Innen indul a túra a folyón lefelé."
+    ],
+    [
+     "Mureck",
+     "A hajómalmot 1997-ben történelmi minta alapján újra a Murára helyezték; Közép-Európa utolsó úszó hajómalmainak egyike."
+    ],
+    [
+     "Gosdorf",
+     "A Mura ártéri erdein át, körös-körül a Mura–Dráva–Duna UNESCO bioszféra-rezervátum."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+    ]
+   ]
+  },
+  "nord": {
+   "name": "R45 Bad Gleichenbergtől",
+   "short": "R45 Bad Gleichenbergtől",
+   "h1": "Bad Gleichenbergtől a Vulkánvidéken át.",
+   "lead": "A Gleichenbergi kerékpárúton (R45) a fürdővárosból enyhén lejtve egészen a Muráig, a Vulkánvidék falvain, mezőin és dombjain át.",
+   "ways": "Gleichenbergi kerékpárút (R45)",
+   "title": "R45 Bad Gleichenbergtől Unterpurkláig – kerékpáros útvonal GPX-szel",
+   "desc": "Gleichenbergi kerékpárút (R45) Bad Gleichenbergtől Trautmannsdorfon és Radochenen át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 20 km, enyhén lejtős, GPX-szel.",
+   "index_text": "Észak felől, a Vulkánvidék szívében fekvő fürdővárosból: a Gleichenbergi kerékpárút közvetlenül mellettünk halad el.",
+   "sky": "Észak",
+   "stops": [
+    [
+     "Bad Gleichenberg",
+     "Fürdőváros a Vulkánvidék szívében és a Bike & Spa kör szakaszállomása; a kör Mureckből induló szakasza az R45-ön halad el mellettünk."
+    ],
+    [
+     "Trautmannsdorf",
+     "Az R45 dél felé hagyja el a fürdővárost, a lankás dombvidéken át."
+    ],
+    [
+     "Radochen",
+     "Az utolsó kilométerek mezőkön és falvakon át vezetnek, amíg a Mura látótávolságba nem kerül."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+    ]
+   ]
+  },
+  "nordost": {
+   "name": "St. Anna am Aigentől Klöchön át",
+   "short": "St. Annától Klöchön át",
+   "h1": "St. Annától a szőlőhegyeken át.",
+   "lead": "Dombos útvonal a borvidéken át: St. Anna am Aigentől Klöchön, a tramini hazáján keresztül le hozzánk, a Murához.",
+   "ways": "Kerékpárutak és mellékutak a klöchi borvidéken át",
+   "title": "Kerékpártúra: St. Anna am Aigen, Klöch, Unterpurkla – GPX-szel",
+   "desc": "Kerékpártúra St. Anna am Aigentől Klöchön át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 19 km, dombos, mintegy 150 m szintemelkedés, térképpel és GPX-letöltéssel.",
+   "index_text": "Északkelet felől a Vulkánvidék szőlőhegyein át, Klöchön keresztül, amely 1444 óta oklevélben igazoltan borvidék és a tramini hazája. Enyhén dombos, mintegy 150 m szintemelkedés.",
+   "sky": "Északkelet",
+   "stops": [
+    [
+     "St. Anna am Aigen",
+     "Bortermelő település a Vulkánvidéken. Innen a szőlőskerteken át vezet az út dél felé."
+    ],
+    [
+     "Klöch",
+     "1444 óta oklevélben igazoltan borvidék. A vulkanikus talaj adja a tramini rózsaillatát; itt található továbbá vinotéka, borászati múzeum és várrom."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+    ]
+   ]
+  },
+  "ost": {
+   "name": "Bad Radkersburgtól",
+   "short": "Bad Radkersburgtól",
+   "h1": "Bad Radkersburgtól fel a Mura mentén.",
+   "lead": "Rövid és sík: a Mura-parti óvárosból Dietzenen át hozzánk, Unterpurklába – ideális kirándulás a termálfürdőből.",
+   "ways": "Mura menti kerékpárút (R2), végül a Gleichenbergi kerékpárút (R45)",
+   "title": "Kerékpáros útvonal Bad Radkersburgtól Unterpurkláig, GPX-szel",
+   "desc": "Kerékpáros útvonal a Mura-parti Bad Radkersburgtól Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 12 km, sík, térképpel, magassági profillal és GPX-letöltéssel.",
+   "index_text": "Kelet felől, Bad Radkersburg (Regede) óvárosából és Parktherme fürdőjéből a Mura partján, a Thermenradweg R12 fürdő-kerékpárút kiindulópontjáról.",
+   "sky": "Kelet",
+   "stops": [
+    [
+     "Bad Radkersburg",
+     "Óváros és Parktherme a Mura partján; a Thermenradweg R12 fürdő-kerékpárút kiindulópontja és a Bike & Spa kör szakaszállomása."
+    ],
+    [
+     "Dietzen",
+     "Síkon, mezőkön át a Mura-ártér szélén."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+    ]
+   ]
+  },
+  "sued": {
+   "name": "Apačétól, Szlovéniából",
+   "short": "Apačétól a Steirerbrücke hídon át",
+   "h1": "Apačétól a Steirerbrücke hídon át.",
+   "lead": "A legrövidebb útvonal Szlovéniából érkezik: a függőhídon és a Mura ártéri erdein át fél óra alatt hozzánk ér.",
+   "ways": "Kerékpárutak a Mura mindkét partján, Steirerbrücke, végül a Gleichenbergi kerékpárút (R45)",
+   "title": "Kerékpáros útvonal: Apače, Steirerbrücke, Unterpurkla – GPX-szel",
+   "desc": "Kerékpáros útvonal a szlovéniai Apačétól a Steirerbrücke hídon át Unterpurklába, a s’Genussplatz’l pihenőhöz: kb. 7 km, sík, térképpel és GPX-letöltéssel.",
+   "index_text": "Dél felől a Steirerbrücke hídon át, amely 2006 óta ível 82,5 méter hosszan a Mura fölött, a Mura–Dráva–Duna bioszféra-rezervátum ártéri erdeinek közepén.",
+   "sky": "Dél",
+   "stops": [
+    [
+     "Apače",
+     "Falu a Mura szlovén partján, a híd kiindulópontja Ausztria felé."
+    ],
+    [
+     "Steirerbrücke",
+     "A függőhíd 2006 óta ível 82,5 méter hosszan a Mura fölött, a Mura–Dráva–Duna UNESCO bioszféra-rezervátum közepén."
+    ],
+    [
+     "s’Genussplatz’l",
+     "Pihenő a diófa alatt regionális borokkal, árnyékkal, mosdóval, ingyenes e-bike töltőállomással és klimatizált helyiséggel a forró napokra."
+    ]
+   ]
+  }
+ }
+}

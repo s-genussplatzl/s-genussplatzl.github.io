@@ -16,7 +16,7 @@ Zielgruppe: Radfahrer, Wanderer und Ausflügler im Thermen- & Vulkanland, die ü
 - Keine Betriebsdetails (kein „Selbstbedienung“, keine Hinweise zu Aufsicht/Personal, keine Events, keine Speisen).
 - Kein Verkaufsshop; Kunst nur „bei Interesse sprechen Sie uns an“.
 - Keine Cookies, kein Tracking, kein Google-Maps-Einbau (Datenschutz, keine Banner nötig).
-- Nur Deutsch. Ansprache: „Sie“.
+- Sprachen: Deutsch (Hauptsprache, Wurzelverzeichnis), dazu Slowenisch, Englisch, Ungarisch unter /sl/, /en/, /hu/ (Entscheidung Michael, 14.11.2026). Texte in tools/lang/<sprache>.json und pages/<sprache>/. Ansprache immer höflich („Sie“, vikanje, Ön).
 - Keine fremden Fotos ohne Zustimmung (Komoot-Fotos von Süwega/Günther erst nach Okay).
 
 ## Ansätze (betrachtet)

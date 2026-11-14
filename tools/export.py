@@ -30,13 +30,15 @@ if dest.exists():
     shutil.rmtree(dest)
 dest.mkdir(parents=True)
 style = "<style>\n" + css_inline(root / "styles.css") + "\n</style>"
-pages = [root / "index.html", root / "e-bike-laden.html", root / "bike-and-spa.html", root / "datenschutz.html"] + sorted((root / "radrouten").glob("*.html"))
+pages = []
+for base in [root] + [root / l for l in ("sl", "en", "hu") if (root / l / "index.html").exists()]:
+    pages += [base / "index.html", base / "e-bike-laden.html", base / "bike-and-spa.html", base / "datenschutz.html"] + sorted((base / "radrouten").glob("*.html"))
 for page in pages:
     if not page.exists():
         continue
     html = page.read_text(encoding="utf-8")
     html = re.sub(r'<link rel="preload"[^>]*>\n?', "", html)
-    html = re.sub(r'<link rel="stylesheet" href="(\.\./)?styles\.css">', lambda m: style, html)
+    html = re.sub(r'<link rel="stylesheet" href="(\.\./)*styles\.css">', lambda m: style, html)
     out = dest / page.relative_to(root)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html, encoding="utf-8")
