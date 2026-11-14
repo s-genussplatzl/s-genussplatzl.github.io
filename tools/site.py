@@ -353,6 +353,53 @@ def picture(name, alt, w, h, sizes, widths, root, lazy=True, cls=""):
             f'<img src="{root}images/{name}-{widths[-1]}.jpg" srcset="{jpg}" sizes="{sizes}" width="{w}" height="{h}" alt="{escape(alt)}"{" loading=\"lazy\"" if lazy else ""}></picture>')
 
 
+ZIELE_FILE = ROOT / "tools" / "data" / "ziele.json"
+ZIELE = json.loads(ZIELE_FILE.read_text(encoding="utf-8")) if ZIELE_FILE.exists() else {"routes": {}, "photos": {}}
+
+
+def spots_section(key, root):
+    """Slider mit Sehenswertem entlang der Route (Fotos von Wikimedia Commons mit Nachweis)."""
+    ids = [i for i in ZIELE["routes"].get(key, []) if i in ZIELE["photos"] and i in TEXTS[L].get("spots", {})]
+    if not ids:
+        return ""
+    S = TEXTS[L]["spots"]
+    slides = []
+    for i in ids:
+        ph, (name, text) = ZIELE["photos"][i], S[i]
+        credit = (f'{escape(t("photo_by"))} <a href="{ph["page"]}">{escape(ph["author"])}</a>, '
+                  f'<a href="{ph["license_url"]}">{escape(ph["license"])}</a>')
+        slides.append(f'''
+          <figure class="slide spot">
+            <div class="slide__frame">
+              {picture("ziele/" + i, ph["alt"].get(L) or name, 1600, 1200, "(max-width: 40rem) 80vw, 32vw", [800, 1600], root)}
+            </div>
+            <figcaption>
+              <h3>{escape(name)}</h3>
+              <p>{escape(text)}</p>
+              <p class="spot__credit">{credit}</p>
+            </figcaption>
+          </figure>''')
+    n = len(ids)
+    word = t("spots_word")
+    return f'''
+  <section class="section spots" aria-labelledby="spots-title">
+    <div class="container">
+      <h2 id="spots-title" class="title-s">{escape(t("spots_title"))}</h2>
+      <div class="slider slider--spots" data-slider>
+        <div class="slider__track" tabindex="0" role="region" aria-label="{escape(t("spots_region"), quote=True)}">{"".join(slides)}
+        </div>
+        <div class="slider__controls" hidden>
+          <button class="slider__btn" type="button" data-dir="-1" aria-label="{escape(t("spots_prev"), quote=True)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <p class="slider__status" aria-live="polite">{escape(word)} {escape(t("js_of", i=1, n=n))}</p>
+          <button class="slider__btn" type="button" data-dir="1" aria-label="{escape(t("spots_next"), quote=True)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+      <p class="spot__credit spots__note">{escape(t("spots_note"))}</p>
+    </div>
+  </section>
+'''
+
+
 def approx_km(k):
     return f'{t("approx")} {de(round(D["routes"][k]["km"]))} km'
 
@@ -418,6 +465,7 @@ def route_page(key):
     </div>
   </section>
 
+{spots_section(key, root)}
   <section class="band--visit" aria-labelledby="take-title">
     <div class="container take__grid">
       <div>

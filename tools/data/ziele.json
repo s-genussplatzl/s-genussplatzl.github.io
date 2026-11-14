@@ -1,0 +1,183 @@
+{
+ "_quelle": "Fotos von Wikimedia Commons, freie Lizenzen; Nachweis wird unter jedem Bild angezeigt. Eigene Fotos: Datei in images/ziele/<id>-800/1600.(jpg|webp) ersetzen und Eintrag anpassen.",
+ "routes": {
+  "west": [
+   "spielfeld",
+   "mureck",
+   "mureck-muehle",
+   "murauen"
+  ],
+  "nord": [
+   "gleichenberg-kurpark",
+   "gleichenberg",
+   "trautmannsdorf"
+  ],
+  "nordost": [
+   "st-anna",
+   "kloech-wein",
+   "kloech-ruine"
+  ],
+  "ost": [
+   "radkersburg-platz",
+   "radkersburg-mur",
+   "halbenrain-schloss"
+  ],
+  "sued": [
+   "apace",
+   "bruecke",
+   "murauen"
+  ]
+ },
+ "photos": {
+  "spielfeld": {
+   "file": "File:Cersak footbridge 1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cersak_footbridge_1.jpg",
+   "author": "Asopotnik",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Die neue Fuß- und Radbrücke über die Mur zwischen Ceršak und Spielfeld an der Grenze, mit Wehr und bewaldetem Ufer im Hintergrund."
+   }
+  },
+  "mureck-muehle": {
+   "file": "File:Schiffsmühle mureck 56955 2014-05-06.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Schiffsm%C3%BChle_mureck_56955_2014-05-06.JPG",
+   "author": "Ewald Gabardi",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "alt": {
+    "de": "Die Schiffsmühle Mureck auf der Mur mit Zugangssteg, vor grünem Auwald."
+   }
+  },
+  "mureck": {
+   "file": "File:Zu Mureck von Obermureck.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zu_Mureck_von_Obermureck.jpg",
+   "author": "Zeitblick",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Blick von Obermureck (Slowenien) über die Mur auf die Stadt Mureck."
+   }
+  },
+  "murauen": {
+   "file": "File:Gosdorf Murturm 03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gosdorf_Murturm_03.jpg",
+   "author": "Clemens Stockner",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Blick vom Murturm Gosdorf auf die Mur mit Schotterbänken und Auwald bei Mureck."
+   }
+  },
+  "gleichenberg-kurpark": {
+   "file": "File:Bad Gleichenberg-Curpark-01ASD.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bad_Gleichenberg-Curpark-01ASD.jpg",
+   "author": "Asurnipal",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Alter Baum, Wiese und Spazierweg im Kurpark Bad Gleichenberg."
+   }
+  },
+  "gleichenberg": {
+   "file": "File:Gleichenberge Südoststeiermark Gleichenberger Kogel.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gleichenberge_S%C3%BCdoststeiermark_Gleichenberger_Kogel.jpg",
+   "author": "Nxr-at",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Die bewaldeten Gleichenberger Kogel über dem Hügelland bei Bad Gleichenberg."
+   }
+  },
+  "trautmannsdorf": {
+   "file": "File:Trautmannsdorf in Oststeiermark.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Trautmannsdorf_in_Oststeiermark.jpg",
+   "author": "Petr Štefek",
+   "license": "CC BY-SA 3.0 CZ",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/cz/deed.en",
+   "alt": {
+    "de": "Der Ort Trautmannsdorf mit Pfarrkirche am grünen Hang, im Frühling."
+   }
+  },
+  "st-anna": {
+   "file": "File:Pfarrkirche Sankt Anna am Aigen.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Pfarrkirche_Sankt_Anna_am_Aigen.JPG",
+   "author": "Nxr-at",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Die Pfarrkirche St. Anna am Aigen auf der Anhöhe über einem Weingarten."
+   }
+  },
+  "kloech-ruine": {
+   "file": "File:Burgruine Kloech 02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Burgruine_Kloech_02.jpg",
+   "author": "Iswoar",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Der Turm der Burgruine Klöch hinter einer Weinzeile."
+   }
+  },
+  "kloech-wein": {
+   "file": "File:Klöchberg 01.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Kl%C3%B6chberg_01.JPG",
+   "author": "Nxr-at",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Weingärten am Klöchberg mit Weinbauernhäusern und Pappeln auf der Kuppe."
+   }
+  },
+  "radkersburg-platz": {
+   "file": "File:20200713 Bad Radkersburg Hauptplatz (II).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:20200713_Bad_Radkersburg_Hauptplatz_(II).jpg",
+   "author": "Funke",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Der Hauptplatz von Bad Radkersburg mit Rathausturm und Mariensäule im Sommer."
+   }
+  },
+  "radkersburg-mur": {
+   "file": "File:Bad Radkersburg - Altstadt.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Bad_Radkersburg_-_Altstadt.JPG",
+   "author": "C.Stadler/Bwag",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Blick von Süden über die Mur auf die Altstadt von Bad Radkersburg."
+   }
+  },
+  "apace": {
+   "file": "File:Assumption of Mary Parish Church Apače 03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Assumption_of_Mary_Parish_Church_Apa%C4%8De_03.jpg",
+   "author": "Nxr-at",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Die Pfarrkirche Mariä Himmelfahrt in Apače unter blauem Himmel, im Vorfrühling."
+   }
+  },
+  "bruecke": {
+   "file": "File:Halbenrain Bridge 2.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Halbenrain_Bridge_2.JPG",
+   "author": "Marion Schneider & Christoph Aistleitner",
+   "license": "Public Domain",
+   "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+   "alt": {
+    "de": "Die Fuß- und Radbrücke über die Mur zwischen Donnersdorf (Halbenrain) und Apače, vom Ufer aus gesehen."
+   }
+  },
+  "halbenrain-schloss": {
+   "file": "File:Halbenrain - Schloss.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Halbenrain_-_Schloss.JPG",
+   "author": "C.Stadler/Bwag",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "alt": {
+    "de": "Die Südseite von Schloss Halbenrain mit Freitreppe und Rasenböschung."
+   }
+  }
+ }
+}

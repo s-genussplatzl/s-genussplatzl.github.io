@@ -97,7 +97,14 @@
   "bs_hungary": "Ungarn",
   "bs_slovenia": "Slowenien",
   "js_of": "{i} von {n}",
-  "js_elevation": "{m} m über dem Meer bei Kilometer {km}"
+  "js_elevation": "{m} m über dem Meer bei Kilometer {km}",
+  "spots_title": "Sehenswert unterwegs",
+  "spots_word": "Ziel",
+  "spots_region": "Sehenswertes entlang der Route, seitlich blätterbar",
+  "spots_prev": "Vorheriges Ziel",
+  "spots_next": "Nächstes Ziel",
+  "photo_by": "Foto:",
+  "spots_note": "Fotos: Wikimedia Commons, zugeschnitten."
  },
  "routes": {
   "west": {
@@ -233,5 +240,67 @@
     ]
    ]
   }
+ },
+ "spots": {
+  "spielfeld": [
+   "Spielfeld an der Mur",
+   "Start an der Grenze: ein neuer Steg führt hier über die Mur nach Ceršak."
+  ],
+  "mureck": [
+   "Mureck",
+   "Die Kleinstadt an der Mur, vom slowenischen Ufer aus gesehen."
+  ],
+  "mureck-muehle": [
+   "Schiffsmühle Mureck",
+   "Seit 1997 wieder auf der Mur, eine der letzten schwimmenden Mühlen Mitteleuropas."
+  ],
+  "murauen": [
+   "Auen der Mur",
+   "Schotterbänke und Auwald im UNESCO-Biosphärenpark, vom Murturm Gosdorf gesehen."
+  ],
+  "gleichenberg-kurpark": [
+   "Kurpark Bad Gleichenberg",
+   "Alte Bäume und weite Wiesen am Start der Route."
+  ],
+  "gleichenberg": [
+   "Gleichenberger Kogel",
+   "Bewaldete Kuppen erloschener Vulkane rund um den Kurort."
+  ],
+  "trautmannsdorf": [
+   "Trautmannsdorf",
+   "Ort und Pfarrkirche am Hang, gleich südlich von Bad Gleichenberg."
+  ],
+  "st-anna": [
+   "Pfarrkirche St. Anna am Aigen",
+   "Die Kirche auf der Anhöhe über den Weingärten, am Start der Route."
+  ],
+  "kloech-wein": [
+   "Weingärten am Klöchberg",
+   "Weinbau seit 1444, Heimat des Traminers mit seinem Duft nach Rosen."
+  ],
+  "kloech-ruine": [
+   "Burgruine Klöch",
+   "Der Turm der alten Burg hinter den Weinzeilen."
+  ],
+  "radkersburg-platz": [
+   "Hauptplatz Bad Radkersburg",
+   "Rathausturm, Mariensäule und Bürgerhäuser in der Altstadt."
+  ],
+  "radkersburg-mur": [
+   "Altstadt an der Mur",
+   "Die Altstadt in einer Schleife der Mur, direkt an der Grenze."
+  ],
+  "halbenrain-schloss": [
+   "Schloss Halbenrain",
+   "Das Schloss im Nachbarort, nur wenige Minuten von uns entfernt."
+  ],
+  "apace": [
+   "Apače",
+   "Das Dorf am slowenischen Ufer mit der Pfarrkirche Mariä Himmelfahrt."
+  ],
+  "bruecke": [
+   "Steirerbrücke",
+   "Seit 2006 schwingt die Hängebrücke 82,5 Meter weit über die Mur."
+  ]
  }
 }

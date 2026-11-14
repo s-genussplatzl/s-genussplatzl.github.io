@@ -97,7 +97,14 @@
   "bs_hungary": "Hungary",
   "bs_slovenia": "Slovenia",
   "js_of": "{i} of {n}",
-  "js_elevation": "{m} m above sea level at km {km}"
+  "js_elevation": "{m} m above sea level at km {km}",
+  "spots_title": "Worth a stop along the way",
+  "spots_word": "Stop",
+  "spots_region": "Sights along the route, scroll sideways",
+  "spots_prev": "Previous stop",
+  "spots_next": "Next stop",
+  "photo_by": "Photo:",
+  "spots_note": "Photos: Wikimedia Commons, cropped."
  },
  "routes": {
   "west": {
@@ -233,5 +240,67 @@
     ]
    ]
   }
+ },
+ "spots": {
+  "spielfeld": [
+   "Spielfeld on the Mur",
+   "Start at the border: a new footbridge crosses the Mur here to Ceršak."
+  ],
+  "mureck": [
+   "Mureck",
+   "The small town on the Mur, seen from the Slovenian bank."
+  ],
+  "mureck-muehle": [
+   "Mureck ship mill",
+   "Back on the Mur since 1997, one of Central Europe's last floating mills."
+  ],
+  "murauen": [
+   "The Mur floodplain",
+   "Gravel banks and riverside forest in the UNESCO biosphere reserve, seen from the Murturm in Gosdorf."
+  ],
+  "gleichenberg-kurpark": [
+   "Spa park, Bad Gleichenberg",
+   "Old trees and wide lawns at the start of the route."
+  ],
+  "gleichenberg": [
+   "Gleichenberger Kogel",
+   "Wooded domes of extinct volcanoes around the spa town."
+  ],
+  "trautmannsdorf": [
+   "Trautmannsdorf",
+   "Village and parish church on the hillside just south of Bad Gleichenberg."
+  ],
+  "st-anna": [
+   "St. Anna am Aigen parish church",
+   "The church on the hilltop above the vineyards, at the start of the route."
+  ],
+  "kloech-wein": [
+   "Vineyards on the Klöchberg",
+   "Wine growing since 1444, home of Traminer with its scent of roses."
+  ],
+  "kloech-ruine": [
+   "Klöch castle ruin",
+   "The tower of the old castle behind the rows of vines."
+  ],
+  "radkersburg-platz": [
+   "Main square, Bad Radkersburg",
+   "Town hall tower, Marian column and old town houses."
+  ],
+  "radkersburg-mur": [
+   "Old town on the Mur",
+   "The old town in a bend of the Mur, right on the border."
+  ],
+  "halbenrain-schloss": [
+   "Halbenrain Castle",
+   "The castle in the next village, just a few minutes from us."
+  ],
+  "apace": [
+   "Apače",
+   "The village on the Slovenian bank, with its Church of the Assumption."
+  ],
+  "bruecke": [
+   "Steirerbrücke",
+   "Since 2006 the suspension bridge has spanned 82.5 metres across the Mur."
+  ]
  }
 }

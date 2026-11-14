@@ -97,7 +97,14 @@
   "bs_hungary": "Madžarska",
   "bs_slovenia": "Slovenija",
   "js_of": "{i} od {n}",
-  "js_elevation": "{m} m nadmorske višine pri km {km}"
+  "js_elevation": "{m} m nadmorske višine pri km {km}",
+  "spots_title": "Vredno ogleda na poti",
+  "spots_word": "Točka",
+  "spots_region": "Znamenitosti ob poti, listanje vstran",
+  "spots_prev": "Prejšnja točka",
+  "spots_next": "Naslednja točka",
+  "photo_by": "Foto:",
+  "spots_note": "Fotografije: Wikimedia Commons, obrezane."
  },
  "routes": {
   "west": {
@@ -233,5 +240,67 @@
     ]
    ]
   }
+ },
+ "spots": {
+  "spielfeld": [
+   "Špilje (Spielfeld) ob Muri",
+   "Začetek ob meji: nova brv vodi tu čez Muro v Ceršak."
+  ],
+  "mureck": [
+   "Mureck (Cmurek)",
+   "Mestece ob Muri, videno s slovenskega brega."
+  ],
+  "mureck-muehle": [
+   "Plavajoči mlin v Murecku",
+   "Od leta 1997 spet na Muri, eden zadnjih plavajočih mlinov v srednji Evropi."
+  ],
+  "murauen": [
+   "Murske loke",
+   "Prodišča in obrečni gozd v biosfernem območju UNESCO, videni s stolpa Murturm v Gosdorfu."
+  ],
+  "gleichenberg-kurpark": [
+   "Zdraviliški park Bad Gleichenberg",
+   "Stara drevesa in široke trate na začetku poti."
+  ],
+  "gleichenberg": [
+   "Gleichenberger Kogel",
+   "Gozdnati vrhovi ugaslih vulkanov okoli zdraviliškega kraja."
+  ],
+  "trautmannsdorf": [
+   "Trautmannsdorf",
+   "Vas in župnijska cerkev na pobočju, tik južno od Bad Gleichenberga."
+  ],
+  "st-anna": [
+   "Župnijska cerkev St. Anna am Aigen",
+   "Cerkev na vzpetini nad vinogradi, na začetku poti."
+  ],
+  "kloech-wein": [
+   "Vinogradi na Klöchbergu",
+   "Vinogradništvo od leta 1444, dom traminca z vonjem po vrtnicah."
+  ],
+  "kloech-ruine": [
+   "Razvaline gradu Klöch",
+   "Stolp starega gradu za vrstami trte."
+  ],
+  "radkersburg-platz": [
+   "Glavni trg v Bad Radkersburgu",
+   "Mestni stolp, Marijin steber in meščanske hiše starega mesta."
+  ],
+  "radkersburg-mur": [
+   "Staro mesto ob Muri",
+   "Staro mestno jedro v okljuku Mure, tik ob meji."
+  ],
+  "halbenrain-schloss": [
+   "Grad Halbenrain",
+   "Grad v sosednji vasi, le nekaj minut od nas."
+  ],
+  "apace": [
+   "Apače",
+   "Vas na slovenskem bregu z župnijsko cerkvijo Marijinega vnebovzetja."
+  ],
+  "bruecke": [
+   "Most Steirerbrücke",
+   "Od leta 2006 se viseči most v dolžini 82,5 metra pne čez Muro."
+  ]
  }
 }

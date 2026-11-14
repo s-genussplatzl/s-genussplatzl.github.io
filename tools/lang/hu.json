@@ -97,7 +97,14 @@
   "bs_hungary": "Magyarország",
   "bs_slovenia": "Szlovénia",
   "js_of": "{i}/{n}",
-  "js_elevation": "{km} km után: {m} m tengerszint feletti magasság"
+  "js_elevation": "{km} km után: {m} m tengerszint feletti magasság",
+  "spots_title": "Érdemes megállni útközben",
+  "spots_word": "Látnivaló",
+  "spots_region": "Látnivalók az útvonal mentén, oldalra lapozható",
+  "spots_prev": "Előző látnivaló",
+  "spots_next": "Következő látnivaló",
+  "photo_by": "Fotó:",
+  "spots_note": "Fotók: Wikimedia Commons, vágva."
  },
  "routes": {
   "west": {
@@ -233,5 +240,67 @@
     ]
    ]
   }
+ },
+ "spots": {
+  "spielfeld": [
+   "Spielfeld, a Mura partján",
+   "Indulás a határon: új híd vezet itt át a Murán Ceršakba."
+  ],
+  "mureck": [
+   "Mureck",
+   "Kisváros a Mura partján, a szlovén partról nézve."
+  ],
+  "mureck-muehle": [
+   "A murecki hajómalom",
+   "1997 óta újra a Murán, Közép-Európa utolsó úszó malmainak egyike."
+  ],
+  "murauen": [
+   "A Mura ártere",
+   "Kavicspadok és ligeterdő az UNESCO bioszféra-rezervátumban, a gosdorfi Murturmról nézve."
+  ],
+  "gleichenberg-kurpark": [
+   "Bad Gleichenberg, gyógypark",
+   "Öreg fák és széles rétek az útvonal kezdetén."
+  ],
+  "gleichenberg": [
+   "Gleichenberger Kogel",
+   "Kialudt vulkánok erdős kúpjai a gyógyhely körül."
+  ],
+  "trautmannsdorf": [
+   "Trautmannsdorf",
+   "Falu és plébániatemplom a domboldalon, Bad Gleichenbergtől délre."
+  ],
+  "st-anna": [
+   "St. Anna am Aigen, plébániatemplom",
+   "A templom a szőlők feletti dombtetőn, az útvonal kezdetén."
+  ],
+  "kloech-wein": [
+   "Szőlők a Klöchbergen",
+   "Szőlőtermesztés 1444 óta, a rózsaillatú tramini hazája."
+  ],
+  "kloech-ruine": [
+   "Klöch várromja",
+   "Az egykori vár tornya a szőlősorok mögött."
+  ],
+  "radkersburg-platz": [
+   "Bad Radkersburg, főtér",
+   "Városházatorony, Mária-oszlop és polgárházak az óvárosban."
+  ],
+  "radkersburg-mur": [
+   "Óváros a Mura partján",
+   "Az óváros a Mura kanyarulatában, közvetlenül a határon."
+  ],
+  "halbenrain-schloss": [
+   "A halbenraini kastély",
+   "A szomszéd falu kastélya, csak néhány percre tőlünk."
+  ],
+  "apace": [
+   "Apače",
+   "Falu a szlovén parton, a Nagyboldogasszony-plébániatemplommal."
+  ],
+  "bruecke": [
+   "Steirerbrücke",
+   "2006 óta ível át a Murán ez a 82,5 méteres függőhíd."
+  ]
  }
 }
