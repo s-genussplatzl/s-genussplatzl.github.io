@@ -455,3 +455,8 @@ html { -webkit-tap-highlight-color: color-mix(in oklab, var(--color-accent) 22%,
   .ride__credit { display: block; margin-top: var(--space-md); font-size: var(--text-sm); color: var(--color-muted); }
 }
 @media (prefers-reduced-motion: reduce) { .ride__list > li.is-open { animation: none; } }
+
+/* ---------- Abschnitt mit Kupferlinie davor: trennt „Rundherum, mit dem Rad“ sichtbar von der Kunst ---------- */
+.section--ruled { padding-top: var(--space-3xl); }
+.section--ruled > .container::before { content: ""; display: block; height: 1.5px; margin-bottom: var(--space-2xl); background: var(--color-accent); }
+@media (max-width: 60rem) { .section--ruled { padding-top: var(--space-2xl); } .section--ruled > .container::before { margin-bottom: var(--space-xl); } }
