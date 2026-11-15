@@ -429,6 +429,17 @@ html { -webkit-tap-highlight-color: color-mix(in oklab, var(--color-accent) 22%,
 .hero__rating:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 4px; }
 .hero .hero__rating + .actions { margin-top: var(--space-lg); }
 @media (prefers-reduced-motion: reduce) { .hero__rating-count { transition: none; } }
+@media (max-width: 40rem) {
+  .hero__rating { margin-top: var(--space-md); gap: var(--space-xs); min-height: 44px; }
+  .hero__rating-g { width: 32px; height: 32px; }
+  .hero__rating-g svg { width: 18px; height: 18px; }
+  .hero__rating-top { gap: var(--space-2xs); }
+  .hero__rating-score { font-size: var(--text-lg); }
+  .hero__rating-stars svg { width: 15px; height: 15px; }
+  .hero__rating-count { font-size: var(--text-xs); }
+  .hero .hero__rating + .actions { margin-top: var(--space-md); }
+  .hero__way { display: none; }
+}
 
 /* ---------- Routenkarte: bleibt am Handy beim Blättern stehen; die gewählte Route rückt an den Anfang der Liste ---------- */
 .ride__list { display: flex; flex-direction: column; }
