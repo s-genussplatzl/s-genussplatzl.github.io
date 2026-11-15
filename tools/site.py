@@ -16,9 +16,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "tools" / "data" / "rad.json"
-# Übergang: solange s-genussplatzl.at noch nicht auf GitHub Pages zeigt, gilt die github.io-Adresse.
-# Nach der DNS-Umstellung (CNAME-Datei + A-Records) hier wieder auf "https://s-genussplatzl.at/" stellen und neu bauen.
-SITE = "https://s-genussplatzl.github.io/"
+# Die Domain zeigt seit 15.11.2026 auf GitHub Pages (A-Records, www als CNAME, Datei CNAME im Repo).
+SITE = "https://s-genussplatzl.at/"
 HOME = (15.9061, 46.7324)
 KEYS = ("west", "nordwest", "gnasbach", "nord", "nordost", "ost", "sued", "maribor", "ptuj", "banovci", "moravske")
 # Besucherstatistik (Umami, ohne Cookies). Website-ID aus dem Umami-Konto eintragen; leer = kein Skript.
