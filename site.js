@@ -23,9 +23,20 @@ if (ride) {
   });
   // Aufgeklappte Route bleibt in der Karte hervorgehoben; immer nur eine ist offen
   const all = [...ride.querySelectorAll('li[data-route] details')];
+  // Der aufgeklappte Eintrag rückt an den Anfang der Liste; die Seite stellt sich so ein, dass Karte und Eintrag gemeinsam im Bild sind
+  const narrow = matchMedia('(max-width: 60rem)');
+  const calm = matchMedia('(prefers-reduced-motion: reduce)');
+  const frame = (li) => {
+    const off = parseFloat(getComputedStyle(ride.querySelector('.map')).top) || 0;
+    const b = li.getBoundingClientRect();
+    if (!narrow.matches && b.top >= off && b.bottom <= innerHeight) return;
+    scrollTo({ top: scrollY + ride.getBoundingClientRect().top - off, behavior: calm.matches ? 'auto' : 'smooth' });
+  };
   all.forEach((d) => d.addEventListener('toggle', () => {
-    const r = d.parentElement.dataset.route;
-    if (d.open) { all.forEach((o) => { if (o !== d) o.open = false; }); pinned = r; }
+    const li = d.parentElement;
+    const r = li.dataset.route;
+    li.classList.toggle('is-open', d.open);
+    if (d.open) { all.forEach((o) => { if (o !== d) o.open = false; }); pinned = r; requestAnimationFrame(() => frame(li)); }
     else if (pinned === r) pinned = '';
     set(pinned);
   }));
@@ -33,8 +44,7 @@ if (ride) {
   ride.querySelectorAll('.route, .start').forEach((el) => el.addEventListener('click', () => {
     const d = ride.querySelector(`li[data-route="${el.dataset.route}"] details`);
     if (!d) return;
-    d.open = true;
-    d.scrollIntoView({ block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    if (d.open) frame(d.parentElement); else d.open = true;
   }));
 }
 

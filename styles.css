@@ -429,3 +429,18 @@ html { -webkit-tap-highlight-color: color-mix(in oklab, var(--color-accent) 22%,
 .hero__rating:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 4px; }
 .hero .hero__rating + .actions { margin-top: var(--space-lg); }
 @media (prefers-reduced-motion: reduce) { .hero__rating-count { transition: none; } }
+
+/* ---------- Routenkarte: bleibt am Handy beim Blättern stehen; die gewählte Route rückt an den Anfang der Liste ---------- */
+.ride__list { display: flex; flex-direction: column; }
+.ride__list > li.is-open { order: -1; animation: ride-hop var(--dur-short) var(--ease-out); }
+@keyframes ride-hop { from { opacity: 0; transform: translateY(12px); } }
+.ride__credit { display: none; }
+@media (max-width: 60rem) {
+  .ride { display: block; }
+  .ride .map { position: sticky; top: 0; z-index: var(--z-raised); box-shadow: 0 var(--space-md) 0 var(--color-paper); }
+  .ride .map svg { display: block; max-height: 48vh; max-height: 48dvh; }
+  .ride .map figcaption { display: none; }
+  .ride__list { margin-top: var(--space-lg); }
+  .ride__credit { display: block; margin-top: var(--space-md); font-size: var(--text-sm); color: var(--color-muted); }
+}
+@media (prefers-reduced-motion: reduce) { .ride__list > li.is-open { animation: none; } }
