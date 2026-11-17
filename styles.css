@@ -468,3 +468,5 @@ html { -webkit-tap-highlight-color: color-mix(in oklab, var(--color-accent) 22%,
 .tour-logo:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 4px; }
 .footer__region .tour-logo { margin-top: var(--space-lg); }
 .project__head { display: grid; gap: var(--space-lg); justify-items: start; }
+.bikespa__text .actions { align-items: center; gap: var(--space-md) var(--space-xl); }
+.bikespa__text .tour-logo img { width: 150px; }
