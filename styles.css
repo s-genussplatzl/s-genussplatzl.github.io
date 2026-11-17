@@ -460,3 +460,10 @@ html { -webkit-tap-highlight-color: color-mix(in oklab, var(--color-accent) 22%,
 .section--ruled { padding-top: var(--space-3xl); }
 .section--ruled > .container::before { content: ""; display: block; height: 1.5px; margin-bottom: var(--space-2xl); background: var(--color-accent); }
 @media (max-width: 60rem) { .section--ruled { padding-top: var(--space-2xl); } .section--ruled > .container::before { margin-bottom: var(--space-xl); } }
+
+/* Logo der 12 Thermen Tour: Fußzeile (weiß auf Basalt) und Projektabschnitt (schwarz auf Kies) */
+.tour-logo { display: inline-block; }
+.tour-logo img { display: block; width: 190px; height: auto; }
+.tour-logo:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 4px; }
+.footer__region .tour-logo { margin-top: var(--space-lg); }
+.project__head { display: grid; gap: var(--space-lg); justify-items: start; }
