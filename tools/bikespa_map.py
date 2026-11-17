@@ -1,4 +1,4 @@
-"""Schematische Karte der Bike-&-Spa-Runde (12-Thermen-Tour) als SVG-Teil.
+"""Schematische Karte der Bike-&-Spa-Runde (12 Thermen Tour) als SVG-Teil.
 
 Eigene Zeichnung aus Ortskoordinaten (OpenStreetMap/Nominatim), keine Kopie der
 offiziellen Karte. Ergebnis: bikespa.svg.part (wird von build.py eingesetzt).
@@ -68,12 +68,13 @@ def build(ui):
         f'<svg viewBox="0 0 {W} {H}" role="img" aria-labelledby="bs-title">',
         f'<title id="bs-title">{escape(ui["bs_title"].format(names=names))}</title>',
         f'<rect class="bs-land bs-land--base" x="0" y="0" width="{W}" height="{H}"/>',  # Kartengrund (Österreich), damit die Karte eine eigene Fläche hat
-        _land('si'), _land('hu'),
+        _land('si'), _land('hu'), _land('hr'),
         '<text class="bs-country" x="{}" y="{}">{}</text>'.format(*xy(47.13, 15.60), escape(ui["bs_austria"])),
         '<text class="bs-country" x="{}" y="{}">{}</text>'.format(*xy(46.80, 16.40), escape(ui["bs_hungary"])),
         '<text class="bs-country" x="{}" y="{}">{}</text>'.format(*xy(46.47, 16.18), escape(ui["bs_slovenia"])),
+        '<text class="bs-country" x="{}" y="{}">{}</text>'.format(*xy(46.425, 16.36), escape(ui["bs_croatia"])),
     ]
-    out += [_bpath(w, 'bs-border') for w in BORDERS['national']]
+    out += [_bpath(w, 'bs-border') for w in BORDERS['national'] + BORDERS.get('hr', [])]
     out.append(f'<path class="bs-route" d="{d}"/>')
     for (name, lat, lon, dx, dy, anchor), (x, y) in zip(STAGES, pts):
         out.append(f'<circle class="bs-stop" cx="{x}" cy="{y}" r="7"/>')

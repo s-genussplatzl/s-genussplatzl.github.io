@@ -165,6 +165,7 @@ a:not(.btn):not(.wordmark) { text-decoration-color: var(--color-accent); }
 .bs-land--base { fill: var(--color-paper); }
 .bs-land--si { fill: color-mix(in oklab, var(--color-ink) 13%, var(--color-paper)); }
 .bs-land--hu { fill: color-mix(in oklab, var(--color-accent) 22%, var(--color-paper)); }
+.bs-land--hr { fill: color-mix(in oklab, var(--color-ink) 24%, var(--color-paper)); }
 .bs-border { fill: none; stroke: var(--color-ink-2); stroke-width: 2; stroke-dasharray: 7 7; stroke-linecap: round; opacity: 0.6; }
 .bs-route { fill: none; stroke: var(--color-accent); stroke-width: 3; stroke-linejoin: round; }
 .bs-stop { fill: var(--color-paper); stroke: var(--color-ink-2); stroke-width: 2.5; }
